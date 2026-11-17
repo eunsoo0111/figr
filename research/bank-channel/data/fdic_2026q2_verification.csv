@@ -1,0 +1,21 @@
+metric,value,original_page_value,status
+bank HELOC drawn balance $B,307.5,307.5,match
+unused HELOC commitments $B,443.1,443.1,match
+utilization %,41.0,41,match
+HELOC / total loans %,2.18,2.18,match
+cost of funds % (EINTXQ*4/ERNAST),2.02,2.02,match
+earning asset yield %,5.31,5.31,match
+NIM %,3.29,3.29,match
+industry ROE % (NETINC YTD*2/EQ),13.0,13.1,close
+banks with zero HELOC,1050,1050,match
+  of which hold first liens,872,872,match
+banks with HELOC <1% of loans,1896,1806,corrected
+  deposit share %,54.0,53.9,match
+banks with LDR<70%,1237,1237,match
+  of which HELOC<1% ,718,718,match
+banks with HELOC>=10% of loans,153,153,match
+top10 share %,44.7,44.7,match
+top20 share %,56.2,56.2,match
+HELOC 90+ days past due still accruing %,0.054,0.05,match (definition note)
+HELOC nonaccrual %,1.45,not shown,added
+HELOC 30-89 days past due %,0.52,not shown,added
