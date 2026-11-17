@@ -82,6 +82,7 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | [GW_3Q26_2026-11-13](research/sources/GW_3Q26_2026-11-13.md) | Greenwich 8쪽 | 11/13 | 3Q 실적. 순 수취율 3.5%, **은행 유연성이 수취율에 반영**, 등대 실행사, 리스크 숫자 |
 | [10Q_3Q26_2026-11-16](research/sources/10Q_3Q26_2026-11-16.md) | SEC 10-Q (3Q26) | 11/16 | **관계 매수 기구 3곳**(Fig SIX $400.6M·Evergreen·BOLT JV), 상위 5 매수자 54.4%→44.3%, EPD $3.6B, 미인출 약정 $904M, Kiavi 확정 회계 |
 | [SMIC_VISA_2019-11-16](research/sources/SMIC_VISA_2019-11-16.md) | SMIC 2팀 VISA 보고서 (25쪽) | 2019-11-16 | 양면 네트워크 논증의 순서(시장 → 시장보다 큰 성장 → 네트워크·규모·가격), FIGR 대응표, 배울 것·피할 것 |
+| [SMIC_platform_reports_2026-11-17](research/sources/SMIC_platform_reports_2026-11-17.md) | SMIC Doximity(4팀)·Sportradar(3팀)·Equinix(3팀)·Circle(52기) | 2019-11 ~ 2026-02 | 침투율로 시작, ROI·NRR로 반대편 증명, **Why not 북메이커?**, 매출식 매핑, 일일이 연결 → 한 창구, 같이 쓰기·단계적 도입, 공식으로 TAM |
 
 ### 분석 문서 (`research/`)
 
@@ -96,6 +97,7 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 0. **HELOC 시장 연도별 실행액(2020~2025)** — MBA·ICE·HMDA. 「시장 X% vs 동사 Y%」 도표(VISA 보고서 그림 13·14 방식)가 여기에 달림. 가장 적은 품으로 가장 강한 도표
 1. **Connect의 제3자 매수 비중** — 3Q 10-Q로 관계 기구 3곳은 숫자가 나옴. 남은 건 Fig SIX·Evergreen 매입분이 Connect 거래량에 들어가는지, 비중 추이(IR). Fig SIX 계약 연장 여부도
 1-B. **외부 LOS 대출(Figure Certified) 물량** — 「만드는 곳은 여럿이어도 유통은 Connect로」의 직접 증거
+1-C. **IMB·은행 마진** — 「Why not 대출사?」(Sportradar 방식) 도표용. Rocket·UWM·loanDepot·Guild
 2. **은행 진입의 두 역할** — 판매(파트너)와 매수(Connect로 모기지 집적, CRA, 위험가중치). 은행 HELOC 철수·재진입 이력, 은행 파트너 식별
 3. **매수자 수·집중도 시계열** — 10-K 참여자 48곳, 상위 3/5 비중 추세, 신규 매수자 이름
 4. **경쟁·멀티소싱** — Aven·Pylon·NFTYDoor·SoFi·MAXEX·Better Tinman, 파트너 내 Figure 점유율
@@ -120,3 +122,4 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-17 | `claude/fervent-brown-x3pek4` | artifact 「FIGR 새로 나온 이야기」 발행 |
 | 2026-11-17 | `claude/sweet-newton-2i9c6r` | 3Q26 10-Q 새 공시 노트 |
 | 2026-11-17 | `claude/loving-gates-g1eba4` | 리서치 브랜치 3개 통합, SMIC VISA 보고서 노트, **투자포인트 1 작성 가이드(논의 종합·초안·반론)**, README 갱신 |
+| 2026-11-17 | `claude/loving-gates-g1eba4` | SMIC 보고서 4개(Doximity·Sportradar·Equinix·Circle) 노트, 가이드에 2-B장(빌릴 도구 13개·잠재 물량 계산 예시)·초안·도표 후보 반영 |
