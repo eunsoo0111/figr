@@ -1,0 +1,14 @@
+year,purchaser_type,units,limit_$M,share_of_$_%
+2023,cu_mortgage_finance_co,14300,1028,58.8
+2023,not_sold,6664,480,27.5
+2023,private_securitizer,1966,132,7.6
+2023,bank_or_savings,1556,108,6.2
+2024,private_securitizer,17117,1311,49.0
+2024,cu_mortgage_finance_co,14691,1170,43.8
+2024,not_sold,1783,154,5.8
+2024,affiliate,512,38,1.4
+2025,cu_mortgage_finance_co,18807,1681,57.5
+2025,not_sold,6900,609,20.8
+2025,private_securitizer,5913,485,16.6
+2025,bank_or_savings,1518,128,4.4
+2025,affiliate,277,23,0.8
