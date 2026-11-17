@@ -61,6 +61,7 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 |---|---|---|
 | [FIGR 비즈니스 모델 완전 정리](https://claude.ai/artifact/NRdcPtUrzbdTRbbpT3Tod6) | 2026-11-16 | 공시·컨콜 + Capital Blueprint + Ottavi 2편. 21장 |
 | [FIGR 매수자 해부](https://claude.ai/artifact/YTtwTzJ51edGy5Q5hmoRPt) | 2026-11-16 | Connect 반대편(매수자) 12장 |
+| [FIGR 새로 나온 이야기](https://claude.ai/artifact/GivXsyshwp3HUvQw2BHj2h) | 2026-11-17 | 자료 5종에서 앞선 두 문서에 없던 내용만 투자포인트 1 순서로 정리(Kickstart, 은행의 두 역할, 해자 재정의, 리스크) |
 
 ### 원자료 노트 (`research/sources/`)
 
@@ -105,3 +106,4 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 |---|---|---|
 | 2026-11-16 | — | artifact 「FIGR 비즈니스 모델 완전 정리」, 「FIGR 매수자 해부」 작성 |
 | 2026-11-17 | `claude/fervent-brown-x3pek4` | 엑스퍼트콜 3개·Greenwich 리포트 2개 상세 정리, artifact 대비 비교, 투자포인트 1 근거 지도, README 허브 구성 |
+| 2026-11-17 | `claude/fervent-brown-x3pek4` | artifact 「FIGR 새로 나온 이야기」 발행 |
