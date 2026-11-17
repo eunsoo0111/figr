@@ -1,0 +1,8 @@
+lender,heloc_units,variable_rate_share_%,interest_only_period_share_%,median_line_$K,median_rate_%,typical_term_years
+Citizens,57400,100.0,86.1,165,7.65,25
+PNC,47941,100.0,5.4,105,7.74,40
+Fifth Third,23885,100.0,0.0,105,8.00,30
+Flagstar,1267,100.0,72.4,95,6.75,30
+Figure Lending,32945,1.1,0.0,65,9.10,15/20/30
+Valley Strong CU,760,5.1,8.3,65,8.40,15/20/30
+loanDepot,6484,100.0,100.0,75,8.875,30
