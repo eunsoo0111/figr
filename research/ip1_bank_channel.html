@@ -1,0 +1,800 @@
+<title>FIGR 은행 채널 해부</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: 신용심사 메모 같은 단일 칼럼 논증. 본문 68ch, 차트·표는 넓게. 섹션 번호는 논증의 순서 */
+:root{
+  --bg:#f4f6f9; --surface:#ffffff; --ink:#111620; --ink-2:#465061; --muted:#768092;
+  --line:#e1e5ec; --base:#c4cad4; --chip:#eef2f8;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --past:#b3bac6;
+  --band:rgba(42,120,214,.07); --band-2:rgba(235,104,52,.07);
+  --pos:#006300; --neg:#b42f2f; --note-bg:#fbf7ee; --note-line:#e7d9b5;
+  --sans:"IBM Plex Sans KR",system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1015; --surface:#151920; --ink:#eceff4; --ink-2:#b6becb; --muted:#8a93a4;
+    --line:#262c36; --base:#3a424f; --chip:#1d232d;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --past:#4b5462;
+    --band:rgba(57,135,229,.11); --band-2:rgba(217,89,38,.11);
+    --pos:#3fbf5a; --neg:#ef7a7a; --note-bg:#1d1a12; --note-line:#4a4128;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1015; --surface:#151920; --ink:#eceff4; --ink-2:#b6becb; --muted:#8a93a4;
+  --line:#262c36; --base:#3a424f; --chip:#1d232d;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --past:#4b5462;
+  --band:rgba(57,135,229,.11); --band-2:rgba(217,89,38,.11);
+  --pos:#3fbf5a; --neg:#ef7a7a; --note-bg:#1d1a12; --note-line:#4a4128;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px;
+  -webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere}
+.wrap{max-width:1040px;margin:0 auto}
+.prose{max-width:68ch}
+h1,h2,h3{text-wrap:balance;line-height:1.3;margin:0}
+h1{font-size:clamp(28px,4.6vw,44px);font-weight:700;letter-spacing:-.02em}
+h2{font-size:clamp(22px,3vw,30px);font-weight:700;letter-spacing:-.01em}
+h3{font-size:18px;font-weight:600}
+p{margin:0}
+a{color:var(--s1)}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--s1);outline-offset:2px;border-radius:4px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--mono);font-size:.86em}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.ink2{color:var(--ink-2)}
+
+/* hero */
+header.hero{padding-block:56px 32px;display:grid;gap:20px;border-bottom:1px solid var(--line)}
+.hero .lede{font-size:clamp(17px,2vw,19px);color:var(--ink-2);max-width:62ch}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:8px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:6px;align-content:start}
+.tile .v{font-size:clamp(24px,3vw,32px);font-weight:700;letter-spacing:-.02em;line-height:1.15}
+.tile .l{font-size:13.5px;color:var(--ink-2);line-height:1.5}
+.tile .s{font-family:var(--mono);font-size:11px;color:var(--muted)}
+@media (max-width:820px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.thesis{margin-top:8px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 22px;display:grid;gap:10px}
+.thesis p{color:var(--ink)}
+.thesis b{font-weight:600}
+
+/* sections */
+section{padding-block:56px 8px;display:grid;gap:22px}
+.sec-head{display:grid;gap:8px}
+.sec-head .idx{font-family:var(--mono);font-size:13px;color:var(--s1);letter-spacing:.04em}
+.sec-head .q{font-size:15px;color:var(--muted)}
+.body{display:grid;gap:14px}
+.body p{max-width:68ch}
+ul.pts{margin:0;padding-left:1.1em;display:grid;gap:6px;max-width:72ch}
+ul.pts li::marker{color:var(--muted)}
+
+/* figure blocks */
+.fig{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 18px 14px;display:grid;gap:10px;min-width:0}
+.fig .ft{font-weight:600;font-size:15.5px}
+.fig .fs{font-size:13px;color:var(--muted)}
+.fig .src{font-family:var(--mono);font-size:11px;color:var(--muted);line-height:1.5}
+.cv{position:relative;width:100%;min-width:0}
+.cv canvas{display:block}
+.h260{height:260px}.h300{height:300px}.h340{height:340px}.h380{height:380px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+.sw.line{height:2px;width:14px;border-radius:1px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:820px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
+
+details.tbl{font-size:13px}
+details.tbl summary{cursor:pointer;color:var(--ink-2);font-size:12.5px}
+.tblwrap{overflow-x:auto;margin-top:8px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:normal;word-break:keep-all}
+.tblwrap table{min-width:560px}
+.tblwrap table.w7{min-width:720px}
+.tblwrap table.slim{min-width:0}
+th{font-weight:600;color:var(--ink-2);font-size:12.5px;white-space:nowrap}
+td.r,th.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+
+/* segmented bar */
+.seg{display:flex;gap:2px;height:28px;border-radius:4px;overflow:hidden}
+.seg div{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:8px;color:#fff;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;min-width:0}
+.seg .dark{color:#0b0b0b}
+
+/* reason cards */
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:820px){.cards{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .k{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .k b{font-size:24px;font-weight:700;letter-spacing:-.02em}
+.card .k span{font-size:13px;color:var(--muted)}
+.card h3{font-size:16.5px}
+.card p{font-size:14.5px;color:var(--ink-2)}
+.card .src{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.tag{display:inline-block;font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--ink-2)}
+
+/* flow diagram */
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;align-items:stretch}
+@media (max-width:900px){.flow{grid-template-columns:minmax(0,1fr)}}
+.node{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px;display:grid;gap:6px;align-content:start;position:relative;min-width:0}
+.node .nt{font-weight:600;font-size:14.5px}
+.node .nd{font-size:13px;color:var(--ink-2);line-height:1.55}
+.node .nm{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.node.hl{border-color:var(--s1);box-shadow:inset 0 0 0 1px var(--s1)}
+.arrow{font-family:var(--mono);color:var(--muted);font-size:12px}
+.subflow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:900px){.subflow{grid-template-columns:minmax(0,1fr)}}
+
+/* matrix */
+.mx td.y{color:var(--pos);font-weight:600;white-space:nowrap}
+.mx td.n{color:var(--muted);white-space:nowrap}
+
+/* calculator */
+.calc{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.ctl{display:grid;gap:14px}
+.ctl label{display:grid;gap:4px;font-size:13.5px;color:var(--ink-2)}
+.ctl .row{display:flex;justify-content:space-between;gap:8px}
+.ctl output{font-family:var(--mono);color:var(--ink);font-size:13px}
+input[type=range]{width:100%;accent-color:var(--s1)}
+.out{display:grid;gap:10px;align-content:start}
+.big{font-size:40px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.bar{height:12px;border-radius:6px;background:var(--chip);position:relative;overflow:hidden}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:6px}
+.cmp{display:grid;gap:8px;font-size:13px}
+.cmp .r{display:grid;grid-template-columns:116px minmax(0,1fr) 52px;gap:10px;align-items:center}
+.cmp .r span:last-child{text-align:right;font-family:var(--mono)}
+
+.note{background:var(--note-bg);border:1px solid var(--note-line);border-radius:10px;padding:14px 16px;font-size:14px;color:var(--ink-2)}
+.note b{color:var(--ink)}
+.case{display:grid;gap:14px;padding:18px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.case .ch{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.case .ch .tag{background:var(--chip)}
+.kv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:720px){.kv{grid-template-columns:minmax(0,1fr)}}
+.kv div{background:var(--bg);border-radius:8px;padding:10px 12px;display:grid;gap:2px}
+.kv b{font-size:20px;letter-spacing:-.01em}
+.kv span{font-size:12.5px;color:var(--ink-2)}
+footer{padding-block:48px 0;border-top:1px solid var(--line);margin-top:48px;display:grid;gap:12px;font-size:13px;color:var(--ink-2)}
+footer ol{margin:0;padding-left:1.3em;display:grid;gap:4px}
+footer li{overflow-wrap:anywhere}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">SMIC · FIGR 투자포인트 1 리서치 · 데이터 기준 2026년 11월 17일</div>
+  <h1>은행은 왜 Figure 위에서 HELOC를 만들게 되는가</h1>
+  <p class="lede">미국 FDIC 콜리포트 전수(은행 4,313곳, 2000~2026년 106개 분기)로 은행의 HELOC 장부를 재구성했습니다. 이 페이지는 은행이 HELOC를 어떻게 운영해 왔는지, 왜 많은 은행이 HELOC에서 손을 뗐는지, 그리고 Figure의 LOS(대출 실행 시스템)를 넘어 Connect(대출 거래 시장)까지 써야 돈이 되는 이유를 숫자로 보여줍니다.</p>
+  <div class="tiles">
+    <div class="tile"><div class="v num">−61%</div><div class="l">은행 HELOC 잔액, 정점 $674B(2009Q1)에서 저점 $261B(2022Q1)까지</div><div class="s">FDIC RIS · LNRELOC 합계</div></div>
+    <div class="tile"><div class="v num">−84%</div><div class="l">4대 은행(BofA·JPM·Wells·Citi) HELOC 잔액, $331B → $53B (2009Q2→2026Q2)</div><div class="s">FDIC RIS · 은행별</div></div>
+    <div class="tile"><div class="v num">$481B</div><div class="l">미국 전체 HELOC 잔액(2026Q3). 분기 +$23B는 2005년 이후 최대, 2021 저점 대비 +52%</div><div class="s">NY Fed HHDC 2026Q3</div></div>
+    <div class="tile"><div class="v num">84% → 67%</div><div class="l">그중 은행이 들고 있는 비중(2021말 → 2026Q2). 시장은 커지는데 은행 몫은 줄었다</div><div class="s">FDIC ÷ NY Fed, 추정</div></div>
+  </div>
+  <div class="thesis">
+    <div class="eyebrow">한 문단 요약</div>
+    <p>은행에게 HELOC는 <b>지금 가장 좋은 자산 중 하나</b>입니다. 평균 금리 7.5~8.6%인데 은행의 평균 조달비용은 2.0%이고, 순상각(손실)은 2018년 하반기부터 사실상 0 이하입니다. 그런데 은행은 이 자산을 만드는 <b>공장</b>(건당 $4,600, 39일), 담아두는 <b>창고</b>(위험가중치 100%, 한도의 59%가 놀고, 고정금리 위험), 넘길 <b>출구</b>(2순위 담보를 사주는 Fannie·Freddie가 없음)가 모두 고장 나 있습니다. Figure의 LOS는 공장을 고치고, Connect는 창고와 출구를 고칩니다. 그래서 LOS만 쓰면 반쪽입니다. Connect까지 써야 은행이 자기 장부 크기가 아니라 고객 수요만큼 HELOC를 만들 수 있습니다. 예금이 남는 은행은 Connect에서 <b>사는 쪽</b>으로 들어옵니다.</p>
+  </div>
+</header>
+
+<!-- 01 -->
+<section id="history">
+  <div class="sec-head">
+    <div class="idx">01 · 과거와 현재의 운영</div>
+    <h2>은행은 HELOC를 이렇게 운영해 왔다</h2>
+    <p class="q">HELOC가 뭔지, 은행 안에서 어떻게 만들어지고 보관됐는지부터.</p>
+  </div>
+  <div class="body prose">
+    <p><b>HELOC</b>는 집을 담보로 한 마이너스통장입니다. 이미 1순위 주택담보대출이 있는 집에 <b>2순위</b>로 담보를 잡고 한도를 열어 줍니다. 미국 주택 보유자의 79%가 6% 미만 금리의 1순위 대출에 묶여 있어서, 기존 대출을 건드리지 않고 돈을 빼는 거의 유일한 방법입니다.</p>
+  </div>
+  <div class="fig">
+    <div class="ft">전통적인 은행 HELOC는 이렇게 생겼다</div>
+    <div class="tblwrap"><table>
+      <thead><tr><th>항목</th><th>전통 은행 HELOC</th><th>은행 입장에서 생기는 문제</th></tr></thead>
+      <tbody>
+        <tr><td>금리</td><td>변동금리(Prime + 가산금리), 첫 6개월 우대금리 흔함</td><td>우대금리 기간에는 마진이 얇다</td></tr>
+        <tr><td>구조</td><td>인출기간 10년(이자만 냄) → 상환기간 20년</td><td>인출기간이 끝나면 상환액이 급증(2014년 감독당국 공동 가이던스의 대상)</td></tr>
+        <tr><td>실행</td><td>지점 중심, 감정평가·권원조사·홍수지역 확인·대면 서명</td><td>39~43일, 건당 $1,000~4,600, 신청의 49%만 실행</td></tr>
+        <tr><td>인출</td><td>한도를 열어 두고 고객이 필요할 때 인출</td><td>실행 시점 인출률 36%, 은행 전체 41%. 이자는 인출분에서만 나온다</td></tr>
+        <tr><td>보유</td><td>예금으로 조달해 장부에 끝까지 보유</td><td>1순위처럼 Fannie·Freddie에 팔 수 없다. 위험가중치 100%</td></tr>
+        <tr><td>수수료</td><td>취급수수료 0원 경쟁, 연회비·조기해지 수수료</td><td>원가를 고객에게 넘기지 못한다</td></tr>
+      </tbody>
+    </table></div>
+    <div class="src">출처: MBA Home Equity Lending Study(2024 데이터), Curinos 벤치마크(2026), FDIC RIS, OCC Bulletin 2014-29, 각 은행 상품 공시</div>
+  </div>
+
+  <div class="fig">
+    <div class="ft">은행이 들고 있는 HELOC 잔액, 2000~2026 (분기, $B)</div>
+    <div class="fs">FDIC 가입 전 기관의 콜리포트 항목 RC-C 1.c.(1) "1-4가구 주택담보 회전한도" 합계. 음영은 아래 네 국면.</div>
+    <div class="cv h340"><canvas id="cBal" role="img" aria-label="은행 HELOC 잔액 2000년 1분기 1277억 달러에서 2009년 1분기 6743억 달러로 정점, 2022년 1분기 2613억 달러 저점, 2026년 2분기 3075억 달러"></canvas></div>
+    <details class="tbl"><summary>연말 기준 데이터 표 보기</summary><div class="tblwrap"><table id="tBal"></table></div></details>
+    <div class="src">출처: FDIC BankFind Suite API(RIS 데이터셋), 필드 LNRELOC·UCLOC·NTRELOCQ, 2000Q1~2026Q2 전 기관 합계. 직접 집계.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <span class="tag">① 2000~2008 · 붐</span>
+      <div class="k"><b class="num">$128B → $674B</b><span>잔액 5.3배</span></div>
+      <p>집값 상승과 함께 은행이 경쟁적으로 한도를 열었습니다. HELOC는 은행 전체 대출의 9.05%(2009Q4)까지 올라갔습니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">② 2008~2012 · 손실</span>
+      <div class="k"><b class="num">연 3.14%</b><span>순상각률 정점(2009Q4)</span></div>
+      <p>2순위는 집이 경매되면 1순위가 먼저 가져가서 회수할 게 거의 없습니다. 은행들은 2008년 대규모 한도 동결에 나섰습니다(Countrywide 한 곳만 12.2만 명). 무수익 비율은 2013~14년에도 2.5% 안팎이었습니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">③ 2013~2021 · 13년 축소</span>
+      <div class="k"><b class="num">−61%</b><span>정점 대비, 2022Q1 저점 $261B</span></div>
+      <p>모기지 금리가 3%대라 기존 대출을 새로 받으며 현금을 빼는 재융자(cash-out refi)가 HELOC보다 쌌습니다. 수요가 사라지자 은행은 HELOC 조직과 시스템을 줄였습니다. 감독당국은 2015~17년 상환기간 전환 잔액 $131B를 위험으로 지목했고, Chase와 Wells Fargo는 2020년 신규 접수를 중단했습니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">④ 2022~ · 회복을 놓친 은행</span>
+      <div class="k"><b class="num">+18% vs +52%</b><span>은행 잔액 vs 전체 시장</span></div>
+      <p>금리가 오르며 HELOC 수요가 돌아왔지만, 은행 잔액은 저점 대비 18%만 늘었습니다. 같은 기간 미국 전체 HELOC 잔액은 52% 늘었습니다. 늘어난 몫은 빠르고 싼 비은행이 가져갔습니다.</p>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="fig">
+      <div class="ft">순상각률(연율, %)</div>
+      <div class="fs">손실 걱정은 과거의 일. 2018년 하반기부터 사실상 0 이하(회수가 상각보다 많음).</div>
+      <div class="cv h260"><canvas id="cNco" role="img" aria-label="HELOC 순상각률 2009년 4분기 3.14퍼센트 정점, 2018년 이후 0 이하"></canvas></div>
+      <div class="src">출처: FDIC RIS NTRELOCQ×4 ÷ LNRELOC</div>
+    </div>
+    <div class="fig">
+      <div class="ft">은행 HELOC 한도 중 실제로 쓰인 비율 (2026Q2)</div>
+      <div class="fs">한도 $750.6B 중 인출 잔액 $307.5B. 이자는 41%에서만 나온다.</div>
+      <div style="display:grid;gap:10px;align-content:center;min-height:200px">
+        <div class="seg" role="img" aria-label="인출 3075억 달러 41퍼센트, 미사용 4431억 달러 59퍼센트">
+          <div style="flex:307.5;background:var(--s1)">인출 $307.5B · 41%</div>
+          <div style="flex:443.1;background:var(--past)" class="dark">미사용 $443.1B · 59%</div>
+        </div>
+        <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>인출 잔액(이자 수익)</span><span><i class="sw" style="background:var(--past)"></i>미사용 한도(심사·자본·충당금 비용만)</span></div>
+        <p class="ink2" style="font-size:13.5px">미사용 한도는 은행이 1년에 한 번 이상 심사하고 무조건 취소할 수 있을 때만 자본 부담이 0이고, 그 외에는 50%를 대출로 환산해 자본을 쌓아야 합니다. 비은행의 증권화 HELOC는 실행 시점 인출률이 93%입니다(은행 36%).</p>
+      </div>
+      <div class="src">출처: FDIC RIS LNRELOC·UCLOC(RC-L 1.a), Curinos 2026-08, 연준·OCC 위험기반자본 지침</div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section id="who">
+  <div class="sec-head">
+    <div class="idx">02 · 지금 은행들의 모습</div>
+    <h2>HELOC를 키운 은행과 버린 은행</h2>
+    <p class="q">같은 시장에서 대형 은행들의 선택이 완전히 갈렸다.</p>
+  </div>
+  <div class="fig">
+    <div class="ft">은행별 HELOC 잔액, 2009Q2 vs 2026Q2 ($B)</div>
+    <div class="legend"><span><i class="sw" style="background:var(--past)"></i>2009Q2</span><span><i class="sw" style="background:var(--s1)"></i>2026Q2</span></div>
+    <div class="cv h380"><canvas id="cBanks" role="img" aria-label="은행별 HELOC 잔액 비교"></canvas></div>
+    <details class="tbl"><summary>데이터 표 보기</summary><div class="tblwrap"><table id="tBanks"></table></div></details>
+    <div class="src">출처: FDIC RIS 은행별 LNRELOC. 2009Q2는 합병 전 법인 기준이라 PNC(National City)·Truist(SunTrust) 등은 과소 표시됨.</div>
+  </div>
+  <div class="body prose">
+    <ul class="pts">
+      <li><b>버린 쪽:</b> 4대 은행 합계 $331B → $53B(−84%). Wells Fargo는 2021년 이후에도 −58%로 계속 줄이고 있고, Chase는 2025년 재출시 이후에도 −27%(2021Q4 대비)입니다. Citi의 HELOC는 대출의 0.3%입니다.</li>
+      <li><b>키운 쪽:</b> Citizens는 2021Q4 대비 +73%($11.6B → $20.1B)로 HELOC가 대출의 13.5%입니다. PNC +44%($22.7B, 대출의 6.1%), Huntington +16%.</li>
+      <li><b>은행 전체:</b> HELOC 잔액은 상위 10곳이 44.7%, 상위 20곳이 56.2%를 갖고 있습니다.</li>
+    </ul>
+  </div>
+
+  <div class="grid2">
+    <div class="fig">
+      <div class="ft">은행 4,313곳을 HELOC 비중(대출 대비)으로 나누면</div>
+      <div class="fs">1,050곳은 HELOC가 0이고, 그중 872곳은 1순위 주택담보대출은 갖고 있다.</div>
+      <div class="cv h260"><canvas id="cDist" role="img" aria-label="은행 수 분포: 0퍼센트 1050곳, 1퍼센트 미만 846곳, 1에서 3퍼센트 1038곳, 3에서 5퍼센트 675곳, 5에서 10퍼센트 551곳, 10퍼센트 이상 153곳"></canvas></div>
+      <div class="src">출처: FDIC RIS 2026Q2, LNRELOC ÷ LNLSGR, 직접 집계</div>
+    </div>
+    <div class="fig">
+      <div class="ft">HELOC를 거의 안 하는 은행이 미국 예금의 절반 이상을 가진다</div>
+      <div class="fs">HELOC가 대출의 1% 미만인 은행 1,806곳(41.9%)</div>
+      <div style="display:grid;gap:14px;align-content:center;min-height:200px">
+        <div class="seg" role="img" aria-label="예금 점유 53.9퍼센트 대 46.1퍼센트">
+          <div style="flex:53.9;background:var(--s2)">예금 $11.2조 · 53.9%</div>
+          <div style="flex:46.1;background:var(--past)" class="dark">나머지 46.1%</div>
+        </div>
+        <div class="legend"><span><i class="sw" style="background:var(--s2)"></i>HELOC 1% 미만 은행</span><span><i class="sw" style="background:var(--past)"></i>그 외 은행</span></div>
+        <p class="ink2" style="font-size:13.5px">JPMorgan·Wells Fargo·Citi 세 곳만 예금 $5.9조인데 HELOC는 대출의 0.78%($25.8B)입니다. 업계 평균(2.18%)만 해도 $72B, PNC 수준(6.1%)이면 $202B입니다.</p>
+      </div>
+      <div class="src">출처: FDIC RIS 2026Q2 DEP·LNLSGR·LNRELOC, 직접 집계</div>
+    </div>
+  </div>
+
+  <div class="fig">
+    <div class="ft">자산 규모별 HELOC 취급 현황 (2026Q2)</div>
+    <div class="tblwrap"><table class="w7">
+      <thead><tr><th>자산 규모</th><th class="r">은행 수</th><th class="r">HELOC 보유</th><th class="r">보유 비율</th><th class="r">HELOC 잔액</th><th class="r">전체 중 비중</th><th class="r">대출 대비</th><th class="r">인출률</th></tr></thead>
+      <tbody>
+        <tr><td>$1억 미만</td><td class="r">584</td><td class="r">208</td><td class="r">35.6%</td><td class="r">$0.3B</td><td class="r">0.1%</td><td class="r">1.61%</td><td class="r">53.4%</td></tr>
+        <tr><td>$1억~10억</td><td class="r">2,662</td><td class="r">2,103</td><td class="r">79.0%</td><td class="r">$19.8B</td><td class="r">6.4%</td><td class="r">2.85%</td><td class="r">49.8%</td></tr>
+        <tr><td>$10억~100억</td><td class="r">902</td><td class="r">817</td><td class="r">90.6%</td><td class="r">$53.4B</td><td class="r">17.4%</td><td class="r">2.99%</td><td class="r">44.2%</td></tr>
+        <tr><td>$100억~1,000억</td><td class="r">133</td><td class="r">109</td><td class="r">82.0%</td><td class="r">$68.4B</td><td class="r">22.3%</td><td class="r">2.61%</td><td class="r">42.2%</td></tr>
+        <tr><td>$1,000억 이상</td><td class="r">32</td><td class="r">26</td><td class="r">81.2%</td><td class="r">$165.6B</td><td class="r">53.8%</td><td class="r">1.85%</td><td class="r">38.8%</td></tr>
+      </tbody>
+    </table></div>
+    <div class="src">출처: FDIC RIS 2026Q2 ASSET 기준 구간, 직접 집계. 인출률 = LNRELOC ÷ (LNRELOC + UCLOC)</div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="why-not">
+  <div class="sec-head">
+    <div class="idx">03 · HELOC를 안 하는 이유</div>
+    <h2>은행 손익으로 본 일곱 가지 이유</h2>
+    <p class="q">자산이 나빠서가 아니다. 만들고, 담고, 넘기는 구조가 은행에 맞지 않았다.</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <span class="tag">공장 · 원가와 속도</span>
+      <div class="k"><b class="num">$4,600 · 39일 · 49%</b></div>
+      <h3>한 건 만드는 데 너무 비싸고 느리다</h3>
+      <p>MBA 기준 건당 생산원가 약 $4,600, 평균 처리 39일, 신청의 49%만 실행됩니다. Curinos 벤치마크로는 예금기관이 건당 $1,000~2,500·약 40일, 비은행이 $1,000 미만·약 15일입니다. 감정평가·권원조사·대면 서명 같은 고정비는 대출 금액과 상관없이 들어서 작은 HELOC일수록 손해입니다.</p>
+      <div class="src">MBA 2024 데이터(백서 인용), Curinos 2026-08</div>
+    </div>
+    <div class="card">
+      <span class="tag">공장 · 놀고 있는 한도</span>
+      <div class="k"><b class="num">41%</b><span>은행 HELOC 인출률</span></div>
+      <h3>비용은 한도 전체에, 수익은 인출분에만</h3>
+      <p>은행은 한도 $750.6B를 열어 두고 $307.5B에서만 이자를 받습니다. 1~15일 안에 실행된 고객의 인출 확률은 42%, 30일을 넘긴 고객은 18%입니다. 처음 인출하지 않은 고객의 약 40%는 끝내 쓰지 않습니다. 느린 공장이 인출률까지 깎습니다.</p>
+      <div class="src">FDIC RIS 2026Q2, Curinos 2026-03</div>
+    </div>
+    <div class="card">
+      <span class="tag">창고 · 자본</span>
+      <div class="k"><b class="num">100%</b><span>후순위 위험가중치</span></div>
+      <h3>1순위의 두 배 자본을 먹는다</h3>
+      <p>1순위 모기지는 위험가중치 50%, HELOC 같은 후순위는 100%입니다. 2026년 3월 Basel III 재제안은 1순위만 LTV 구간별로 더 낮추고 후순위는 100%로 남겼습니다. 미사용 한도도 원칙적으로 50%를 대출로 환산합니다.</p>
+      <div class="src">OCC·FDIC·Fed 재제안(2026-03-27), Debevoise, 연준 SR 05-11</div>
+    </div>
+    <div class="card">
+      <span class="tag">창고 · 금리위험</span>
+      <div class="k"><b class="num">−31%</b><span>금리 +1%p 시 배정 자본 손실(예시)</span></div>
+      <h3>요즘 고객이 원하는 상품은 고정금리</h3>
+      <p>부채통합 목적이 HELOC 수요의 39%까지 늘면서 "한 번에 다 꺼내는 고정금리" 상품이 이깁니다. 평균 만기 4년(듀레이션 약 3.3)짜리 고정금리 자산을 예금으로 들고 있으면, 금리가 1%p 오를 때 가치가 약 3.3% 빠지고 이는 그 자산에 배정한 자본(10.5%)의 약 31%입니다. 2023년 SVB 이후 은행이 가장 꺼리는 위험입니다.</p>
+      <div class="src">Curinos 2026-08(수요 비중), 듀레이션 계산은 예시 가정</div>
+    </div>
+    <div class="card">
+      <span class="tag">출구 · 매각 시장 부재</span>
+      <div class="k"><b class="num">$2.5B</b><span>Freddie Mac 2순위 시범사업 한도</span></div>
+      <h3>만들면 끝까지 들고 있어야 한다</h3>
+      <p>1순위는 만들어서 Fannie·Freddie에 팔면 됩니다. 2순위는 Freddie Mac이 18개월간 최대 $2.5B만 사는 시범사업이 전부였습니다. 팔 곳이 없으니 은행은 장부가 감당할 만큼만 만듭니다.</p>
+      <div class="src">FHFA 승인(2024), NMP</div>
+    </div>
+    <div class="card">
+      <span class="tag">기억 · 손실과 감독</span>
+      <div class="k"><b class="num">3.14%</b><span>2009Q4 순상각률</span></div>
+      <h3>2순위는 위기에서 거의 다 잃는다</h3>
+      <p>2008년 한도 동결 사태, 2009년 연 3%대 손실, 2014년 상환기간 전환 위험에 대한 감독당국 공동 가이던스까지. 2005년 홈에쿼티 신용위험 가이던스는 지금도 집중도 관리를 요구합니다.</p>
+      <div class="src">FDIC RIS, OCC Bulletin 2014-29, SR 05-11</div>
+    </div>
+    <div class="card">
+      <span class="tag">전략 · 대형 은행의 선택</span>
+      <div class="k"><b class="num">0.78%</b><span>JPM·Wells·Citi HELOC/대출</span></div>
+      <h3>대차대조표는 카드와 자산관리에</h3>
+      <p>Wells Fargo는 자산 상한(2018~2025년 6월) 동안 대차대조표를 아꼈고, 2023년 이후 주택대출 인력을 47% 줄였으며 주택대출은 성장 초점이 아니라고 밝혔습니다. 신용카드 평균 금리는 22.15%입니다. Chase는 2020~2025년 HELOC를 멈췄다가, 한도의 85% 이상을 한 번에 꺼내는 옵션을 넣어 재출시했습니다.</p>
+      <div class="src">Inman 2025-06, Fed G.19 2026Q2, Banking Dive 2025-08</div>
+    </div>
+    <div class="card">
+      <span class="tag">결과</span>
+      <div class="k"><b class="num">85% → 66%</b><span>은행+신협 후순위 담보 점유율</span></div>
+      <h3>고객은 비은행으로 갔다</h3>
+      <p>2022→2025년 은행·신협의 후순위 담보대출 점유율은 85%에서 66%로, 비은행은 8%에서 29%로 바뀌었습니다. 2023→2025년 HELOC 취급 증가율은 비은행 +140%, 대형 은행 +7%입니다. 비은행 HELOC 금리는 예금기관보다 약 0.5%p 높을 뿐입니다. 고객이 사는 것은 금리가 아니라 속도입니다.</p>
+      <div class="src">HELN 백서(2026), Curinos 2026-08</div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="why-now">
+  <div class="sec-head">
+    <div class="idx">04 · 그래도 해야 하는 이유</div>
+    <h2>자산은 좋고, 수요는 역대급이고, 고객은 떠나는 중</h2>
+  </div>
+  <div class="grid2">
+    <div class="fig">
+      <div class="ft">은행이 돈을 굴리는 곳별 금리 (%)</div>
+      <div class="fs">HELOC는 은행 평균 운용수익률보다 2~3%p 높고, 조달비용의 4배다.</div>
+      <div class="cv h300"><canvas id="cYield" role="img" aria-label="조달비용 2.02, 연준 지준금리 3.90, 은행 평균 운용수익률 5.31, HELOC 평균 금리 7.49, Figure HELOC 증권화 가중평균 금리 8.55"></canvas></div>
+      <div class="src">출처: FDIC RIS 2026Q2(조달비용·운용수익률 직접 계산), Fed 2026-10-28 이행 노트(IORB), Bankrate 2026-11-11, Morningstar DBRS FIGRE 2026-HF11</div>
+    </div>
+    <div class="fig">
+      <div class="ft">수요를 만드는 숫자들</div>
+      <div class="tblwrap"><table class="slim">
+        <tbody>
+          <tr><td>꺼내 쓸 수 있는 주택 지분</td><td class="r">$11.7조</td><td class="muted">ICE, 2026</td></tr>
+          <tr><td>6% 미만 금리에 묶인 모기지 비중</td><td class="r">79%</td><td class="muted">Curinos</td></tr>
+          <tr><td>기준금리(9월 인상, 10월 동결)</td><td class="r">3.75~4.00%</td><td class="muted">FOMC</td></tr>
+          <tr><td>신용카드 잔액 / 평균 금리</td><td class="r">$1.29조 / 22.15%</td><td class="muted">NY Fed, Fed G.19</td></tr>
+          <tr><td>HELOC 평균 금리</td><td class="r">7.49%</td><td class="muted">Bankrate</td></tr>
+          <tr><td>HELOC 잔액 증가(2026Q3)</td><td class="r">+$23B, 전년比 +14%</td><td class="muted">NY Fed</td></tr>
+          <tr><td>2순위·HELOC 증권화 발행</td><td class="r">$29B(2025) → $41B(2026E)</td><td class="muted">BofA Securities</td></tr>
+        </tbody>
+      </table></div>
+      <p class="ink2" style="font-size:13.5px">카드빚 22%를 HELOC 7~9%로 갈아타는 수요가 구조적으로 존재합니다. 9월 금리 인상으로 재융자 창구는 더 멀어졌습니다.</p>
+    </div>
+  </div>
+  <div class="note"><b>정리:</b> HELOC의 조달비용 대비 스프레드는 5.5~6.5%p로, 은행 전체 순이자마진(3.29%)의 약 두 배입니다. 90일 이상 연체는 잔액의 0.05%입니다. 은행이 HELOC를 안 하는 이유는 자산의 질이 아니라 운영 구조에 있습니다. 그렇다면 운영 구조를 바꿔 주는 쪽이 이 시장을 가져갑니다.</div>
+</section>
+
+<!-- 05 -->
+<section id="figure">
+  <div class="sec-head">
+    <div class="idx">05 · FIGR의 구조</div>
+    <h2>Figure는 HELOC의 공장, 창고, 출구를 한 번에 판다</h2>
+    <p class="q">대출이 만들어져서 팔리고 관리되기까지, Figure가 어디서 돈을 버는지.</p>
+  </div>
+  <div class="fig">
+    <div class="ft">대출 한 건이 Figure 위에서 움직이는 길</div>
+    <div class="flow">
+      <div class="node"><div class="nt">대출자</div><div class="nd">5분 신청. 평균 FICO 751, CLTV 62%</div><div class="nm">회사 자료</div></div>
+      <div class="node"><div class="nt">오리지네이터</div><div class="nd">Figure 직판 또는 파트너가 <b>자기 이름·자기 브랜드</b>로 실행. 파트너 612곳(Kiavi 포함 894), 예금기관 20곳 이상</div><div class="nm">B2B 80% 이상</div></div>
+      <div class="node hl"><div class="nt">Figure LOS · 공장</div><div class="nd">자동 시세평가(AVM), Plaid 소득확인, 원격공증. 약 90% 무인 심사. 건당 원가 $717~750, 중위 10일(최단 5일)</div><div class="nm">운영비 볼륨의 ~0.65%</div></div>
+      <div class="node"><div class="nt">DART · 등기</div><div class="nd">전자어음(eNote)과 담보권을 블록체인 원장에 기록. 같은 대출 이중 담보 불가. 2025년 LOS 대출의 87% 기록</div><div class="nm">10-K FY2025</div></div>
+      <div class="node hl"><div class="nt">Figure Connect · 창고와 출구</div><div class="nd">판매자와 매수자를 직접 연결. 다음 날 인수, 표준화된 풀, 정산 수개월 → 수일. 볼륨의 72%</div><div class="nm">매수자 100곳 이상(2Q26 콜)</div></div>
+    </div>
+    <div class="arrow">↓ Connect에서 나가는 세 갈래</div>
+    <div class="subflow">
+      <div class="node"><div class="nt">통매각</div><div class="nd">자산운용사, 헤지펀드, 해외 투자자, 예금기관. 2026년 10월엔 예금기관 수요가 강해 $346M 증권화 대신 통매각을 택함</div><div class="nm">HELN 2026-10-22</div></div>
+      <div class="node"><div class="nt">증권화 (FIGRE Trust)</div><div class="nd">2020년 이후 30건 이상, 2026년 6월까지 10건. AAA 신용보강 약 32%. AAA 매수자는 New York Life·Nationwide 등 보험사</div><div class="nm">DBRS·S&amp;P·Moody's·KBRA</div></div>
+      <div class="node"><div class="nt">보유 + 서비싱·자금</div><div class="nd">파트너가 직접 보유도 가능. Figure 서비싱(연 0.25%), Prime(온체인 자금시장) 공급 $825M, YLDS(스테이블코인) $504M</div><div class="nm">3Q26 보도자료</div></div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="fig">
+      <div class="ft">분기 거래량: 전체 vs Connect ($B)</div>
+      <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>전체 대출 마켓플레이스</span><span><i class="sw" style="background:var(--s2)"></i>Figure Connect</span></div>
+      <div class="cv h300"><canvas id="cVol" role="img" aria-label="분기 거래량 2025년 1분기 13.7억 달러에서 2026년 3분기 58억 달러"></canvas></div>
+      <details class="tbl"><summary>데이터 표 보기</summary><div class="tblwrap"><table id="tVol"></table></div></details>
+      <div class="src">출처: Figure 분기 보도자료(8-K Ex.99.1). 3Q26부터 Kiavi(9월분 $677M) 포함, 4Q26은 가이던스 중간값 $6.45B</div>
+    </div>
+    <div class="fig">
+      <div class="ft">3Q26 순매출 $287.1M은 어디서 나오나</div>
+      <div style="display:grid;gap:12px">
+        <div class="seg" role="img" aria-label="생태계·기술 수수료 38퍼센트, 매각이익 20퍼센트, 서비싱 자산 이익 14퍼센트, 이자수익 10퍼센트, 취급수수료 10퍼센트, 서비싱 수수료 6퍼센트, 기타 1퍼센트">
+          <div style="flex:109.8;background:var(--s1)">38%</div>
+          <div style="flex:57.8;background:var(--s2)">20%</div>
+          <div style="flex:39.4;background:var(--s3)">14%</div>
+          <div style="flex:30.0;background:var(--past)" class="dark">10%</div>
+          <div style="flex:28.2;background:var(--past)" class="dark">10%</div>
+          <div style="flex:18.4;background:var(--past)" class="dark"></div>
+          <div style="flex:3.6;background:var(--past)"></div>
+        </div>
+        <div class="tblwrap"><table>
+          <thead><tr><th>항목</th><th class="r">3Q26</th><th class="r">3Q25</th><th>뜻</th></tr></thead>
+          <tbody>
+            <tr><td><i class="sw" style="background:var(--s1)"></i> 생태계·기술 수수료</td><td class="r">$109.8M</td><td class="r">$35.7M</td><td>LOS 사용료와 Connect 거래 수수료. 은행 볼륨이 들어오는 곳</td></tr>
+            <tr><td><i class="sw" style="background:var(--s2)"></i> 대출 매각이익</td><td class="r">$57.8M</td><td class="r">$62.6M</td><td>Figure가 직접 보유했다 판 대출의 차익</td></tr>
+            <tr><td><i class="sw" style="background:var(--s3)"></i> 서비싱 자산 이익</td><td class="r">$39.4M</td><td class="r">$9.3M</td><td>새로 생긴 서비싱 권리의 가치</td></tr>
+            <tr><td>이자수익</td><td class="r">$30.0M</td><td class="r">$13.4M</td><td>매각 전 보유 대출의 이자</td></tr>
+            <tr><td>취급수수료</td><td class="r">$28.2M</td><td class="r">$21.4M</td><td>대출자가 내는 실행 수수료</td></tr>
+            <tr><td>서비싱 수수료</td><td class="r">$18.4M</td><td class="r">$7.9M</td><td>대출 관리 대가</td></tr>
+            <tr><td>기타</td><td class="r">$3.6M</td><td class="r">$6.0M</td><td>유가증권·기타</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="src">출처: 3Q26 보도자료·10-Q 손익계산서. 조정 EBITDA $163.6M(마진 58%)</div>
+    </div>
+  </div>
+
+  <div class="fig">
+    <div class="ft">채널별로 누가 무엇을 하나</div>
+    <div class="tblwrap"><table class="w7">
+      <thead><tr><th>채널</th><th>고객 확보</th><th>자금·보유</th><th>브랜드</th><th>Figure가 받는 것</th><th>Figure 자본</th></tr></thead>
+      <tbody>
+        <tr><td><b>Figure 직판</b></td><td>Figure(광고·리드 구매)</td><td>Figure가 실행 후 매각</td><td>Figure</td><td>취급수수료·매각이익·서비싱</td><td>사용</td></tr>
+        <tr><td><b>파트너 브랜드</b> (중개·화이트라벨)</td><td>파트너</td><td>Figure 또는 파트너</td><td>파트너 또는 공동</td><td>원금 기준 LOS 수수료 + 위 항목 일부</td><td>일부</td></tr>
+        <tr><td><b>Figure Connect</b></td><td>파트너</td><td>파트너가 자기 돈으로 실행 → Connect에서 매각 또는 보유</td><td>파트너(풀 화이트라벨 4Q26)</td><td>거래 수수료(볼륨 구간별 요금)</td><td>거의 0</td></tr>
+      </tbody>
+    </table></div>
+    <div class="legend" style="gap:8px 20px"><span>파트너 수 250(IPO) → 307 → 387 → 489 → 612</span><span>Connect 비중 42%(2Q25) → 72%(3Q26)</span><span>총 테이크레이트 3.9%, 순 3.5%</span><span>고객획득비용 0.4%p</span></div>
+    <div class="src">출처: FY2025 10-K, 2Q26·3Q26 실적콜, Figure 파트너 페이지. 파트너 계약은 선불 비용 없이 실행분에 대해서만 수수료</div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section id="los-vs-connect">
+  <div class="sec-head">
+    <div class="idx">06 · LOS만으로는 반쪽인 이유</div>
+    <h2>공장만 고치면 창고가 막힌다</h2>
+  </div>
+  <div class="fig">
+    <div class="ft">03에서 본 은행의 문제를 무엇이 푸는가</div>
+    <div class="tblwrap"><table class="mx">
+      <thead><tr><th>은행의 문제</th><th>Figure LOS</th><th>Figure Connect</th><th>근거 숫자</th></tr></thead>
+      <tbody>
+        <tr><td>건당 원가·처리기간</td><td class="y">해결</td><td class="n">해당 없음</td><td>$4,600·39일 → $717~750·중위 10일</td></tr>
+        <tr><td>낮은 인출률</td><td class="y">해결</td><td class="n">해당 없음</td><td>36% → 실행 시 전액 인출 상품</td></tr>
+        <tr><td>위험가중치 100%</td><td class="n">그대로</td><td class="y">매각하면 0</td><td>AAA 재매입 시 20%(SSFA 하한)</td></tr>
+        <tr><td>고정금리 금리위험</td><td class="n">오히려 증가</td><td class="y">매각으로 제거</td><td>금리 +1%p → 배정 자본 −31%(예시)</td></tr>
+        <tr><td>집중도 한도</td><td class="n">더 빨리 도달</td><td class="y">초과분 매각</td><td>HELOC 10% 이상 은행 153곳</td></tr>
+        <tr><td>CECL 첫날 충당금</td><td class="n">그대로</td><td class="y">매각 시 없음</td><td>보유 시 평생손실 0.5~2%를 첫날 비용 처리</td></tr>
+        <tr><td>출구(유동성)</td><td class="n">없음</td><td class="y">다음 날 인수</td><td>2순위엔 GSE가 없다</td></tr>
+        <tr><td>남는 예금의 운용처</td><td class="n">자기 고객만</td><td class="y">전국 HELOC 매입</td><td>예대율 70% 미만 1,237곳, 예금 $11.5조</td></tr>
+      </tbody>
+    </table></div>
+    <div class="src">근거: 03·04 섹션 출처, 미국 자본규칙 SSFA(증권화 익스포저 위험가중치 하한 20%), FIGRE 2026-HF11 신용보강(DBRS)</div>
+  </div>
+  <div class="note"><b>핵심:</b> LOS만 쓰는 은행은 자기 장부가 받아줄 만큼만 만들 수 있습니다. 은행 HELOC 잔액이 저점 대비 18%만 늘 동안 시장은 52% 늘었다는 사실이 이 천장을 보여 줍니다. 1순위 모기지에서 은행이 고객 수요만큼 대출을 만들 수 있는 이유는 Fannie·Freddie라는 출구가 있어서입니다. Connect는 2순위에서 그 역할을 합니다. CEO 표현으로는 "예금기관은 Fannie Mae와 Freddie Mac의 큰 고객이다… 그들은 Connect를 원한다."</div>
+</section>
+
+<!-- 07 -->
+<section id="deviation">
+  <div class="sec-head">
+    <div class="idx">07 · Connect를 쓸 수익 동기</div>
+    <h2>은행 유형별로 Connect가 돈이 되는 지점</h2>
+    <p class="q">같은 Connect라도 은행마다 쓰는 방향이 다르다. 그래서 시장이 생긴다.</p>
+  </div>
+
+  <div class="case">
+    <div class="ch"><span class="tag">사례 A · 사는 은행</span><h3>예금은 남는데 HELOC를 직접 못 만드는 은행</h3></div>
+    <div class="kv">
+      <div><b class="num">1,237곳</b><span>예대율 70% 미만 은행 (예금 $11.5조)</span></div>
+      <div><b class="num">718곳</b><span>그중 HELOC가 대출의 1% 미만 (예금 $8.5조)</span></div>
+      <div><b class="num">3.90%</b><span>남는 돈을 연준에 맡길 때 금리(IORB)</span></div>
+    </div>
+    <div class="grid2">
+      <div class="fig" style="background:var(--bg)">
+        <div class="ft">인출 잔액 $1을 확보하는 비용</div>
+        <div class="fs">직접 만들기는 건당 원가 ÷ 실행 시 인출 잔액(평균 한도 $133.8K × 36% = $48.2K). 사기는 Figure가 통매각에서 실현한 프리미엄.</div>
+        <div class="cv h260"><canvas id="cCost" role="img" aria-label="직접 실행 2.1에서 9.5퍼센트, Connect 매입 2.6에서 2.9퍼센트"></canvas></div>
+        <div class="src">출처: Curinos(건당 $1,000~2,500), MBA(~$4,600), 2025 HMDA(한도 $124.4B ÷ 929,780건), Figure 10-K(통매각이익 2024년 $105M/$4B, 2025년 $145M/$5B)</div>
+      </div>
+      <div class="fig" style="background:var(--bg)">
+        <div class="ft">Connect에서 Figure HELOC를 사면 ROE는?</div>
+        <div class="calc">
+          <div class="ctl">
+            <label for="iCoupon"><span class="row"><span>대출 금리</span><output id="oCoupon">8.55%</output></span><input id="iCoupon" type="range" min="6" max="10.5" step="0.05" value="8.55"></label>
+            <label for="iPrem"><span class="row"><span>매입 프리미엄</span><output id="oPrem">2.90%</output></span><input id="iPrem" type="range" min="0" max="5" step="0.1" value="2.9"></label>
+            <label for="iFund"><span class="row"><span>은행 조달금리</span><output id="oFund">4.00%</output></span><input id="iFund" type="range" min="1.5" max="5.5" step="0.05" value="4"></label>
+            <label for="iLoss"><span class="row"><span>연 손실률</span><output id="oLoss">0.50%</output></span><input id="iLoss" type="range" min="0" max="2.5" step="0.05" value="0.5"></label>
+          </div>
+          <div class="out">
+            <div class="eyebrow">세후 ROE</div>
+            <div class="big num" id="oRoe">23.1%</div>
+            <div class="ink2" style="font-size:13px" id="oNet">순수익률 7.08% · 자본 10.5%</div>
+            <div class="cmp">
+              <div class="r"><span>Figure HELOC 매입</span><div class="bar"><i id="bRoe" style="background:var(--s1);width:50%"></i></div><span id="vRoe">23.1%</span></div>
+              <div class="r"><span>은행 업계 평균</span><div class="bar"><i style="background:var(--past);width:28.4%"></i></div><span>13.1%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="src">기본값: 금리 8.55%(FIGRE 2026-HF11 가중평균), 프리미엄 2.9%(Figure 2025 통매각 마진), 조달 4.00%(한계·만기매칭 가정; 업계 평균 2.02%), 서비싱 0.25%, 평균 만기 4년, 위험가중치 100% × 자본 10.5%, 세율 21%. 업계 ROE는 FDIC 2026 상반기 연율.</div>
+      </div>
+    </div>
+    <ul class="pts">
+      <li><b>직접 만드는 것보다 싸다.</b> 인출 잔액 $1당 직접 실행은 2.1~9.5%, Connect 매입은 2.6~2.9%입니다. 그리고 산 대출은 첫날부터 전액 인출돼 이자를 냅니다.</li>
+      <li><b>ROE가 업계 평균의 1.8~2.9배.</b> 조달 4.0%면 세후 ROE 23%, 업계 평균 조달 2.02%면 38%입니다. 업계 평균은 13.1%입니다. 연준에 맡기는 3.90% 대비 순수익률이 약 3.2%p 높습니다.</li>
+      <li><b>이미 일어나고 있다.</b> 2026년 10월 Figure는 $346M 증권화를 접고 통매각을 택했습니다. 이유는 예금기관의 강한 매수 수요였습니다(HELN). 2Q26 콜에서도 대형 예금기관이 "익스포저 관리와 CRA 적격 자산 매입"을 위해 Connect를 쓰려 한다고 했습니다.</li>
+    </ul>
+  </div>
+
+  <div class="case">
+    <div class="ch"><span class="tag">사례 B · 파는 은행</span><h3>HELOC를 많이 하는데 장부가 꽉 찬 은행</h3></div>
+    <div class="kv">
+      <div><b class="num">153곳</b><span>HELOC가 대출의 10% 이상 (잔액 $36.2B)</span></div>
+      <div><b class="num">13.5%</b><span>Citizens의 HELOC/대출, 2021년 이후 +73%</span></div>
+      <div><b class="num">2.6~2.9%</b><span>매각 시 첫날 실현 프리미엄(Figure 실적 기준)</span></div>
+    </div>
+    <p class="ink2">ROE 23%짜리 자산을 왜 파는가. 세 가지 제약이 걸리기 때문입니다.</p>
+    <ul class="pts">
+      <li><b>금리위험:</b> 고정금리 HELOC를 계속 쌓으면 금리 1%p 상승에 배정 자본의 약 31%가 평가손실로 노출됩니다(예시). 매각하면 0입니다.</li>
+      <li><b>집중도·자본:</b> HELOC는 위험가중치 100%이고 감독당국은 홈에쿼티 집중도를 봅니다. 한도에 닿은 은행이 계속 실행하려면 초과분을 팔아야 합니다.</li>
+      <li><b>CECL:</b> 보유하는 순간 평생 예상손실(0.5~2%)을 첫날 충당금으로 쌓아 이익이 줄어듭니다. 매각하면 첫날 프리미엄이 이익으로 들어옵니다.</li>
+      <li><b>고객은 지킨다:</b> 4Q26부터 풀 화이트라벨 Connect로 은행 브랜드를 앞뒤로 유지합니다. 서비싱도 은행이 직접 할 수 있다고 경영진이 밝혔습니다.</li>
+    </ul>
+  </div>
+
+  <div class="case">
+    <div class="ch"><span class="tag">사례 C · 안 하던 은행</span><h3>모기지 고객은 있는데 HELOC가 없는 은행</h3></div>
+    <div class="kv">
+      <div><b class="num">872곳</b><span>HELOC 0인데 1순위 모기지는 보유</span></div>
+      <div><b class="num">2.6배</b><span>Figure 도입 파트너의 HELOC 실행, 도입 전 추세 대비(185곳, 회사 분석)</span></div>
+      <div><b class="num">$0</b><span>도입 비용. 실행분에만 수수료</span></div>
+    </div>
+    <ul class="pts">
+      <li><b>대차대조표 0으로 시작:</b> 자기 브랜드로 Figure LOS에서 실행하고 Connect에서 다음 날 팝니다. 위험가중치·금리위험·CECL 없이 수수료와 고객 관계만 남습니다.</li>
+      <li><b>부분 보유도 가능:</b> 증권화에 넘기고 AAA 트랜치만 되사면 위험가중치가 100%에서 20%로 내려갑니다(AAA 아래 신용보강 약 32%).</li>
+      <li><b>대형 3사도 같은 위치:</b> JPM·Wells·Citi의 HELOC는 대출의 0.78%입니다. 고객 이탈을 막는 가장 싼 방법은 직접 공장을 다시 짓는 것이 아니라 공장과 출구를 빌리는 것입니다.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 08 -->
+<section id="size">
+  <div class="sec-head">
+    <div class="idx">08 · 얼마나 큰가</div>
+    <h2>은행이 Connect에 들어오면 생기는 숫자</h2>
+  </div>
+  <div class="grid3">
+    <div class="card"><div class="k"><b class="num">+$97B</b></div><p>은행이 2021년 말 점유율(약 84%)을 되찾을 때 늘어날 HELOC 잔액. 0.84 × $481B − $307.5B</p></div>
+    <div class="card"><div class="k"><b class="num">+$46B ~ +$176B</b></div><p>JPM·Wells·Citi가 업계 평균(2.18%)~PNC 수준(6.1%)으로 HELOC를 늘릴 때</p></div>
+    <div class="card"><div class="k"><b class="num">95%</b></div><p>Citizens 한 곳의 2025년 HELOC 실행($7.9B)이 Figure 2025년 HELOC 볼륨($8.3B)에서 차지하는 크기</p></div>
+  </div>
+  <div class="fig">
+    <div class="ft">예금기관 HELOC 실행이 Figure 위로 옮겨오면 (연간, 예시)</div>
+    <div class="tblwrap"><table>
+      <thead><tr><th>예금기관 연간 실행</th><th class="r">침투율</th><th class="r">추가 볼륨</th><th class="r">현 런레이트 대비</th><th class="r">추가 매출 1% / 2% / 3%</th></tr></thead>
+      <tbody>
+        <tr><td>~$100B (HMDA 기준, 보수)</td><td class="r">5%</td><td class="r">$5.0B</td><td class="r">+25%</td><td class="r">$50M / $100M / $150M</td></tr>
+        <tr><td>~$100B</td><td class="r">10%</td><td class="r">$10.0B</td><td class="r">+49%</td><td class="r">$100M / $200M / $300M</td></tr>
+        <tr><td>~$167B (애널리스트 추정)</td><td class="r">10%</td><td class="r">$16.7B</td><td class="r">+82%</td><td class="r">$167M / $334M / $501M</td></tr>
+        <tr><td>~$167B</td><td class="r">20%</td><td class="r">$33.4B</td><td class="r">+164%</td><td class="r">$334M / $668M / $1,002M</td></tr>
+      </tbody>
+    </table></div>
+    <div class="src">현 런레이트: 3Q26 단독 볼륨 $5.1B × 4 = $20.4B. 은행 채널 수수료율 1~3%는 가정(Connect HELOC 총 테이크레이트 가이던스 2.9~3.4%, 은행은 더 낮게 낸다는 경영진 발언 반영). 매수 측 은행의 거래 수수료는 별도로 붙는다.</div>
+  </div>
+</section>
+
+<!-- 09 -->
+<section id="risks">
+  <div class="sec-head">
+    <div class="idx">09 · 반론과 확인할 것</div>
+    <h2>이 논리가 틀릴 수 있는 곳</h2>
+  </div>
+  <div class="fig">
+    <div class="tblwrap"><table>
+      <thead><tr><th>반론</th><th>현재 숫자</th><th>확인할 지표</th></tr></thead>
+      <tbody>
+        <tr><td>은행은 느리다</td><td>예금기관 파트너 20곳 이상, 대형은 Flagstar 하나. 경영진도 "영업 주기가 더 느리다"고 인정</td><td>대형 은행 이름 공개, 풀 화이트라벨 Connect 첫 고객(4Q26 콜)</td></tr>
+        <tr><td>은행은 수수료를 깎는다</td><td>순 테이크레이트 4.4% → 3.5%(1년)</td><td>채널별 공헌이익률(4Q26 콜 공개 예정)</td></tr>
+        <tr><td>2순위는 위기에 약하다</td><td>2009Q4 은행 HELOC 순상각 3.14%. 비은행 HELOC 30일 이상 연체 2.4% vs 예금기관 1.4%(단순 비교)</td><td>FIGRE 증권화 연체율, 매수 프리미엄 변화</td></tr>
+        <tr><td>매수자가 몰려 있다</td><td>상위 3개 매수자가 2025년 매각의 57%, 상위 10개 파트너가 실행의 56%</td><td>은행 매수자 참여로 분산되는지</td></tr>
+        <tr><td>평판·규제</td><td>공매도 리포트(2026-04): 권원조사 생략, 전액 인출 상품의 open-end 분류 위험. 10-K: 파트너의 감독당국이 거래 제한을 요구할 수 있음</td><td>CFPB 동향, 제3자 위험관리 가이던스 개편안(2026-09) 확정 여부</td></tr>
+        <tr><td>대형 은행이 직접 짓는다</td><td>Chase는 자체 재출시</td><td>Chase·Wells HELOC 잔액 추이(FDIC 분기)</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<footer>
+  <div class="eyebrow">출처</div>
+  <ol>
+    <li>FDIC BankFind Suite API (RIS) — LNRELOC, UCLOC, NTRELOCQ, P9RELOC, LNLSGR, DEP, EINTXQ, INTINQ, ERNAST, NETINC, EQ. 2000Q1~2026Q2, 전 기관 직접 집계 (api.fdic.gov/banks/financials)</li>
+    <li>NY Fed, Household Debt and Credit Report 2026Q3 (2026-11-10)</li>
+    <li>Figure Technology Solutions: FY2025 10-K, 3Q26 10-Q, 2Q26·3Q26 보도자료(8-K Ex.99.1), 2Q26·3Q26 실적콜, 파트너 페이지</li>
+    <li>MBA Home Equity Lending Study; HELN·Curinos 등 공동 백서 "Reversing the Tide: Scaling Bank HELOC Lending"(HousingWire 2026-09-14 요약)</li>
+    <li>Curinos: Home Equity Speed Matters(2026-03-29), Unlocking Today's Home Equity Market(2026-08-19)</li>
+    <li>HELN News: 2025 HMDA 홈에쿼티 순위(2026-10-07), Figure 통매각 기사(2026-10-22)</li>
+    <li>Morningstar DBRS / American Banker ASR: FIGRE Trust 2026-HE4·HE9·HF11; BofA Securities 2순위 발행 전망(2026-07)</li>
+    <li>OCC·FDIC·Fed Basel III 재제안(2026-03-27); 연준 SR 05-11(홈에쿼티 신용위험 가이던스); OCC Bulletin 2014-29(인출기간 종료)</li>
+    <li>Federal Reserve FOMC 성명(2026-09-16, 2026-10-28), G.19 소비자신용; Bankrate HELOC 금리(2026-11-11)</li>
+    <li>Banking Dive·HousingWire(Chase 재출시 2025-08), Inman(Wells Fargo 자산 상한 해제 2025-06), FHFA(Freddie Mac 2순위 시범사업)</li>
+    <li>Ottavi Substack(2026-02, 2026-11), Morpheus Research 공매도 리포트(2026-04-16)</li>
+  </ol>
+  <p class="muted">예시 계산(ROE, 듀레이션, 시나리오)은 표시된 가정에 따른 것이며 회사 공시가 아닙니다. "은행 보유 비중 84% → 67%"는 FDIC 은행 잔액을 NY Fed 전체 잔액으로 나눈 추정치로, 두 통계의 집계 범위가 다릅니다.</p>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+(function(){
+const TS=[["2000Q1",127.7,158.5,0.15,2.94],["2000Q2",136.5,167.2,0.12,3.03],["2000Q3",144.8,170.3,0.17,3.14],["2000Q4",150.8,178.5,0.22,3.24],["2001Q1",154.5,193.4,0.22,3.29],["2001Q2",161.0,204.2,0.13,3.4],["2001Q3",173.9,205.8,0.23,3.67],["2001Q4",184.4,214.7,0.33,3.86],["2002Q1",199.7,210.7,0.17,4.19],["2002Q2",223.7,236.1,0.17,4.63],["2002Q3",240.2,244.1,0.16,4.84],["2002Q4",256.5,256.7,0.17,5.06],["2003Q1",276.2,274.2,0.16,5.38],["2003Q2",295.4,287.0,0.17,5.61],["2003Q3",314.9,308.9,0.12,5.89],["2003Q4",346.1,326.3,0.21,6.36],["2004Q1",376.5,403.0,0.12,6.77],["2004Q2",415.8,435.0,0.11,7.18],["2004Q3",459.8,458.0,0.09,7.67],["2004Q4",490.7,477.1,0.09,8.0],["2005Q1",508.0,504.9,0.08,8.18],["2005Q2",533.9,540.5,0.08,8.32],["2005Q3",538.2,563.9,0.09,8.17],["2005Q4",534.3,586.8,0.1,7.94],["2006Q1",530.7,613.1,0.12,7.72],["2006Q2",556.2,635.5,0.11,7.87],["2006Q3",554.9,656.1,0.13,7.73],["2006Q4",559.3,668.2,0.19,7.72],["2007Q1",556.8,688.5,0.24,7.64],["2007Q2",576.7,704.0,0.31,7.71],["2007Q3",591.4,717.2,0.47,7.66],["2007Q4",611.4,718.2,0.83,7.72],["2008Q1",624.9,708.9,1.52,7.82],["2008Q2",646.9,677.6,2.0,8.07],["2008Q3",652.1,653.2,1.76,8.14],["2008Q4",668.3,627.1,1.96,8.46],["2009Q1",674.3,587.4,2.35,8.69],["2009Q2",673.0,559.4,3.04,8.8],["2009Q3",667.6,538.8,3.06,8.97],["2009Q4",661.6,522.3,3.14,9.05],["2010Q1",659.7,514.3,3.13,8.76],["2010Q2",654.1,505.4,2.66,8.81],["2010Q3",647.9,497.1,2.51,8.74],["2010Q4",636.7,485.8,2.31,8.59],["2011Q1",623.8,484.5,2.23,8.56],["2011Q2",615.3,477.6,2.17,8.37],["2011Q3",608.3,467.9,2.03,8.24],["2011Q4",604.1,461.2,1.83,8.04],["2012Q1",591.1,459.8,1.98,7.92],["2012Q2",580.0,452.1,1.74,7.66],["2012Q3",566.8,442.6,2.94,7.43],["2012Q4",554.1,436.8,1.79,7.15],["2013Q1",538.1,434.8,1.45,6.97],["2013Q2",527.7,428.8,1.11,6.77],["2013Q3",516.7,425.0,0.89,6.57],["2013Q4",509.5,422.8,0.9,6.4],["2014Q1",502.1,423.3,0.72,6.28],["2014Q2",499.2,419.1,0.6,6.1],["2014Q3",496.1,417.2,0.5,6.03],["2014Q4",492.3,415.0,0.56,5.88],["2015Q1",483.9,416.7,0.46,5.74],["2015Q2",477.9,412.9,0.39,5.55],["2015Q3",471.5,410.7,0.36,5.41],["2015Q4",465.3,411.2,0.35,5.22],["2016Q1",457.5,415.4,0.33,5.08],["2016Q2",452.3,415.3,0.28,4.92],["2016Q3",444.3,415.6,0.23,4.78],["2016Q4",434.1,415.6,0.24,4.63],["2017Q1",430.0,420.7,0.21,4.59],["2017Q2",424.0,420.5,0.13,4.45],["2017Q3",417.3,419.3,0.16,4.33],["2017Q4",411.2,419.0,0.08,4.2],["2018Q1",398.4,422.3,0.11,4.06],["2018Q2",389.1,420.4,0.03,3.92],["2018Q3",381.6,421.8,-0.01,3.81],["2018Q4",375.6,423.3,-0.01,3.67],["2019Q1",365.4,429.6,0.05,3.58],["2019Q2",358.5,430.3,-0.18,3.46],["2019Q3",349.9,430.0,-0.14,3.34],["2019Q4",342.1,430.1,-0.01,3.23],["2020Q1",338.3,428.5,-0.01,3.06],["2020Q2",324.5,434.2,-0.03,2.93],["2020Q3",312.9,429.3,-0.04,2.85],["2020Q4",300.3,425.1,-0.12,2.75],["2021Q1",286.1,425.8,-0.14,2.63],["2021Q2",277.9,427.0,-0.2,2.54],["2021Q3",270.3,427.1,-0.23,2.46],["2021Q4",265.1,427.0,-0.11,2.34],["2022Q1",261.3,433.6,-0.19,2.29],["2022Q2",266.8,437.7,-0.17,2.25],["2022Q3",270.6,445.8,-0.14,2.24],["2022Q4",273.0,450.6,-0.09,2.22],["2023Q1",269.8,458.8,-0.07,2.19],["2023Q2",269.1,459.3,-0.07,2.17],["2023Q3",269.3,457.8,-0.05,2.17],["2023Q4",271.6,455.4,-0.05,2.17],["2024Q1",270.4,458.0,-0.04,2.16],["2024Q2",274.0,454.9,-0.05,2.17],["2024Q3",277.1,452.4,-0.05,2.18],["2024Q4",281.6,448.7,-0.01,2.19],["2025Q1",282.4,451.6,-0.03,2.19],["2025Q2",289.8,449.3,-0.04,2.2],["2025Q3",294.7,445.8,-0.03,2.21],["2025Q4",299.7,442.5,-0.02,2.2],["2026Q1",300.9,444.4,-0.01,2.18],["2026Q2",307.5,443.1,-0.02,2.18]];
+const BANKS=[["Bank of America",119.7,26.9],["JPMorgan Chase",110.5,13.8],["Wells Fargo",68.9,9.5],["Citibank",31.8,2.5],["U.S. Bank",15.2,11.2],["Citizens",12.0,20.1],["PNC",8.3,22.7],["Truist",5.6,9.7],["TD Bank",5.1,7.5],["Huntington",4.9,9.6]];
+const DIST=[["0%",1050],["1% 미만",846],["1~3%",1038],["3~5%",675],["5~10%",551],["10% 이상",153]];
+const VOL=[["1Q25",1.365,0.478],["2Q25",1.838,0.767],["3Q25",2.469,1.131],["4Q25",2.7,1.5],["1Q26",2.902,1.612],["2Q26",4.259,2.773],["3Q26",5.796,4.259],["4Q26E",6.45,null]];
+const YIELD=[["은행 평균 조달비용",2.02],["연준 지준금리(IORB)",3.90],["은행 평균 운용수익률",5.31],["HELOC 평균 금리",7.49],["Figure HELOC 증권화 금리",8.55]];
+const COST=[["직접 실행 · Curinos 하단",2.08],["직접 실행 · Curinos 상단",5.19],["직접 실행 · MBA 전체원가",9.55],["Connect 매입 · 2024 실적",2.63],["Connect 매입 · 2025 실적",2.90]];
+const PHASES=[["2000Q1","2008Q2","붐"],["2008Q3","2012Q4","손실"],["2013Q1","2021Q4","축소"],["2022Q1","2026Q2","회복"]];
+
+function tok(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim();}
+function fmt(v,d){return Number(v).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});}
+
+// tables (static, built once)
+(function(){
+  const t=document.getElementById('tBal'); if(t){let h='<thead><tr><th>연말</th><th class="r">인출 잔액 $B</th><th class="r">미사용 한도 $B</th><th class="r">인출률</th><th class="r">순상각률</th><th class="r">대출 대비</th></tr></thead><tbody>';
+    TS.filter(r=>r[0].endsWith('Q4')||r[0]==='2026Q2').forEach(r=>{h+=`<tr><td>${r[0]}</td><td class="r">${fmt(r[1],1)}</td><td class="r">${fmt(r[2],1)}</td><td class="r">${fmt(r[1]/(r[1]+r[2])*100,1)}%</td><td class="r">${fmt(r[3],2)}%</td><td class="r">${fmt(r[4],2)}%</td></tr>`});
+    t.innerHTML=h+'</tbody>';}
+  const b=document.getElementById('tBanks'); if(b){let h='<thead><tr><th>은행</th><th class="r">2009Q2 $B</th><th class="r">2026Q2 $B</th><th class="r">변화</th></tr></thead><tbody>';
+    BANKS.forEach(r=>{h+=`<tr><td>${r[0]}</td><td class="r">${fmt(r[1],1)}</td><td class="r">${fmt(r[2],1)}</td><td class="r">${r[2]>=r[1]?'+':''}${fmt((r[2]/r[1]-1)*100,0)}%</td></tr>`});
+    b.innerHTML=h+'</tbody>';}
+  const v=document.getElementById('tVol'); if(v){let h='<thead><tr><th>분기</th><th class="r">전체 $B</th><th class="r">Connect $B</th><th class="r">Connect 비중</th></tr></thead><tbody>';
+    VOL.forEach(r=>{h+=`<tr><td>${r[0]}</td><td class="r">${fmt(r[1],2)}</td><td class="r">${r[2]==null?'–':fmt(r[2],2)}</td><td class="r">${r[2]==null?'–':fmt(r[2]/r[1]*100,0)+'%'}</td></tr>`});
+    v.innerHTML=h+'</tbody>';}
+})();
+
+// calculator
+function calc(){
+  const c=+iCoupon.value,p=+iPrem.value,f=+iFund.value,l=+iLoss.value;
+  oCoupon.textContent=c.toFixed(2)+'%';oPrem.textContent=p.toFixed(2)+'%';oFund.textContent=f.toFixed(2)+'%';oLoss.textContent=l.toFixed(2)+'%';
+  const net=c-0.25-l-p/4; const roe=(net-f)*0.79/10.5*100;
+  oRoe.textContent=fmt(roe,1)+'%'; vRoe.textContent=fmt(roe,1)+'%';
+  oNet.textContent='순수익률 '+fmt(net,2)+'% · 조달 차감 후 '+fmt(net-f,2)+'%p · 자본 10.5%';
+  const w=Math.max(0,Math.min(100,roe/46*100)); bRoe.style.width=w+'%';
+  bRoe.style.background= roe>=13.1? tok('--s1') : tok('--s2');
+}
+const iCoupon=document.getElementById('iCoupon'),iPrem=document.getElementById('iPrem'),iFund=document.getElementById('iFund'),iLoss=document.getElementById('iLoss');
+const oCoupon=document.getElementById('oCoupon'),oPrem=document.getElementById('oPrem'),oFund=document.getElementById('oFund'),oLoss=document.getElementById('oLoss'),oRoe=document.getElementById('oRoe'),oNet=document.getElementById('oNet'),vRoe=document.getElementById('vRoe'),bRoe=document.getElementById('bRoe');
+[iCoupon,iPrem,iFund,iLoss].forEach(e=>e.addEventListener('input',calc));
+
+if(typeof Chart==='undefined'){calc();return;}
+let charts=[];
+function base(){
+  const ink=tok('--ink'),ink2=tok('--ink-2'),muted=tok('--muted'),line=tok('--line'),baseC=tok('--base');
+  Chart.defaults.font.family=tok('--sans');Chart.defaults.font.size=12;Chart.defaults.color=muted;
+  return {ink,ink2,muted,line,baseC,
+    tooltip:{backgroundColor:tok('--surface'),titleColor:ink,bodyColor:ink2,borderColor:line,borderWidth:1,padding:10,displayColors:true,boxWidth:8,boxHeight:8,usePointStyle:true}};
+}
+function build(){
+  charts.forEach(c=>c.destroy());charts=[];
+  const B=base(); const s1=tok('--s1'),s2=tok('--s2'),s3=tok('--s3'),past=tok('--past'),band=tok('--band'),surface=tok('--surface');
+  const grid={color:B.line,drawTicks:false},border={color:B.baseC};
+  const labels=TS.map(r=>r[0]);
+
+  // phase band plugin
+  const bands={id:'bands',beforeDatasetsDraw(ch){const {ctx,chartArea:a,scales:{x}}=ch;ctx.save();
+    PHASES.forEach((p,i)=>{const i0=labels.indexOf(p[0]),i1=labels.indexOf(p[1]);const x0=x.getPixelForValue(i0)-2,x1=x.getPixelForValue(i1)+2;
+      if(i%2===0){ctx.fillStyle=band;ctx.fillRect(x0,a.top,x1-x0,a.bottom-a.top);}
+      ctx.fillStyle=B.muted;ctx.font='500 11px '+tok('--sans');ctx.textAlign='left';ctx.fillText((i+1)+' '+p[2],x0+4,a.top-8);});
+    ctx.restore();}};
+  const endLbl={id:'endLbl',afterDatasetsDraw(ch){const {ctx}=ch;const m=ch.getDatasetMeta(0);const pk=TS.reduce((a,r,i)=>r[1]>TS[a][1]?i:a,0);
+    const pts=[[pk,'$674B 정점'],[labels.indexOf('2022Q1'),'$261B 저점'],[TS.length-1,'$307.5B']];
+    ctx.save();ctx.font='600 11.5px '+tok('--sans');ctx.fillStyle=B.ink;
+    pts.forEach(([i,t],k)=>{const el=m.data[i];if(!el)return;ctx.beginPath();ctx.arc(el.x,el.y,4,0,Math.PI*2);ctx.fillStyle=s1;ctx.fill();ctx.lineWidth=2;ctx.strokeStyle=surface;ctx.stroke();
+      ctx.fillStyle=B.ink;ctx.textAlign=k===2?'right':(k===0?'left':'center');ctx.fillText(t,el.x+(k===0?8:(k===2?-6:0)),el.y+(k===1?18:-10));});
+    ctx.restore();}};
+  charts.push(new Chart(document.getElementById('cBal'),{type:'line',data:{labels,datasets:[{label:'인출 잔액',data:TS.map(r=>r[1]),borderColor:s1,backgroundColor:s1+'1a',fill:true,borderWidth:2,pointRadius:0,pointHoverRadius:5,tension:.25}]},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},layout:{padding:{top:22,right:8}},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:(c)=>{const r=TS[c.dataIndex];return [` 인출 잔액 $${fmt(r[1],1)}B`,` 미사용 한도 $${fmt(r[2],1)}B`,` 대출 대비 ${fmt(r[4],2)}%`];}}}},
+      scales:{x:{grid:{display:false},border,ticks:{autoSkip:false,maxRotation:0,callback:(v,i)=>labels[i].endsWith('Q1')&&(+labels[i].slice(0,4))%4===0?labels[i].slice(0,4):''}},
+              y:{grid,border:{display:false},min:0,max:750,ticks:{stepSize:150,callback:v=>'$'+v+'B'}}}},plugins:[bands,endLbl]}));
+
+  charts.push(new Chart(document.getElementById('cNco'),{type:'line',data:{labels,datasets:[{label:'순상각률',data:TS.map(r=>r[3]),borderColor:s1,borderWidth:2,pointRadius:0,pointHoverRadius:5,tension:.2}]},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>` 순상각률 ${fmt(c.raw,2)}%`}}},
+      scales:{x:{grid:{display:false},border,ticks:{autoSkip:false,maxRotation:0,callback:(v,i)=>labels[i].endsWith('Q1')&&(+labels[i].slice(0,4))%6===0?labels[i].slice(0,4):''}},
+              y:{grid,border:{display:false},min:-0.5,max:3.5,ticks:{stepSize:0.5,callback:v=>v+'%'}}}}}));
+
+  charts.push(new Chart(document.getElementById('cBanks'),{type:'bar',data:{labels:BANKS.map(b=>b[0]),datasets:[
+      {label:'2009Q2',data:BANKS.map(b=>b[1]),backgroundColor:past,borderRadius:4,borderSkipped:'start',maxBarThickness:12,categoryPercentage:.78,barPercentage:.92},
+      {label:'2026Q2',data:BANKS.map(b=>b[2]),backgroundColor:s1,borderRadius:4,borderSkipped:'start',maxBarThickness:12,categoryPercentage:.78,barPercentage:.92}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>` ${c.dataset.label} $${fmt(c.raw,1)}B`,afterBody:(it)=>{const b=BANKS[it[0].dataIndex];return ` 변화 ${b[2]>=b[1]?'+':''}${fmt((b[2]/b[1]-1)*100,0)}%`;}}}},
+      scales:{x:{grid,border:{display:false},min:0,max:120,ticks:{stepSize:20,callback:v=>'$'+v+'B'}},y:{grid:{display:false},border,ticks:{color:B.ink2}}}}}));
+
+  charts.push(new Chart(document.getElementById('cDist'),{type:'bar',data:{labels:DIST.map(d=>d[0]),datasets:[{label:'은행 수',data:DIST.map(d=>d[1]),backgroundColor:DIST.map((d,i)=>i<2?s2:s1),borderRadius:4,borderSkipped:'start',maxBarThickness:24}]},
+    options:{responsive:true,maintainAspectRatio:false,layout:{padding:{top:18}},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>` ${fmt(c.raw,0)}곳 (${fmt(c.raw/4313*100,1)}%)`}}},
+      scales:{x:{grid:{display:false},border,ticks:{color:B.ink2}},y:{grid,border:{display:false},min:0,max:1200,ticks:{stepSize:300}}}},
+    plugins:[{id:'vals',afterDatasetsDraw(ch){const {ctx}=ch;ctx.save();ctx.font='600 11.5px '+tok('--sans');ctx.fillStyle=B.ink;ctx.textAlign='center';
+      ch.getDatasetMeta(0).data.forEach((el,i)=>ctx.fillText(fmt(DIST[i][1],0),el.x,el.y-6));ctx.restore();}}]}));
+
+  charts.push(new Chart(document.getElementById('cYield'),{type:'bar',data:{labels:YIELD.map(y=>y[0]),datasets:[{label:'금리',data:YIELD.map(y=>y[1]),backgroundColor:YIELD.map((y,i)=>i>=3?s1:past),borderRadius:4,borderSkipped:'start',maxBarThickness:18}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,layout:{padding:{right:44}},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>` ${fmt(c.raw,2)}%`}}},
+      scales:{x:{grid,border:{display:false},min:0,max:10,ticks:{stepSize:2,callback:v=>v+'%'}},y:{grid:{display:false},border,ticks:{color:B.ink2}}}},
+    plugins:[{id:'vals',afterDatasetsDraw(ch){const {ctx}=ch;ctx.save();ctx.font='600 11.5px '+tok('--sans');ctx.fillStyle=B.ink;ctx.textAlign='left';ctx.textBaseline='middle';
+      ch.getDatasetMeta(0).data.forEach((el,i)=>ctx.fillText(fmt(YIELD[i][1],2)+'%',el.x+6,el.y));ctx.restore();}}]}));
+
+  charts.push(new Chart(document.getElementById('cVol'),{type:'bar',data:{labels:VOL.map(v=>v[0]),datasets:[
+      {label:'전체',data:VOL.map(v=>v[1]),backgroundColor:VOL.map((v,i)=>i===VOL.length-1?s1+'59':s1),borderRadius:4,borderSkipped:'start',maxBarThickness:20,categoryPercentage:.7,barPercentage:.9},
+      {label:'Connect',data:VOL.map(v=>v[2]),backgroundColor:s2,borderRadius:4,borderSkipped:'start',maxBarThickness:20,categoryPercentage:.7,barPercentage:.9}]},
+    options:{responsive:true,maintainAspectRatio:false,layout:{padding:{top:18}},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>c.raw==null?null:` ${c.dataset.label} $${fmt(c.raw,2)}B`,afterBody:(it)=>{const v=VOL[it[0].dataIndex];return v[2]?` Connect 비중 ${fmt(v[2]/v[1]*100,0)}%`:' 가이던스 $6.2~6.7B 중간값';}}}},
+      scales:{x:{grid:{display:false},border,ticks:{color:B.ink2}},y:{grid,border:{display:false},min:0,max:7,ticks:{stepSize:1,callback:v=>'$'+v+'B'}}}},
+    plugins:[{id:'vals',afterDatasetsDraw(ch){const {ctx}=ch;ctx.save();ctx.font='600 11px '+tok('--sans');ctx.fillStyle=B.ink;ctx.textAlign='center';
+      const m=ch.getDatasetMeta(0);[0,6,7].forEach(i=>{const el=m.data[i];if(el)ctx.fillText('$'+fmt(VOL[i][1],1)+'B',el.x,el.y-6);});ctx.restore();}}]}));
+
+  charts.push(new Chart(document.getElementById('cCost'),{type:'bar',data:{labels:COST.map(c=>c[0]),datasets:[{label:'비용',data:COST.map(c=>c[1]),backgroundColor:COST.map((c,i)=>i>=3?s1:s2),borderRadius:4,borderSkipped:'start',maxBarThickness:16}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,layout:{padding:{right:40}},
+      plugins:{legend:{display:false},tooltip:{...B.tooltip,callbacks:{label:c=>` 인출 $1당 ${fmt(c.raw,2)}%`}}},
+      scales:{x:{grid,border:{display:false},min:0,max:10,ticks:{stepSize:2,callback:v=>v+'%'}},y:{grid:{display:false},border,ticks:{color:B.ink2,font:{size:11.5}}}}},
+    plugins:[{id:'vals',afterDatasetsDraw(ch){const {ctx}=ch;ctx.save();ctx.font='600 11.5px '+tok('--sans');ctx.fillStyle=B.ink;ctx.textAlign='left';ctx.textBaseline='middle';
+      ch.getDatasetMeta(0).data.forEach((el,i)=>ctx.fillText(fmt(COST[i][1],1)+'%',el.x+6,el.y));ctx.restore();}}]}));
+  calc();
+}
+build();
+let t;const rebuild=()=>{clearTimeout(t);t=setTimeout(build,60);};
+try{window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',rebuild);}catch(e){}
+new MutationObserver(rebuild).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+if(document.fonts&&document.fonts.ready){document.fonts.ready.then(rebuild);}
+})();
+</script>
