@@ -3,12 +3,15 @@
 SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **투자포인트 1**을 쓰기 위한 저장소.
 이 README는 프로젝트 **허브**예요. 브랜치·자료·진행 상황을 여기서 한눈에 보고, 작업할 때마다 아래 「업데이트 규칙」대로 고쳐 주세요.
 
-- 마지막 갱신: 2026-11-17 (`claude/loving-gates-g1eba4`, 리서치 브랜치 3개를 여기로 합침)
-- **투자포인트 1을 쓰려면 먼저 → [`research/IP1_writing_guide_2026-11-17.md`](research/IP1_writing_guide_2026-11-17.md)** (논의 종합, 목차, 초안, 예상 반론, 숫자 기준)
+- 마지막 갱신: 2026-11-17 저녁 (`claude/youthful-bell-c525bk`, `loving-gates` + 은행 채널 브랜치 2개를 여기로 합침)
+- **투자포인트 1 최신 뼈대(v2) → [`research/IP1_outline_2026-11-17.md`](research/IP1_outline_2026-11-17.md)** (이번 주 정한 흐름: 락인 → 팔 HELOC이 없었다 → Figure가 만들었다 → 다음은 예금기관. 세부개요, 스코핑, 모자란 리서치 R1~R17, 숫자 충돌표)
+- 문장 초안·반론표·SMIC 보고서 도구 → [`research/IP1_writing_guide_2026-11-17.md`](research/IP1_writing_guide_2026-11-17.md) (v1, Connect 양면 장터 중심)
 
 ---
 
 ## 1. 투자포인트 1: 지금의 논리
+
+> **v2 (2026-11-17 저녁)**: 제목안 「HELOC, 은행 장부에서 시장으로」. 빌리려는 집주인도 사려는 돈도 넘치는데 「팔 수 있는 HELOC」이 없었고, Figure가 그걸 만들어 비은행 1위가 됐으며, HELOC 공급의 약 85%를 쥔 예금기관이 다음 무대라는 흐름. 상세는 [`research/IP1_outline_2026-11-17.md`](research/IP1_outline_2026-11-17.md). 아래는 v1(Connect 양면 장터 중심)으로, 근거 지도와 진행 상황 표는 v1 고리 기준이에요.
 
 > **HELOC(주택 지분 접근) 시장의 구조적 성장 속에서, 파트너(특히 은행)가 늘고 매수자도 늘면서 Figure Connect라는 양면 장터가 커지고, 그 결과 FIGR이 잘 된다.**
 
@@ -52,7 +55,10 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | `claude/quirky-bohr-6zb3k2` | 매수자 해부 artifact 원본 | ✅ 2026-11-16 · 아래 브랜치로 합침 | `figr-buyers.html` |
 | `claude/fervent-brown-x3pek4` | 자료 5종(엑스퍼트콜 3·Greenwich 2) 정리, artifact 대비 비교, 투자포인트 1 근거 지도, 이 허브 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/` 대부분 |
 | `claude/sweet-newton-2i9c6r` | 3Q26 10-Q 새 공시 정리 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/sources/10Q_3Q26_2026-11-16.md` |
-| `claude/loving-gates-g1eba4` | **위 세 브랜치 통합** + 논의 종합·투자포인트 1 작성 가이드 + VISA 보고서 노트 | ✅ 2026-11-17 · **지금 최신** | `research/IP1_writing_guide_2026-11-17.md` |
+| `claude/loving-gates-g1eba4` | **위 세 브랜치 통합** + 논의 종합·투자포인트 1 작성 가이드 + VISA 보고서 노트 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/IP1_writing_guide_2026-11-17.md` |
+| `claude/vibrant-ptolemy-p0oiyf` | 은행 채널 해부: FDIC 콜리포트 전수(4,313곳, 2000~2026)로 은행 HELOC 장부 재구성, 공장·창고·출구, 은행 유형별 Connect 수익 동기, 침투율 시나리오 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/ip1_bank_dissection.md`, `research/ip1_bank_channel.html`, `research/data/` |
+| `claude/zen-lamport-xh61cu` | 은행 채널 검증: HMDA 2023~25(매각·매입·상품 구조), Flagstar 해부, SLOOS, 경영진 발언 타임라인, 반증 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/bank-channel/` |
+| `claude/youthful-bell-c525bk` | **위 브랜치 전부 통합** + 투자포인트 1 세부개요 v2(이번 주 흐름 기준), 모자란 리서치 R1~R17 | ✅ 2026-11-17 · **지금 최신** | `research/IP1_outline_2026-11-17.md` |
 
 **브랜치 규칙 제안**
 - 새 리서치는 주제별 브랜치로: `research/<주제>` (예: `research/bank-entry`, `research/connect-buyers`, `research/heloc-market`)
@@ -88,11 +94,16 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 
 | 문서 | 내용 |
 |---|---|
+| [**IP1_outline_2026-11-17**](research/IP1_outline_2026-11-17.md) | **투자포인트 1 세부개요 v2**: 흐름 진단 5개, 스코핑 6개, 절별 주장·근거·도표·반증 지표(5페이지), 모자란 리서치 R1~R17(P0·P1·P2), 브랜치 간 숫자 충돌표 |
 | [**IP1_writing_guide_2026-11-17**](research/IP1_writing_guide_2026-11-17.md) | **지금까지 논의 종합** + 투자포인트 1 목차·절별 근거·초안·예상 반론·숫자 기준·남은 리서치·도표 후보 |
+| [ip1_bank_dissection](research/ip1_bank_dissection.md), [ip1_bank_channel.html](research/ip1_bank_channel.html) | 은행은 왜·얼마나·어떻게 Figure 위에서 HELOC을 만드나. FDIC 콜리포트 분석, 은행 손익(ROE) 예시, 7가지 진입 경로, 시나리오 |
+| [bank-channel/](research/bank-channel/README.md) | 은행이 실제로 오고 있나: HMDA 매각·매입 비중, 상품 구조, Flagstar, 경영진 발언 추이, 반증 경로. 재현 스크립트 포함 |
 | [gap_analysis_2026-11-17](research/gap_analysis_2026-11-17.md) | 자료 5종 vs artifact 2개: 새 정보 22개, 충돌·수정 9개, 투자포인트 1에서 놓친 것 5개, 자료별 신뢰도 |
 | [IP1_evidence_map](research/IP1_evidence_map.md) | 투자포인트 1 고리별 찬성·반대 근거, 상태, 다음에 볼 것 |
 
 ## 5. 다음 리서치 우선순위
+
+> **v2 기준 목록은 [`research/IP1_outline_2026-11-17.md`](research/IP1_outline_2026-11-17.md) 4장(R1~R17)을 따르세요.** 세션 전 최우선은 R1(HMDA 2018~2025 기관 유형별 실행·매각), R2(2순위 RMBS 발행 시계열과 Figure 몫), R3(HELOC vs non-QM AAA 가산금리). 아래는 v1 목록이에요.
 
 0. **HELOC 시장 연도별 실행액(2020~2025)** — MBA·ICE·HMDA. 「시장 X% vs 동사 Y%」 도표(VISA 보고서 그림 13·14 방식)가 여기에 달림. 가장 적은 품으로 가장 강한 도표
 1. **Connect의 제3자 매수 비중** — 3Q 10-Q로 관계 기구 3곳은 숫자가 나옴. 남은 건 Fig SIX·Evergreen 매입분이 Connect 거래량에 들어가는지, 비중 추이(IR). Fig SIX 계약 연장 여부도
@@ -123,3 +134,6 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-17 | `claude/sweet-newton-2i9c6r` | 3Q26 10-Q 새 공시 노트 |
 | 2026-11-17 | `claude/loving-gates-g1eba4` | 리서치 브랜치 3개 통합, SMIC VISA 보고서 노트, **투자포인트 1 작성 가이드(논의 종합·초안·반론)**, README 갱신 |
 | 2026-11-17 | `claude/loving-gates-g1eba4` | SMIC 보고서 4개(Doximity·Sportradar·Equinix·Circle) 노트, 가이드에 2-B장(빌릴 도구 13개·잠재 물량 계산 예시)·초안·도표 후보 반영 |
+| 2026-11-17 | `claude/vibrant-ptolemy-p0oiyf` | 은행 채널 해부(FDIC 콜리포트 전수 분석, 은행 손익, 시나리오) |
+| 2026-11-17 | `claude/zen-lamport-xh61cu` | 은행 채널 검증(HMDA 매각·매입·상품 구조, Flagstar, SLOOS, 경영진 타임라인, 반증) |
+| 2026-11-17 | `claude/youthful-bell-c525bk` | `loving-gates`·`vibrant-ptolemy`·`zen-lamport` 통합, **투자포인트 1 세부개요 v2**(흐름 진단, 스코핑, 절별 개요, 리서치 R1~R17, 숫자 충돌표), SFA·KBRA·FHFA·Basel 재제안 자료 확인 |
