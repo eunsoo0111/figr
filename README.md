@@ -3,7 +3,9 @@
 SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **투자포인트 1**을 쓰기 위한 저장소.
 이 README는 프로젝트 **허브**예요. 브랜치·자료·진행 상황을 여기서 한눈에 보고, 작업할 때마다 아래 「업데이트 규칙」대로 고쳐 주세요.
 
-- 마지막 갱신: 2026-11-17 밤 늦게 (`claude/dreamy-mendel-4vavyh`, `youthful-thompson` 위에 v4 풀버전 설계와 해자·침투 리서치를 더함)
+- 마지막 갱신: 2026-11-18 (`claude/dazzling-hopper-qdyq1g`, `dreamy-mendel`(v4)과 `peaceful-bohr`(세부개요 v1·v2)를 합치고 **3-1 깊게 보기**를 더함)
+- **3-1 「Take Rate가 아니라 체질이 바뀌었다」 깊게 보기 → [`research/IP1_3-1_deepdive_2026-11-18.md`](research/IP1_3-1_deepdive_2026-11-18.md)** (8-K 손익 줄로 8개 분기 gross Take Rate·채널 단가 회귀·1년 하락 분해(꼭지점 6할·믹스 4할·단가 0)·이용료 vs 매각차익 역전(2Q26)·거래량 1달러당 대출 재고 34센트 → 13센트, 흐름·은행 위치 의견, 세션 질문) · 집 형식 세부개요 행 → [`투자포인트1_3-1_세부개요안.txt`](투자포인트1_3-1_세부개요안.txt)
+- 세부개요 v2(5절) → [`투자포인트1_세부개요_v2.txt`](투자포인트1_세부개요_v2.txt), 글쓰기 원칙 → [`CLAUDE.md`](CLAUDE.md)
 - **투자포인트 1 최신 설계(v4, 분량 제한 없음) → [`research/IP1_outline_v4_2026-11-17.md`](research/IP1_outline_v4_2026-11-17.md)** (흐름: take rate 뒤의 숫자 → 시장이 멈춰도 큰다(점유율) → 사는 쪽 해부 → 파는 쪽 해부 → 믿을맨의 정체(다섯 겹 해자) → 과실은 레일에(BM) → 다음 땅(은행과 모든 대출기관) → 시장이 멈춰도 얼마나 → 다시 take rate. 초안(docx)과 잇는 법, 리서치 R34~R55, 숫자 기준표)
 - 직전 설계(v3) → [`research/IP1_outline_v3_2026-11-17.md`](research/IP1_outline_v3_2026-11-17.md) (take rate 렌즈 교정 → TAM 저금리 코호트 → SAM 「팔리는 HELOC」 → SOM Figure 표준 → 예금기관. v4는 이 숫자들을 「TAM은 순풍, 논지는 해자」로 다시 배치)
 - 직전 뼈대(v2) → [`research/IP1_outline_2026-11-17.md`](research/IP1_outline_2026-11-17.md) (락인 → 팔 HELOC이 없었다 → Figure가 만들었다 → 다음은 예금기관)
@@ -66,7 +68,9 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | `claude/zen-lamport-xh61cu` | 은행 채널 검증: HMDA 2023~25(매각·매입·상품 구조), Flagstar 해부, SLOOS, 경영진 발언 타임라인, 반증 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/bank-channel/` |
 | `claude/youthful-bell-c525bk` | **위 브랜치 전부 통합** + 투자포인트 1 세부개요 v2(이번 주 흐름 기준), 모자란 리서치 R1~R17 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_2026-11-17.md` |
 | `claude/youthful-thompson-lslkzg` | `youthful-bell` 위에 **투자포인트 1 풀버전 설계 v3**(take rate 렌즈, TAM·SAM·SOM), 3Q26 8-K·2Q·3Q 콜 원문, ICE·NY Fed·FHFA 수요 여력 리서치, 계산 스크립트 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_v3_2026-11-17.md`, `research/scripts/ip1_v3_calcs.py`, `research/data/ip1_v3_*.csv` |
-| `claude/dreamy-mendel-4vavyh` | `youthful-thompson` 위에 **투자포인트 1 풀버전 설계 v4**(TAM은 순풍, 논지는 해자·침투). 8-K 8개 분기 KPI, 3Q26 콜 원문 인용, 26년 시장 지표(ICE·TransUnion), loanDepot·Rocket·UWM 3Q26, ICE 11월호 서비서 유지율, 시장 정체 시나리오 | ✅ 2026-11-17 · **지금 최신** | `research/IP1_outline_v4_2026-11-17.md`, `research/scripts/ip1_v4_calcs.py`, `research/data/ip1_v4_*.csv` |
+| `claude/dreamy-mendel-4vavyh` | `youthful-thompson` 위에 **투자포인트 1 풀버전 설계 v4**(TAM은 순풍, 논지는 해자·침투). 8-K 8개 분기 KPI, 3Q26 콜 원문 인용, 26년 시장 지표(ICE·TransUnion), loanDepot·Rocket·UWM 3Q26, ICE 11월호 서비서 유지율, 시장 정체 시나리오 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_v4_2026-11-17.md`, `research/scripts/ip1_v4_calcs.py`, `research/data/ip1_v4_*.csv` |
+| `claude/peaceful-bohr-tx7hqt` | 세부개요 v1(9절)·v2(5절, 은행 27~28년 추정) 텍스트, 글쓰기 원칙 CLAUDE.md | ✅ 2026-11-18 · 아래 브랜치로 합침 | `투자포인트1_세부개요_v2.txt`, `CLAUDE.md` |
+| `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel` + `peaceful-bohr` 통합, **3-1 깊게 보기**(8-K 8개 분기 손익 줄, 채널 단가 회귀, Take Rate 하락 분해, 자본 집약도), 흐름·은행 위치 의견 | ✅ 2026-11-18 · **지금 최신** | `research/IP1_3-1_deepdive_2026-11-18.md`, `research/scripts/ip1_31_calcs.py`, `research/data/ip1_31_*.csv`, `투자포인트1_3-1_세부개요안.txt` |
 
 **브랜치 규칙 제안**
 - 새 리서치는 주제별 브랜치로: `research/<주제>` (예: `research/bank-entry`, `research/connect-buyers`, `research/heloc-market`)
@@ -151,3 +155,4 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-17 | `claude/youthful-bell-c525bk` | `loving-gates`·`vibrant-ptolemy`·`zen-lamport` 통합, **투자포인트 1 세부개요 v2**(흐름 진단, 스코핑, 절별 개요, 리서치 R1~R17, 숫자 충돌표), SFA·KBRA·FHFA·Basel 재제안 자료 확인 |
 | 2026-11-17 | `claude/youthful-thompson-lslkzg` | **투자포인트 1 풀버전 설계 v3**. 3Q26 8-K로 take rate 정의 확인·Connect $4.26B가 Kiavi 포함임을 확인, 2Q·3Q 콜 take rate 질의응답 원문, ICE Mortgage Monitor 4개·NY Fed·FHFA로 수요 여력, 계산 스크립트와 CSV 7개 |
 | 2026-11-17 | `claude/dreamy-mendel-4vavyh` | **투자포인트 1 풀버전 설계 v4**(방향: TAM은 순풍, 논지는 해자·BM·모든 대출기관 침투). 팀 초안(docx)과 대조해 고칠 숫자 정리, 8-K 4개로 8개 분기 KPI, 3Q26 콜 원문(기존 파트너 +40% 등), ICE·TransUnion으로 26년 시장 대비 성장, loanDepot·Rocket·UWM 3Q26, ICE 11월호, NCUA, 계산 스크립트와 CSV 7개 |
+| 2026-11-18 | `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel`·`peaceful-bohr` 통합. **3-1 깊게 보기**: 8-K 실적 발표문 5개로 4Q24~3Q26 손익 줄 재구성, gross Take Rate 8개 분기 계산(9M 공시치와 일치), 채널 단가 회귀(Connect 3.3~3.8%, 장부 5.4~6.3%), 1년 하락 −0.99%p = 꼭지점 −0.58 + 믹스 −0.41 + 단가 0.00, 이용료 > 매각차익(2Q26), 판매대기 대출 ÷ 거래량 34센트 → 13센트, 증분 EBITDA 마진 61%. 흐름(체질 → 사는 쪽 → 파는 쪽 → 바퀴 → 은행)·은행 위치 의견, 집 형식 3-1 세부개요 행 |
