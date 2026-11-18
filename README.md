@@ -168,3 +168,9 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-18 | `claude/youthful-hawking-80dti4` | 다른 브랜치 11개가 모두 `dazzling-hopper`에 합쳐져 있음을 확인하고 그 위에서 시작. **②③ + 바퀴 깊게 보기**: FDIC 2Q26 전수로 은행의 에이전시 MBS($2,554B)·사설 RMBS($52.5B)·HELOC 상위 20개 은행 MBS 9배, HMDA와 합쳐 「같은 은행이 1순위는 팔고 MBS는 사고 HELOC은 0%」, FRED Z.1로 1순위 증권화 비중 1970~2026, SFA·Santander·BofA로 2순위 증권화와 non-QM 대비 가산금리, 파트너 순증 ÷ 기존 23~26%, 경매 깊이·SSFA·관계 수 계산. 은행 위치 의견, 집 형식 3-2~3-4 세부개요 행 |
 | 2026-11-18 | `claude/peaceful-bohr-tx7hqt` | 세부개요 v2(9절 → 5절), CLAUDE.md 글쓰기 원칙 |
 | 2026-11-18 | `claude/hopeful-babbage-x3dwqp` | `dreamy-mendel`·`peaceful-bohr` 통합, **②절 사는 쪽 리서치 팩**과 14열 개요안, 은행 배치 의견(사는 은행 ②, 파는 은행 ⑤) |
+smic 3주차 종목 figr 보고서, 특히 투자포인트 1을 작성하기 위한 저장소. 
+
+## 이 브랜치에 있는 것
+
+- [`research/seller-side/seller_side_pack_2026-11-18.md`](research/seller-side/seller_side_pack_2026-11-18.md): 투자포인트 1의 파는 쪽(파트너) 자료집, 2→3→4절 구성안, 은행 배치 추천, HMDA 2022~2025 새 분석
+- [`research/seller-side/3절_파는쪽_세부개요_초안.txt`](research/seller-side/3절_파는쪽_세부개요_초안.txt): 3절 초안(세부개요 파일 형식)
