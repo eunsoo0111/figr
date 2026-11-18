@@ -3,7 +3,8 @@
 SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **투자포인트 1**을 쓰기 위한 저장소.
 이 README는 프로젝트 **허브**예요. 브랜치·자료·진행 상황을 여기서 한눈에 보고, 작업할 때마다 아래 「업데이트 규칙」대로 고쳐 주세요.
 
-- 마지막 갱신: 2026-11-18 (`claude/dazzling-hopper-qdyq1g`, `dreamy-mendel`(v4)과 `peaceful-bohr`(세부개요 v1·v2)를 합치고 **3-1 깊게 보기**를 더함)
+- 마지막 갱신: 2026-11-18 (`claude/youthful-hawking-80dti4`, 최신 `dazzling-hopper` 위에 **②③ + 바퀴 깊게 보기**를 더함)
+- **②③ + 바퀴 「거래량은 더하기가 아니라 곱하기로 큰다」 깊게 보기 → [`research/IP1_3-2_3-4_deepdive_2026-11-18.md`](research/IP1_3-2_3-4_deepdive_2026-11-18.md)** (흐름 ① Connect → ② 사는 쪽 → ③ 파는 쪽 → ④ 바퀴 → ⑤ 크기, 은행은 「아웃사이드 옵션」이 아니라 ④의 「양쪽에 동시에 서는 참여자」. FDIC 2Q26 전수: 은행 에이전시 MBS $2,554B vs 사설 $52.5B, PNC는 1순위 43%를 GSE에 팔고 에이전시 MBS $85B 보유·HELOC 매각 0%. 곱하기의 흔적 셋(공급 약 40배에 가산금리↓, 같은 파트너 +40%, 순증 = 기존의 23~26%), 톱니 다섯, 희소한 쪽은 매수자, 위험가중치 100% vs AAA 20%, 1순위 증권화 5%(1970) → 68%(지금) vs HELOC 4.5%) · 집 형식 세부개요 행 → [`투자포인트1_3-2_3-4_세부개요안.txt`](투자포인트1_3-2_3-4_세부개요안.txt)
 - **3-1 「Take Rate가 아니라 체질이 바뀌었다」 깊게 보기 → [`research/IP1_3-1_deepdive_2026-11-18.md`](research/IP1_3-1_deepdive_2026-11-18.md)** (8-K 손익 줄로 8개 분기 gross Take Rate·채널 단가 회귀·1년 하락 분해(꼭지점 6할·믹스 4할·단가 0)·이용료 vs 매각차익 역전(2Q26)·거래량 1달러당 대출 재고 34센트 → 13센트, 흐름·은행 위치 의견, 세션 질문) · 집 형식 세부개요 행 → [`투자포인트1_3-1_세부개요안.txt`](투자포인트1_3-1_세부개요안.txt)
 - 세부개요 v2(5절) → [`투자포인트1_세부개요_v2.txt`](투자포인트1_세부개요_v2.txt), 글쓰기 원칙 → [`CLAUDE.md`](CLAUDE.md)
 - **투자포인트 1 최신 설계(v4, 분량 제한 없음) → [`research/IP1_outline_v4_2026-11-17.md`](research/IP1_outline_v4_2026-11-17.md)** (흐름: take rate 뒤의 숫자 → 시장이 멈춰도 큰다(점유율) → 사는 쪽 해부 → 파는 쪽 해부 → 믿을맨의 정체(다섯 겹 해자) → 과실은 레일에(BM) → 다음 땅(은행과 모든 대출기관) → 시장이 멈춰도 얼마나 → 다시 take rate. 초안(docx)과 잇는 법, 리서치 R34~R55, 숫자 기준표)
@@ -70,7 +71,8 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | `claude/youthful-thompson-lslkzg` | `youthful-bell` 위에 **투자포인트 1 풀버전 설계 v3**(take rate 렌즈, TAM·SAM·SOM), 3Q26 8-K·2Q·3Q 콜 원문, ICE·NY Fed·FHFA 수요 여력 리서치, 계산 스크립트 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_v3_2026-11-17.md`, `research/scripts/ip1_v3_calcs.py`, `research/data/ip1_v3_*.csv` |
 | `claude/dreamy-mendel-4vavyh` | `youthful-thompson` 위에 **투자포인트 1 풀버전 설계 v4**(TAM은 순풍, 논지는 해자·침투). 8-K 8개 분기 KPI, 3Q26 콜 원문 인용, 26년 시장 지표(ICE·TransUnion), loanDepot·Rocket·UWM 3Q26, ICE 11월호 서비서 유지율, 시장 정체 시나리오 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_v4_2026-11-17.md`, `research/scripts/ip1_v4_calcs.py`, `research/data/ip1_v4_*.csv` |
 | `claude/peaceful-bohr-tx7hqt` | 세부개요 v1(9절)·v2(5절, 은행 27~28년 추정) 텍스트, 글쓰기 원칙 CLAUDE.md | ✅ 2026-11-18 · 아래 브랜치로 합침 | `투자포인트1_세부개요_v2.txt`, `CLAUDE.md` |
-| `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel` + `peaceful-bohr` 통합, **3-1 깊게 보기**(8-K 8개 분기 손익 줄, 채널 단가 회귀, Take Rate 하락 분해, 자본 집약도), 흐름·은행 위치 의견 | ✅ 2026-11-18 · **지금 최신** | `research/IP1_3-1_deepdive_2026-11-18.md`, `research/scripts/ip1_31_calcs.py`, `research/data/ip1_31_*.csv`, `투자포인트1_3-1_세부개요안.txt` |
+| `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel` + `peaceful-bohr` 통합, **3-1 깊게 보기**(8-K 8개 분기 손익 줄, 채널 단가 회귀, Take Rate 하락 분해, 자본 집약도), 흐름·은행 위치 의견 | ✅ 2026-11-18 · 아래 브랜치로 이어짐 | `research/IP1_3-1_deepdive_2026-11-18.md`, `research/scripts/ip1_31_calcs.py`, `research/data/ip1_31_*.csv`, `투자포인트1_3-1_세부개요안.txt` |
+| `claude/youthful-hawking-80dti4` | `dazzling-hopper` 위에 **②③ + 바퀴 깊게 보기**(사는 쪽·파는 쪽 두 단, 바퀴가 곱하기인 이유, 은행의 양면, 1순위 역사), FDIC 2Q26 MBS 전수·FRED Z.1 계산 | ✅ 2026-11-18 · **지금 최신** | `research/IP1_3-2_3-4_deepdive_2026-11-18.md`, `research/scripts/ip1_23_calcs.py`, `research/data/ip1_23_*.csv`, `투자포인트1_3-2_3-4_세부개요안.txt` |
 
 **브랜치 규칙 제안**
 - 새 리서치는 주제별 브랜치로: `research/<주제>` (예: `research/bank-entry`, `research/connect-buyers`, `research/heloc-market`)
@@ -106,6 +108,7 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 
 | 문서 | 내용 |
 |---|---|
+| [**IP1_3-2_3-4_deepdive_2026-11-18**](research/IP1_3-2_3-4_deepdive_2026-11-18.md) | **②③ + 바퀴 깊게 보기**: 은행 위치(④의 양면 참여자 + ⑤ 크기), 「돈은 규격을 따라간다」(FDIC MBS), 공급↑ 값↑(2순위 증권화 vs non-QM), 출구가 있으면 판다(같은 은행 1순위 vs HELOC), 파트너 순증 동학, 곱하기의 흔적 셋·톱니 다섯, 희소한 쪽, 위험가중치, 1순위 역사 |
 | [**IP1_outline_v4_2026-11-17**](research/IP1_outline_v4_2026-11-17.md) | **투자포인트 1 풀버전 설계 v4**: 「믿을맨」. 26년 자연 실험(시장 −3~+20% vs 동사 +107~132%), 같은 파트너 +40%, 사는 쪽·파는 쪽 해부, 다섯 겹 해자와 경쟁 지도, 대출사 마진 비교, 대출기관 유형별 침투 지도와 은행 심층, 시장 정체 시나리오, 초안(docx)과 잇는 법·고칠 숫자, 도표 37개(추천 10개), 리서치 R34~R55, 숫자 기준표 |
 | [IP1_outline_v3_2026-11-17](research/IP1_outline_v3_2026-11-17.md) | **투자포인트 1 풀버전 설계 v3**: take rate 역산(채널 단가), TAM 여력(락인 코호트·인출률·HELOC ÷ 모기지), SAM(비은행 2순위 2.8배), SOM(네 고리), 은행 두 역할·진입 순서, 도표 26개, 리서치 R1~R33, 숫자 기준표, 다른 세션 조언 검토 |
 | [**IP1_outline_2026-11-17**](research/IP1_outline_2026-11-17.md) | **투자포인트 1 세부개요 v2**: 흐름 진단 5개, 스코핑 6개, 절별 주장·근거·도표·반증 지표(5페이지), 모자란 리서치 R1~R17(P0·P1·P2), 브랜치 간 숫자 충돌표 |
@@ -156,3 +159,4 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-17 | `claude/youthful-thompson-lslkzg` | **투자포인트 1 풀버전 설계 v3**. 3Q26 8-K로 take rate 정의 확인·Connect $4.26B가 Kiavi 포함임을 확인, 2Q·3Q 콜 take rate 질의응답 원문, ICE Mortgage Monitor 4개·NY Fed·FHFA로 수요 여력, 계산 스크립트와 CSV 7개 |
 | 2026-11-17 | `claude/dreamy-mendel-4vavyh` | **투자포인트 1 풀버전 설계 v4**(방향: TAM은 순풍, 논지는 해자·BM·모든 대출기관 침투). 팀 초안(docx)과 대조해 고칠 숫자 정리, 8-K 4개로 8개 분기 KPI, 3Q26 콜 원문(기존 파트너 +40% 등), ICE·TransUnion으로 26년 시장 대비 성장, loanDepot·Rocket·UWM 3Q26, ICE 11월호, NCUA, 계산 스크립트와 CSV 7개 |
 | 2026-11-18 | `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel`·`peaceful-bohr` 통합. **3-1 깊게 보기**: 8-K 실적 발표문 5개로 4Q24~3Q26 손익 줄 재구성, gross Take Rate 8개 분기 계산(9M 공시치와 일치), 채널 단가 회귀(Connect 3.3~3.8%, 장부 5.4~6.3%), 1년 하락 −0.99%p = 꼭지점 −0.58 + 믹스 −0.41 + 단가 0.00, 이용료 > 매각차익(2Q26), 판매대기 대출 ÷ 거래량 34센트 → 13센트, 증분 EBITDA 마진 61%. 흐름(체질 → 사는 쪽 → 파는 쪽 → 바퀴 → 은행)·은행 위치 의견, 집 형식 3-1 세부개요 행 |
+| 2026-11-18 | `claude/youthful-hawking-80dti4` | 다른 브랜치 11개가 모두 `dazzling-hopper`에 합쳐져 있음을 확인하고 그 위에서 시작. **②③ + 바퀴 깊게 보기**: FDIC 2Q26 전수로 은행의 에이전시 MBS($2,554B)·사설 RMBS($52.5B)·HELOC 상위 20개 은행 MBS 9배, HMDA와 합쳐 「같은 은행이 1순위는 팔고 MBS는 사고 HELOC은 0%」, FRED Z.1로 1순위 증권화 비중 1970~2026, SFA·Santander·BofA로 2순위 증권화와 non-QM 대비 가산금리, 파트너 순증 ÷ 기존 23~26%, 경매 깊이·SSFA·관계 수 계산. 은행 위치 의견, 집 형식 3-2~3-4 세부개요 행 |
