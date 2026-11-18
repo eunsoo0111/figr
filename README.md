@@ -3,12 +3,13 @@
 SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **투자포인트 1**을 쓰기 위한 저장소.
 이 README는 프로젝트 **허브**예요. 브랜치·자료·진행 상황을 여기서 한눈에 보고, 작업할 때마다 아래 「업데이트 규칙」대로 고쳐 주세요.
 
-- 마지막 갱신: 2026-11-18 (`claude/youthful-hawking-80dti4`, 최신 `dazzling-hopper` 위에 **②③ + 바퀴 깊게 보기**를 더함)
+- 마지막 갱신: 2026-11-18 (`claude/relaxed-davinci-jozjpt`, 최신 브랜치 네 개(`youthful-hawking`·`dazzling-hopper`·`hopeful-babbage`·`sleepy-mayer`)를 합치고 **② 차주 입장**과 **투자포인트 2로 넘기는 교두보**를 새로 리서치)
+- **★ 지금 쓰는 구성(6절 + 교두보)**: ① Take Rate가 아니라 체질이 바뀌었다(Connect) → ② 집주인에게 지금 가장 합리적인 대출은 HELOC(차주) → ③ 같은 규격이 반복 매수를 만든다(사는 쪽) → ④ 팔리는 대출에 파트너 물량이 모인다(파는 쪽) → ⑤ 거래량은 곱하기로 큰다(플라이휠) → ⑥ 은행은 팔러도, 사러도 온다 → ⇢ HELOC은 첫 번째 종목(Kiavi, 「사모 대출의 나스닥」)
+- **★ 통합 리서치 → [`research/IP1_integrated_research_2026-11-18.md`](research/IP1_integrated_research_2026-11-18.md)** (용어 풀이·바꿔 쓸 말, 절마다 「쉽게 말하면」·근거 표·본문 문장(안)·도표·세션 질문. 새로: 재융자로 9만 달러를 꺼내면 실질 금리 19% vs HELOC 7~9%, 락인 갭 0(22년 초) → 2.7%p, 기존 평균 금리 4년간 +0.6%p, 30년 금리 5.2% 아래는 22년 8월이 마지막, 기관 전망 27년 7% 안팎, 나스닥 비유표와 교두보 문단 두 버전)
+- **★ 세부개요 v3(6절, 14열 탭) → [`투자포인트1_세부개요_v3.txt`](투자포인트1_세부개요_v3.txt)** · 차주 계산 → `python3 -I research/scripts/ip1_borrower_calcs.py research` → `research/data/ip1_borrower_*.csv` · 글쓰기 원칙 → [`CLAUDE.md`](CLAUDE.md)
+- 합친 딥다이브(원본): 파는 쪽 팩 → [`research/seller-side/seller_side_pack_2026-11-18.md`](research/seller-side/seller_side_pack_2026-11-18.md) (HMDA 2022~2025 새 집계: 이름 확인 파트너 14곳 HELOC 15배, 동사 매입 > 직접 실행), 3절 초안 → [`research/seller-side/3절_파는쪽_세부개요_초안.txt`](research/seller-side/3절_파는쪽_세부개요_초안.txt)
 - **②③ + 바퀴 「거래량은 더하기가 아니라 곱하기로 큰다」 깊게 보기 → [`research/IP1_3-2_3-4_deepdive_2026-11-18.md`](research/IP1_3-2_3-4_deepdive_2026-11-18.md)** (흐름 ① Connect → ② 사는 쪽 → ③ 파는 쪽 → ④ 바퀴 → ⑤ 크기, 은행은 「아웃사이드 옵션」이 아니라 ④의 「양쪽에 동시에 서는 참여자」. FDIC 2Q26 전수: 은행 에이전시 MBS $2,554B vs 사설 $52.5B, PNC는 1순위 43%를 GSE에 팔고 에이전시 MBS $85B 보유·HELOC 매각 0%. 곱하기의 흔적 셋(공급 약 40배에 가산금리↓, 같은 파트너 +40%, 순증 = 기존의 23~26%), 톱니 다섯, 희소한 쪽은 매수자, 위험가중치 100% vs AAA 20%, 1순위 증권화 5%(1970) → 68%(지금) vs HELOC 4.5%) · 집 형식 세부개요 행 → [`투자포인트1_3-2_3-4_세부개요안.txt`](투자포인트1_3-2_3-4_세부개요안.txt)
 - **3-1 「Take Rate가 아니라 체질이 바뀌었다」 깊게 보기 → [`research/IP1_3-1_deepdive_2026-11-18.md`](research/IP1_3-1_deepdive_2026-11-18.md)** (8-K 손익 줄로 8개 분기 gross Take Rate·채널 단가 회귀·1년 하락 분해(꼭지점 6할·믹스 4할·단가 0)·이용료 vs 매각차익 역전(2Q26)·거래량 1달러당 대출 재고 34센트 → 13센트, 흐름·은행 위치 의견, 세션 질문) · 집 형식 세부개요 행 → [`투자포인트1_3-1_세부개요안.txt`](투자포인트1_3-1_세부개요안.txt)
-- 세부개요 v2(5절) → [`투자포인트1_세부개요_v2.txt`](투자포인트1_세부개요_v2.txt), 글쓰기 원칙 → [`CLAUDE.md`](CLAUDE.md)
-- 마지막 갱신: 2026-11-18 (`claude/hopeful-babbage-x3dwqp`, `dreamy-mendel`·`peaceful-bohr`를 합치고 ②절 사는 쪽 리서치 팩을 더함)
-- **지금 쓰는 구성: 5절**(① Connect로 바뀌는 성장 → ② 같은 규격이 반복 매수를 만든다(사는 쪽) → ③ 팔리는 대출에 파트너 물량이 모인다 → ④ 물량이 이익으로 → ⑤ 지금 파트너로 두 배, 은행이 그 위에). 세부개요 v2 → [`투자포인트1_세부개요_v2.txt`](투자포인트1_세부개요_v2.txt), 글쓰기 원칙 → [`CLAUDE.md`](CLAUDE.md)
 - **②절 사는 쪽 리서치 팩 → [`research/IP1_sec2_buyers_pack_2026-11-18.md`](research/IP1_sec2_buyers_pack_2026-11-18.md)** (왜 사고 싶나·왜 못 샀나·왜 Figure·증거, ①·③과 잇는 문장, 은행 배치 의견, 도표 9개, 남은 리서치 R-B1~B9). 개요안(14열 탭) → [`투자포인트1_2절_사는쪽_개요안.txt`](투자포인트1_2절_사는쪽_개요안.txt)
 - **투자포인트 1 최신 설계(v4, 분량 제한 없음) → [`research/IP1_outline_v4_2026-11-17.md`](research/IP1_outline_v4_2026-11-17.md)** (흐름: take rate 뒤의 숫자 → 시장이 멈춰도 큰다(점유율) → 사는 쪽 해부 → 파는 쪽 해부 → 믿을맨의 정체(다섯 겹 해자) → 과실은 레일에(BM) → 다음 땅(은행과 모든 대출기관) → 시장이 멈춰도 얼마나 → 다시 take rate. 초안(docx)과 잇는 법, 리서치 R34~R55, 숫자 기준표)
 - 직전 설계(v3) → [`research/IP1_outline_v3_2026-11-17.md`](research/IP1_outline_v3_2026-11-17.md) (take rate 렌즈 교정 → TAM 저금리 코호트 → SAM 「팔리는 HELOC」 → SOM Figure 표준 → 예금기관. v4는 이 숫자들을 「TAM은 순풍, 논지는 해자」로 다시 배치)
@@ -75,10 +76,10 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | `claude/dreamy-mendel-4vavyh` | `youthful-thompson` 위에 **투자포인트 1 풀버전 설계 v4**(TAM은 순풍, 논지는 해자·침투). 8-K 8개 분기 KPI, 3Q26 콜 원문 인용, 26년 시장 지표(ICE·TransUnion), loanDepot·Rocket·UWM 3Q26, ICE 11월호 서비서 유지율, 시장 정체 시나리오 | ✅ 2026-11-17 · 아래 브랜치로 이어짐 | `research/IP1_outline_v4_2026-11-17.md`, `research/scripts/ip1_v4_calcs.py`, `research/data/ip1_v4_*.csv` |
 | `claude/peaceful-bohr-tx7hqt` | 세부개요 v1(9절)·v2(5절, 은행 27~28년 추정) 텍스트, 글쓰기 원칙 CLAUDE.md | ✅ 2026-11-18 · 아래 브랜치로 합침 | `투자포인트1_세부개요_v2.txt`, `CLAUDE.md` |
 | `claude/dazzling-hopper-qdyq1g` | `dreamy-mendel` + `peaceful-bohr` 통합, **3-1 깊게 보기**(8-K 8개 분기 손익 줄, 채널 단가 회귀, Take Rate 하락 분해, 자본 집약도), 흐름·은행 위치 의견 | ✅ 2026-11-18 · 아래 브랜치로 이어짐 | `research/IP1_3-1_deepdive_2026-11-18.md`, `research/scripts/ip1_31_calcs.py`, `research/data/ip1_31_*.csv`, `투자포인트1_3-1_세부개요안.txt` |
-| `claude/youthful-hawking-80dti4` | `dazzling-hopper` 위에 **②③ + 바퀴 깊게 보기**(사는 쪽·파는 쪽 두 단, 바퀴가 곱하기인 이유, 은행의 양면, 1순위 역사), FDIC 2Q26 MBS 전수·FRED Z.1 계산 | ✅ 2026-11-18 · **지금 최신** | `research/IP1_3-2_3-4_deepdive_2026-11-18.md`, `research/scripts/ip1_23_calcs.py`, `research/data/ip1_23_*.csv`, `투자포인트1_3-2_3-4_세부개요안.txt` |
-| `claude/dreamy-mendel-4vavyh` | `youthful-thompson` 위에 **투자포인트 1 풀버전 설계 v4**(TAM은 순풍, 논지는 해자·침투). 8-K 8개 분기 KPI, 3Q26 콜 원문 인용, 26년 시장 지표(ICE·TransUnion), loanDepot·Rocket·UWM 3Q26, ICE 11월호 서비서 유지율, 시장 정체 시나리오 | ✅ 2026-11-17 · 아래 브랜치로 합침 | `research/IP1_outline_v4_2026-11-17.md`, `research/scripts/ip1_v4_calcs.py`, `research/data/ip1_v4_*.csv` |
-| `claude/peaceful-bohr-tx7hqt` | 투자포인트 1 세부개요를 9절 → **5절**로 재구성(v2), 은행 채널 27~28년 추정, `CLAUDE.md` 글쓰기 원칙 | ✅ 2026-11-18 · 아래 브랜치로 합침 | `투자포인트1_세부개요_v1.txt`·`_v2.txt`, `CLAUDE.md` |
-| `claude/hopeful-babbage-x3dwqp` | **위 두 브랜치 통합** + ②절(사는 쪽) 리서치 팩: 보험사 연금·NAIC 개정, 2순위 증권화 부활(SFA·KBRA·BofA), 전통 HELOC이 팔 수 없던 구조, 금융위기 전후 역사, 섞인 풀 AAA(FIGRE HE9), 424B4 매수자 숫자 | ✅ 2026-11-18 · **지금 최신** | `research/IP1_sec2_buyers_pack_2026-11-18.md`, `투자포인트1_2절_사는쪽_개요안.txt` |
+| `claude/youthful-hawking-80dti4` | `dazzling-hopper` 위에 **②③ + 바퀴 깊게 보기**(사는 쪽·파는 쪽 두 단, 바퀴가 곱하기인 이유, 은행의 양면, 1순위 역사), FDIC 2Q26 MBS 전수·FRED Z.1 계산 | ✅ 2026-11-18 · 아래 브랜치로 합침 | `research/IP1_3-2_3-4_deepdive_2026-11-18.md`, `research/scripts/ip1_23_calcs.py`, `research/data/ip1_23_*.csv`, `투자포인트1_3-2_3-4_세부개요안.txt` |
+| `claude/hopeful-babbage-x3dwqp` | **위 두 브랜치 통합** + ②절(사는 쪽) 리서치 팩: 보험사 연금·NAIC 개정, 2순위 증권화 부활(SFA·KBRA·BofA), 전통 HELOC이 팔 수 없던 구조, 금융위기 전후 역사, 섞인 풀 AAA(FIGRE HE9), 424B4 매수자 숫자 | ✅ 2026-11-18 · 아래 브랜치로 합침 | `research/IP1_sec2_buyers_pack_2026-11-18.md`, `투자포인트1_2절_사는쪽_개요안.txt` |
+| `claude/sleepy-mayer-8f8iej` | 파는 쪽(파트너) 리서치 팩: HMDA 2022~2025 2순위 전수 집계(파트너 14곳 15배, 동사 매입 vs 실행, 비은행 저변), MBA·ICE·MCT 판매 유인, 판매자의 여섯 갈래 길 | ✅ 2026-11-18 · 아래 브랜치로 합침 | `research/seller-side/` |
+| `claude/relaxed-davinci-jozjpt` | **최신 네 브랜치 통합** + ② 차주 입장 새 리서치(실질 금리·락인 갭·금리 전망) + 교두보(Kiavi·나스닥 비유) + 세부개요 v3(6절) | ✅ 2026-11-18 · **지금 최신** | `research/IP1_integrated_research_2026-11-18.md`, `투자포인트1_세부개요_v3.txt`, `research/scripts/ip1_borrower_calcs.py` |
 
 **브랜치 규칙 제안**
 - 새 리서치는 주제별 브랜치로: `research/<주제>` (예: `research/bank-entry`, `research/connect-buyers`, `research/heloc-market`)
@@ -168,9 +169,10 @@ SMIC 3주차 종목 **FIGR(Figure Technology Solutions)** 보고서, 특히 **�
 | 2026-11-18 | `claude/youthful-hawking-80dti4` | 다른 브랜치 11개가 모두 `dazzling-hopper`에 합쳐져 있음을 확인하고 그 위에서 시작. **②③ + 바퀴 깊게 보기**: FDIC 2Q26 전수로 은행의 에이전시 MBS($2,554B)·사설 RMBS($52.5B)·HELOC 상위 20개 은행 MBS 9배, HMDA와 합쳐 「같은 은행이 1순위는 팔고 MBS는 사고 HELOC은 0%」, FRED Z.1로 1순위 증권화 비중 1970~2026, SFA·Santander·BofA로 2순위 증권화와 non-QM 대비 가산금리, 파트너 순증 ÷ 기존 23~26%, 경매 깊이·SSFA·관계 수 계산. 은행 위치 의견, 집 형식 3-2~3-4 세부개요 행 |
 | 2026-11-18 | `claude/peaceful-bohr-tx7hqt` | 세부개요 v2(9절 → 5절), CLAUDE.md 글쓰기 원칙 |
 | 2026-11-18 | `claude/hopeful-babbage-x3dwqp` | `dreamy-mendel`·`peaceful-bohr` 통합, **②절 사는 쪽 리서치 팩**과 14열 개요안, 은행 배치 의견(사는 은행 ②, 파는 은행 ⑤) |
-smic 3주차 종목 figr 보고서, 특히 투자포인트 1을 작성하기 위한 저장소. 
+| 2026-11-18 | `claude/sleepy-mayer-8f8iej` | 파는 쪽 리서치 팩, HMDA 2022~2025 새 집계, 3절 세부개요 초안 |
+| 2026-11-18 | `claude/relaxed-davinci-jozjpt` | 최신 네 브랜치 통합. 흐름을 6절 + 교두보로 재구성(① 체질 → ② 차주 → ③ 사는 쪽 → ④ 파는 쪽 → ⑤ 플라이휠 → ⑥ 은행 → Kiavi·나스닥). **② 차주 새 리서치**: 다섯 가지 길의 실질 금리(재융자 19.1%·$5만이면 28.8%), 락인 갭 시계열, 기존 평균 금리 상승 속도, 손익분기 아래 마지막 주(22-08-18), Fannie·MBA·Goldman 27년 전망, 연준 9월 인상. 통합 리서치 문서(용어 풀이·쉬운 톤), 세부개요 v3 |
 
-## 이 브랜치에 있는 것
+## 8. 파는 쪽 팩(`sleepy-mayer`)에서 온 파일
 
 - [`research/seller-side/seller_side_pack_2026-11-18.md`](research/seller-side/seller_side_pack_2026-11-18.md): 투자포인트 1의 파는 쪽(파트너) 자료집, 2→3→4절 구성안, 은행 배치 추천, HMDA 2022~2025 새 분석
 - [`research/seller-side/3절_파는쪽_세부개요_초안.txt`](research/seller-side/3절_파는쪽_세부개요_초안.txt): 3절 초안(세부개요 파일 형식)
