@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, ".")
 from smic_xlsx import SourceBook, load
 from smic_charts_lib import *
-from data_3_1 import YEARS, MKT, FIG, MKT_SRC, NOTE, EVENTS, FIG_SRC, ROW_FORMULA, ROW, EVENT_SRC
+from data_3_1 import YEARS, MKT, FIG, MKT_SRC, NOTE, EVENTS, FIG_SRC, ROW_FORMULA, ROW, EVENT_SRC, DEALS, DEAL_SHEET
 
 NO, TITLE = "도표 3-1", "사라졌다 돌아온 HELOC 유통시장: 미국 2순위 증권화 발행액"
 XLSX, PPTX = "SMIC_도표3-1_원자료.xlsx", "SMIC_도표3-1.pptx"
@@ -23,6 +23,13 @@ ws = wb.add(NO, TITLE, YEARS,
             unit="(십억 달러)", size="기본", note=NOTE.replace(" / ", " "),
             check="06·07년 시장 연간 발행액 미확보(n/a) — IMF 'Mortgage & Asset Securities Issuance' 등 원자료 필요; "
                   "19~21년은 확인된 딜 합계(하한); 동사 25년·26년은 10-K·10-Q 증가액으로 SMIC 계산 — 딜별 합계로 확인 권장")
+wb.add(DEAL_SHEET, "동사(Figure) 스폰서 HELOC 증권화 딜 목록(도표 3-1 동사 열의 산출 근거)", [x[0] for x in DEALS],
+       cols=[("규모", [x[3] for x in DEALS], FMT["원"])],
+       labels=[("연도", [x[1] for x in DEALS]), ("일자", [x[2] for x in DEALS]), ("기준", [x[4] for x in DEALS])],
+       row_sources=[x[5] for x in DEALS], first="딜", unit="(달러)", kind="표",
+       source="Morningstar DBRS 신용평가 보도(딜별 총 UPB), KBRA, Figure 10-K",
+       note="일자 F=DBRS 본평가(≈마감), P=가평가·가격결정. 20~25년 23건 합계 7,149,632,807달러 = 10-K '23건·70억 달러'와 일치",
+       check="차트 없음 — 도표 3-1 동사 열이 이 시트를 SUMIF로 집계; 26년 HE13·EXP4 규모 미공개")
 for (col, y), f in ROW_FORMULA.items():     # 역산·합산·누적 차이는 수식으로 남긴다
     c = ws[f"{col}{ROW[y]}"]
     c.value = f
@@ -79,7 +86,7 @@ xm = (p.x(i07) + p.x(i07 + 1)) / 2
 # 07/08 경계에 세로 점선(붕괴 시점) + 오른쪽 가운데 높이에 글자 — 19·20·24 글자와 다른 줄
 y_line0 = (p.y(max(known)) if known else p.top + 0.40)
 cv.line(xm, y_line0, xm, p.bottom - 0.02, DG, 0.75, dash=True)
-cv.val(xm + 0.08, 2.95, sh, "사건", i07, color=DG, align="l")
+cv.val(xm + 0.08, 2.86, sh, "사건", i07, color=DG, align="l")
 if any(tot[i] is None for i in (i06, i07)):  # 원자료 미확보 연도 표시(06·07 한 번만)
     cv.label((p.x(i06) + p.x(i07)) / 2, p.bottom - 0.40, "n/a", MG, align="c")
 # 08~18 공백: 바닥 위 괄호선 + 글자
@@ -94,8 +101,9 @@ cv.val((xa + xb) / 2, yb - 0.38, sh, "사건", i13, color=MG, align="c")
 # 19·20·24: 오른쪽 끝을 지시선에 맞춘 글자, 높이를 엇갈림
 # 오른쪽 사건일수록 높게(글자가 왼쪽 사건의 지시선을 가로지르지 않게)
 event("'24", 0.98, "r", RED)
-event("'20", 1.50, "r", RED)
-event("'19", 2.02, "r", DG)
+event("'22", 1.44, "r", DG, y_end=p.y(tot[YEARS.index("'22")]) - 0.40)   # '1.0' 글자 위에서 멈춤
+event("'20", 1.90, "r", RED)
+event("'19", 2.36, "r", DG)
 
 prs.save(PPTX)
 print("saved")
