@@ -1,0 +1,20 @@
+{
+ "lei": "5493005EYZOUVJUXAX38",
+ "year": 2024,
+ "name": "LakeviewCommunityCapital",
+ "rows": 2610,
+ "agg": {
+  "CLOSED_L1": [
+   2567,
+   980545000,
+   2377,
+   912735000
+  ],
+  "CLOSED_L2": [
+   43,
+   2305000,
+   35,
+   1865000
+  ]
+ }
+}

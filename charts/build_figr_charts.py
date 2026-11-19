@@ -100,28 +100,40 @@ wb.add("도표 3-3", "기존 은행 HELOC vs 동사 HELOC", rows33, cols=[],
        first="구분", kind="표")
 
 # ───────── 도표 3-5 분기 거래량·Connect·파트너 ─────────
-q = ["2024 3Q", "2024 4Q", "2025 1Q", "2025 2Q", "2025 3Q", "2025 4Q", "2026 1Q", "2026 2Q", "2026 3Q"]
+# 공시가 누계(1H·9M·FY)로만 있는 분기는 '공시값 − 차감값' 수식으로 분기 값을 만든다(천 달러 원값 그대로)
+# 행: 2=24.1Q 3=24.2Q 4=24.3Q 5=24.4Q 6=25.1Q 7=25.2Q 8=25.3Q 9=25.4Q 10=26.1Q 11=26.2Q 12=26.3Q
+q = ["2024 1Q", "2024 2Q", "2024 3Q", "2024 4Q", "2025 1Q", "2025 2Q", "2025 3Q", "2025 4Q", "2026 1Q", "2026 2Q", "2026 3Q"]
 wb.add("도표 3-5", "동사 분기 거래량(Connect·기타)과 활성 파트너 수", q,
-       cols=[("총 거래량", [1_450 * M, 1_172 * M, 1_365 * M, 1_838 * M, 2_469_446 * K, 2_705 * M, 2_902 * M, 4_259 * M, 5_796_309 * K], FMT["백만"], "hide"),
-             ("Connect(LHS)", [0, 8 * M, 478 * M, 767 * M, 1_131_334 * K, 1_466 * M, 1_612 * M, 2_773 * M, 4_259_304 * K], FMT["백만"]),
+       cols=[("공시 거래량", [1_191_916 * K, 2_506_171 * K, 1_450_472 * K, 5_128_460 * K, 1_365_136 * K, 3_203_130 * K,
+                              2_469_446 * K, 8_377_133 * K, 2_902_378 * K, 12_957_483 * K, 5_796_309 * K], FMT["백만"], "hide"),
+             ("차감 거래량", [0, "=B2", 0, 3_956_643 * K, 0, "=B6", 0, 5_672_576 * K, 0, "=B12+B10", 0], FMT["백만"], "hide"),
+             ("총 거래량", "={공시 거래량}-{차감 거래량}", FMT["백만"], "hide"),
+             ("공시 Connect", [0, 0, 0, 8_144 * K, 477_904 * K, 1_244_566 * K, 1_131_334 * K, 3_842_222 * K, 1_611_840 * K,
+                               8_644_079 * K, 4_259_304 * K], FMT["백만"], "hide"),
+             ("차감 Connect", [0, 0, 0, 0, 0, "=E6", 0, 2_375_900 * K, 0, "=E12+E10", 0], FMT["백만"], "hide"),
+             ("Connect(LHS)", "={공시 Connect}-{차감 Connect}", FMT["백만"]),
              ("기타", "={총 거래량}-{Connect(LHS)}", FMT["백만"]),
-             ("파트너(RHS)", [None, None, None, None, 246, 307, 387, 489, 612], "#,##0"),
-             ("Connect YoY", [None] * 8 + ["=C10/C6"], BAE, "hide"),
-             ("Connect(억 달러)", [None] * 8 + ["=C10/100000000"], '0.0"억 달러"', "hide"),
-             ("Connect 비중", "={Connect(LHS)}/{총 거래량}", "0%", "hide"),
-             ("신규 파트너 비율", [None] * 5 + ["=E7/E6-1", "=E8/E7-1", "=E9/E8-1", "=E10/E9-1"], "0%", "hide"),
-             ("파트너 1년 배수", [None] * 8 + ["=E10/E6"], BAE, "hide")],
-       row_sources=["FIGR 3Q25 실적 발표(전년 동기: Consumer Loan Marketplace 1,450백만 달러, Connect '-')",
-                    "FIGR 4Q25 실적 발표(전년 동기 1,172 / Connect 8백만 달러)",
-                    "FIGR 1Q26 실적 발표(전년 동기 1,365 / 478)",
-                    "FIGR 2Q26 실적 발표(전년 동기 1,838 / 767)",
-                    "FIGR 10-Q 3Q26(전년 동기, 천 달러 2,469,446 / 1,131,334), 파트너 246곳: 3Q25 실적 발표",
-                    "FIGR 4Q25 실적 발표(2,705 / 1,466), 활성 파트너 307곳",
-                    "FIGR 1Q26 실적 발표(2,902 / 1,612), 활성 파트너 387곳(신규 80곳)",
-                    "FIGR 2Q26 실적 발표(4,259 / 2,773), 활성 파트너 489곳(신규 102곳)",
-                    "FIGR 10-Q 3Q26(천 달러 5,796,309 / 4,259,304; Kiavi 677.3백만 달러 포함), 독립 파트너 612곳(3Q26 실적 발표)"],
-       unit="(백만 달러) / (곳)", note="26.3Q 총 거래량에 Kiavi(26.9.1 인수) 6.77억 달러 포함. 파트너 수는 25.3Q부터 공시",
-       check="파트너 수 정의: 25.3Q~26.2Q '활성 파트너', 26.3Q '독립(standalone) 파트너'(Kiavi 포함 894곳)")
+             ("LTM 신규 파트너", [None, None, None, 77, 76, 78, None, None, None, None, None], "#,##0", "hide"),
+             ("파트너(RHS)", ["=J6-I6", "=J7-I7", None, 134, 144, 168, 246, 307, 387, 489, 612], "#,##0"),
+             ("Connect YoY", [None] * 10 + ["=G12/G8"], BAE, "hide"),
+             ("Connect(억 달러)", [None] * 10 + ["=G12/100000000"], '0.0"억 달러"', "hide"),
+             ("파트너 1년 배수", [None] * 10 + ["=J12/J8"], BAE, "hide"),
+             ("출시 후 파트너 배수", [None] * 10 + ["=J12/J3"], BAE, "hide"),
+             ("Connect 비중", [None] * 3 + ["={}/{}".format(f"G{r}", f"D{r}") for r in range(5, 13)], "0%", "hide")],
+       row_sources=["거래량: FIGR DRS/A(2025.8.4) 1Q24 1,191,916천 달러, Connect '—' / 파트너: 1Q25 144곳 − 직전 12개월 신규 76곳(DRS/A, 이탈 0 가정)",
+                    "거래량: S-1(424B4, 2025.9.11) 1H24 2,506,171천 − 1Q24, Connect '—'(24.6 출시) / 파트너: 2Q25 168곳 − 신규 78곳(S-1)",
+                    "FIGR 10-Q 3Q25 전년 동기 1,450,472천 달러, Connect '—' / 파트너 미공시",
+                    "FY24 5,128,460천(10-K 2025) − 9M24 3,956,643천(10-Q 3Q25), Connect FY24 8,144천 / 파트너 134곳(DRS 2025.5.9, 직전 12개월 신규 77곳)",
+                    "FIGR 10-Q 1Q26 전년 동기 1,365,136 / 477,904천 / 파트너 144곳(DRS/A 2025.8.4)",
+                    "S-1 1H25 3,203,130 / 1,244,566천 − 1Q25 / 파트너 168곳(S-1)",
+                    "FIGR 10-Q 3Q25 2,469,446 / 1,131,334천 / 활성 파트너 246곳",
+                    "FY25 8,377,133 / 3,842,222천(10-K 2025) − 9M25 5,672,576 / 2,375,900천(10-Q 3Q25) / 307곳",
+                    "FIGR 10-Q 1Q26 2,902,378 / 1,611,840천 / 387곳(신규 80곳)",
+                    "9M26 12,957,483 / 8,644,079천(10-Q 3Q26) − 3Q26 − 1Q26 / 489곳(신규 102곳, 2Q26 실적 발표)",
+                    "FIGR 10-Q 3Q26 5,796,309 / 4,259,304천(Kiavi 677.3백만 달러 포함) / 독립 파트너 612곳(3Q26 실적 발표)"],
+       unit="(백만 달러) / (곳)",
+       note="Connect는 2024.6 출시. 24.1Q·2Q 파트너 수는 S-1·DRS의 '직전 12개월 신규 파트너'를 빼서 역산(이탈 0 가정), 24.3Q 파트너 수 미공시. 26.3Q 거래량에 Kiavi 6.77억 달러 포함",
+       check="파트너 수 정의: ~26.2Q '활성 파트너', 26.3Q '독립(standalone) 파트너'(Kiavi 포함 894곳). 21년 말 파트너 3곳(S-1)·23년 말 57곳(역산)은 도표 밖")
 
 # ───────── 도표 3-4 양면 플랫폼(도식) ─────────
 wb.add_facts("도표 3-4", "동사 양면 플랫폼: 공장(LOS)과 장터(Connect)", "도식", facts=[
@@ -358,8 +370,8 @@ lines(cv, gx[0] + bw[0] / 2, y0, [("파트너", BLK), ("612곳", RED), ("", None
 lines(cv, gx[1] + bw[1] / 2, y0, [("LOS(공장)", WHT), ("", None), ("중위 10일", WHT), ("건당", WHT), ("717달러", WHT)])
 lines(cv, gx[2] + bw[2] / 2, y0, [("DART", BLK), ("", None), ("전자등기", DG), ("온체인", DG), ("상환 공시", DG)])
 lines(cv, gx[3] + bw[3] / 2, y0, [("Connect(장터)", WHT), ("", None), ("26.3Q 거래", WHT),
-                                   ("VAL", s5, "Connect(억 달러)", 8, "", "", None, WHT),
-                                   ("VAL", s5, "Connect YoY", 8, "YoY ", "", None, WHT)])
+                                   ("VAL", s5, "Connect(억 달러)", 10, "", "", None, WHT),
+                                   ("VAL", s5, "Connect YoY", 10, "YoY ", "", None, WHT)])
 lines(cv, gx[4] + bw[4] / 2, y0, [("보험사", BLK), ("연기금", BLK), ("리츠·은행", BLK), ("YLDS 결제", DG), ("28곳", DG)])
 ya = yA + hA / 2
 for i in range(3):
@@ -383,12 +395,23 @@ cv.box(0, 4.55, cv.w, 0.5, fill=RED, shape="rect", paras=[[("공장(LOS)과 장�
 # ── 도표 3-5 ──
 cv = chart_slide(prs, "도표 3-5", "동사 분기 거래량(Connect·기타)과 활성 파트너 수", "기본", "동사 10-Q·실적 발표, " + SRC,
                  notes="Loan Marketplace Volume(구 Consumer Loan Marketplace Volume), Connect = 제3자 판매자가 Connect에서 거래한 물량",
-                 note_lines=["26.3Q 총 거래량에 Kiavi(26.9.1 인수) 6.77억 달러 포함, 파트너 수는 25.3Q부터 공시(26.3Q는 Kiavi 제외 독립 기준)"])
+                 note_lines=["24.1Q·2Q 파트너 수는 S-1·DRS의 '직전 12개월 신규 파트너'를 빼서 역산(이탈 0 가정), 24.3Q는 미공시(선으로 이음)",
+                             "26.3Q 총 거래량에 Kiavi(26.9.1 인수) 6.77억 달러 포함, 26.3Q 파트너는 Kiavi 제외 독립 기준"])
 p5 = add_chart(cv, "stack", s5.cats, s5.series("Connect(LHS)", "기타", "파트너(RHS)"), sheet=s5.name,
-               fmt=s5.fmt("Connect(LHS)"), units=("(백만 달러)", ""), colors=[RED, LG, DG], multilevel=True, gap=55, head=0.12)
+               fmt=s5.fmt("Connect(LHS)"), units=("(백만 달러)", ""), colors=[RED, LG, DG], multilevel=True, gap=45, head=0.12)
 p5.rhs(["파트너(RHS)"], fmt="#,##0", unit="(곳)", colors=[DG])
-cv.val(p5.x(0) - 0.25, p5.top + 0.45, s5, "Connect YoY", 8, pre="Connect 거래 1년 새 ", color=RED)
-cv.val(p5.x(0) - 0.25, p5.top + 0.8, s5, "파트너 1년 배수", 8, pre="활성 파트너 1년 새 ", color=DG)
+_cs = p5.ch._chartSpace.find(qn("c:chart"))
+_db = _cs.find(qn("c:dispBlanksAs"))
+if _db is None:
+    _db = etree.SubElement(_cs, qn("c:dispBlanksAs"))
+    _cs.remove(_db); _cs.find(qn("c:plotVisOnly")).addnext(_db)
+_db.set("val", "span")                                     # 24.3Q 파트너 미공시 → 선은 이어서
+p5.labels("파트너(RHS)", points=[1, 10], fmt="#,##0", color=DG)
+xl = (p5.x(1) + p5.x(2)) / 2
+cv.line(xl, p5.top + 1.62, xl, p5.bottom, MG, 0.75, dash=True)
+cv.label(xl, p5.top + 1.27, "24.06 Connect 출시", MG, align="c")
+cv.val(p5.px0 + 0.1, p5.top + 0.45, s5, "Connect YoY", 10, pre="Connect 거래 1년 새 ", color=RED)
+cv.val(p5.px0 + 0.1, p5.top + 0.8, s5, "출시 후 파트너 배수", 10, pre="파트너 Connect 출시 후 ", color=DG)
 
 # ── 도표 3-6 ──
 s6, s6i = bk["도표 3-6"], bk["도표 3-6 삽입"]

@@ -1,0 +1,20 @@
+{
+ "lei": "549300NOCASXPA34X033",
+ "year": 2022,
+ "name": "LakeviewLoanServicing",
+ "rows": 20306,
+ "agg": {
+  "CLOSED_L1": [
+   20305,
+   5021115000,
+   20186,
+   4992160000
+  ],
+  "CLOSED_L2": [
+   1,
+   65000,
+   0,
+   0
+  ]
+ }
+}
