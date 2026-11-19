@@ -100,6 +100,7 @@ lines = [
  ("[탭 구성]", FB),
  ("· Partners: 파트너 목록·LEI·합류시점·근거 출처", F),
  ("· Data_long: LEI×연도 원자료(건수·금액·담보순위별) - 모든 집계의 원천", F),
+ ("· Figure_1st_2nd: 동사 자사 브랜드 HELOC 1·2순위 실행액·비중(HMDA, 2020~2025)", F),
  ("· Agg: 파트너별 연도별 HELOC 실행액·건수(Data_long에서 SUMIFS) + Set A/B 합산·배수·2022년 0인 파트너 수", F),
  ("· 별도 CSV(hmda_heloc_loanlevel_partners.csv): 위 기관들의 HELOC 건별 원장(주요 컬럼만)", F),
  ("", F),
@@ -226,6 +227,26 @@ wa.column_dimensions["A"].width = 40; wa.column_dimensions["B"].width = 9
 for c in range(3, 12): wa.column_dimensions[get_column_letter(c)].width = 10
 wa.column_dimensions["D"].width = 10
 wa.freeze_panes = "C3"
+
+# ---------------- Figure 자사 브랜드 1·2순위 (HMDA) ----------------
+wf = wb.create_sheet("Figure_1st_2nd")
+wf.cell(row=1, column=1, value="Figure Lending LLC(자사 브랜드) HELOC 1순위·2순위 실행 추이 (HMDA, 연간)").font = Font(name="Arial", size=10, bold=True)
+wf.cell(row=2, column=1, value="파트너 명의(화이트라벨) 실행분은 각 파트너 LEI로 보고되므로 여기에 포함되지 않음. 회사 공시 1순위 비중(전 채널, 분기)은 SMIC_도표_원자료_FIGR_HELOC.xlsx '도표 1-1'").font = Font(name="Arial", size=8, italic=True)
+hdr(wf, 3, ["연도", "1순위 건수", "1순위 실행액($)", "2순위 건수", "2순위 실행액($)", "합계 실행액($)", "1순위 비중(금액)", "1순위 비중(건수)", "출처"])
+FG = "[참고] Figure Lending (자사 브랜드)"
+for k, y in enumerate([2020, 2021, 2022, 2023, 2024, 2025]):
+    r = 4 + k
+    wf.cell(row=r, column=1, value=str(y)).font = F
+    for j, col in ((2, "H"), (3, "I"), (4, "J"), (5, "K")):
+        c = wf.cell(row=r, column=j, value=f'=SUMIFS({rng(col)},{A_GRP},"{FG}",{A_YR},"{y}")')
+        c.font = FLINK; c.number_format = '#,##0;(#,##0);-'
+    c = wf.cell(row=r, column=6, value=f"=C{r}+E{r}"); c.font = F; c.number_format = '#,##0'
+    c = wf.cell(row=r, column=7, value=f"=IF(F{r}=0,0,C{r}/F{r})"); c.font = FB; c.number_format = "0.0%"; c.fill = KEY
+    c = wf.cell(row=r, column=8, value=f"=IF(B{r}+D{r}=0,0,B{r}/(B{r}+D{r}))"); c.font = F; c.number_format = "0.0%"
+    wf.cell(row=r, column=9, value="FFIEC HMDA loan-level, LEI 254900UL88QFG0E40516, lien_status 1/2").font = F
+wf.column_dimensions["A"].width = 8
+for col in "BCDEFGH": wf.column_dimensions[col].width = 15
+wf.column_dimensions["I"].width = 55
 wb.move_sheet("Agg", offset=-2)
 wb.save(OUT)
 
