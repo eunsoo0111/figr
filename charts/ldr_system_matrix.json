@@ -1,0 +1,18 @@
+{
+  "title_note": "주: 시스템 = 자체 HELOC 취급 시스템(LOS)",
+  "cols": [
+    {"key": "low",  "head": "예대율 낮음", "sub": "예금이 남는다 → 굴릴 자산 필요"},
+    {"key": "high", "head": "예대율 높음", "sub": "예금이 모자란다 → 대출을 넘겨야"}
+  ],
+  "rows": [
+    {"key": "sys",   "head": "시스템 있음", "sub": "직접 취급"},
+    {"key": "nosys", "head": "시스템 없음", "sub": "인프라 없음"}
+  ],
+  "cells": {
+    "sys|low":    {"role": "직접 취급·보유",   "lines": ["스스로 대출·보유, Figure 접점 작음", "남는 예금 → 마켓에서 추가 매입"]},
+    "sys|high":   {"role": "매각자 (Seller)",  "lines": ["취급한 HELOC 을 Connect 로 매각", "대출 자산 덜어 예대율 관리"]},
+    "nosys|low":  {"role": "매입자 (Buyer)",   "lines": ["남는 예금으로 Connect 에서 매입", "시스템 없이 대출 자산 확보"]},
+    "nosys|high": {"role": "파트너 (화이트라벨)", "lines": ["Figure LOS 로 자기 브랜드 취급", "취급 즉시 매각 → 수수료만 남김"]}
+  },
+  "highlight": "nosys|high"
+}

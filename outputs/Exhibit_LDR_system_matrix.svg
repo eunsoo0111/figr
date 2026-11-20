@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="255.11811pt" height="102.047244pt" viewBox="0 0 255.11811 102.047244" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T07:29:59.497643</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 102.047244 
+L 255.11811 102.047244 
+L 255.11811 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 148.110236 89.007874 
+L 252.283465 89.007874 
+L 252.283465 54.425197 
+L 148.110236 54.425197 
+z
+" clip-path="url(#pd521dfc765)" style="fill: #f5f5f5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 2.834646 19.84252 
+L 252.283465 19.84252 
+L 252.283465 2.267717 
+L 2.834646 2.267717 
+z
+" clip-path="url(#pd521dfc765)" style="fill: #e9e9e9"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 2.834646 19.84252 
+L 252.283465 19.84252 
+" clip-path="url(#pd521dfc765)" style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 2.834646 54.425197 
+L 252.283465 54.425197 
+" clip-path="url(#pd521dfc765)" style="fill: none; stroke: #bfbfbf; stroke-width: 0.35; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 2.834646 89.007874 
+L 252.283465 89.007874 
+" clip-path="url(#pd521dfc765)" style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 43.937008 89.007874 
+L 43.937008 2.267717 
+" clip-path="url(#pd521dfc765)" style="fill: none; stroke: #bfbfbf; stroke-width: 0.35; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 148.110236 89.007874 
+L 148.110236 2.267717 
+" clip-path="url(#pd521dfc765)" style="fill: none; stroke: #bfbfbf; stroke-width: 0.35; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="9.784891" transform="rotate(-0 46.204724 9.784891)">예대율 낮음</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="16.871505" transform="rotate(-0 46.204724 16.871505)">예금이 남는다 → 굴릴 자산 필요</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="9.784891" transform="rotate(-0 150.377953 9.784891)">예대율 높음</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="16.871505" transform="rotate(-0 150.377953 16.871505)">예금이 모자란다 → 대출을 넘겨야</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="4.251969" y="35.863631" transform="rotate(-0 4.251969 35.863631)">시스템 있음</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="4.251969" y="42.950245" transform="rotate(-0 4.251969 42.950245)">직접 취급</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="32.178592" transform="rotate(-0 46.204724 32.178592)">직접 취급·보유</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="39.265206" transform="rotate(-0 46.204724 39.265206)">스스로 대출·보유, Figure 접점 작음</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="46.35182" transform="rotate(-0 46.204724 46.35182)">남는 예금 → 마켓에서 추가 매입</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="32.178592" transform="rotate(-0 150.377953 32.178592)">매각자 (Seller)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="39.265206" transform="rotate(-0 150.377953 39.265206)">취급한 HELOC 을 Connect 로 매각</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="46.35182" transform="rotate(-0 150.377953 46.35182)">대출 자산 덜어 예대율 관리</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="4.251969" y="70.446308" transform="rotate(-0 4.251969 70.446308)">시스템 없음</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="4.251969" y="77.532922" transform="rotate(-0 4.251969 77.532922)">인프라 없음</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="66.761269" transform="rotate(-0 46.204724 66.761269)">매입자 (Buyer)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="73.847883" transform="rotate(-0 46.204724 73.847883)">남는 예금으로 Connect 에서 매입</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="46.204724" y="80.934497" transform="rotate(-0 46.204724 80.934497)">시스템 없이 대출 자산 확보</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Pretendard'; text-anchor: start; fill: #c00000" x="150.377953" y="66.761269" transform="rotate(-0 150.377953 66.761269)">파트너 (화이트라벨)</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="73.847883" transform="rotate(-0 150.377953 73.847883)">Figure LOS 로 자기 브랜드 취급</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="150.377953" y="80.934497" transform="rotate(-0 150.377953 80.934497)">취급 즉시 매각 → 수수료만 남김</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6px; font-family: 'Pretendard'; text-anchor: start" x="4.251969" y="95.958119" transform="rotate(-0 4.251969 95.958119)">주: 시스템 = 자체 HELOC 취급 시스템(LOS)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd521dfc765">
+   <rect x="0" y="0" width="255.11811" height="102.047244"/>
+  </clipPath>
+ </defs>
+</svg>
