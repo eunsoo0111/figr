@@ -1,0 +1,1104 @@
+연도,LEI,기관명,HELOC건수,HELOC실행액,1순위건수,1순위실행액,후순위건수,후순위실행액,API
+2025,DRMSV1Q0EKMEXLAU1P80,"Citizens Bank, National Association",57400,12034870000,16030,4121760000,41370,7913110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,B4TYDEB6GKMZO031MB27,"Bank of America, National Association",56295,10519315000,15752,3536830000,40543,6982485000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,AD6GFRVSDT01YPT1CS68,"PNC Bank, National Association",47941,6692475000,13399,2391495000,34542,4300980000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2WHM8VNJH63UN14OL754,The Huntington National Bank,29505,4013825000,10032,1731300000,19473,2282525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,JJKC32MCHWDI71265Z06,Truist Bank,24764,3909590000,8645,1544615000,16119,2364975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,6BYL5QZYBDK8S7L73M02,U.S. Bank National Association,21710,3453200000,4668,1016680000,17042,2436520000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,03D0JEWFDFUS0SEEKG89,"TD Bank, National Association",13473,3023035000,4220,1041510000,9253,1981525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003GQDUH26DNNH17,Navy Federal Credit Union,24198,2987390000,2185,380795000,22013,2606595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,QFROUN1UWUYU0DVIWD51,"Fifth Third Bank, National Association",23885,2979125000,6826,1078880000,17059,1900245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900UL88QFG0E40516,FIGURE LENDING LLC,32945,2871105000,3351,398215000,29594,2472890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008CPTDVOS570626,Third Federal Savings and Loan Association of Cleveland,14331,2156135000,1964,324470000,12367,1831665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,3Y4U8VZURTYWI1W2K376,BMO Bank National Association,11532,2101260000,4513,971715000,7019,1129545000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HW662MN1WU8550,United Wholesale Mortgage,13671,2056865000,0,0,13671,2056865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,WWB2V0FCW3A0EE3ZJN75,Manufacturers and Traders Trust Company,13235,1881855000,4984,819510000,8251,1062345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GKFNPRWNS0GF29,"CMG MORTGAGE, INC.",4508,1742140000,2523,1527575000,1985,214565000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KM40FP4MSQU941,Boeing Employees Credit Union,10826,1719990000,1532,330800000,9294,1389190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,8WH0EE09O9V05QJZ3V89,"Zions Bancorporation, N.A.",5896,1664440000,1924,693770000,3972,970670000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001WHVQBGRSWEU75,"HOMEBRIDGE FINANCIAL SERVICES, INC.",11077,1623305000,1570,275520000,9507,1347785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,7H6GLXDRUGQFU57RNE97,"JPMorgan Chase Bank, National Association",6157,1615095000,1186,615230000,4971,999865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001GCBD5XGNIC815,Coastal Community Bank,21221,1504095000,2839,175595000,18382,1328500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001NJEVHTZW7FG34,SCHOOLSFIRST,7856,1499930000,963,221145000,6893,1278785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,L9VVX1KT5TFTKS0MLF66,First-Citizens Bank & Trust Company,7057,1488395000,2134,498880000,4923,989515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,EQTWLK1G7ODGC2MGLV11,Regions Bank,14148,1460540000,5014,658760000,9134,801780000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PIL8LFAQ04XC20,"SPRING EQ, LLC",11764,1408030000,675,112405000,11089,1295625000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SHE1JTCOWBP090,STATE EMPLOYEES',13397,1319865000,2579,332505000,10818,987360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KTR1JGH3K6LU06,FourLeaf Federal Credit Union,6198,1253450000,797,211785000,5401,1041665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HFXTV55C2HHM89,DESERT FINANCIAL CREDIT UNION,9734,1235090000,1448,229830000,8286,1005260000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007I0X1GRWIU8B34,AMERICA FIRST Federal Credit Union,8617,1231765000,942,240130000,7675,991635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FX7K8PTEQUU487,PENTAGON FEDERAL CREDIT UNION,7213,1180675000,845,176405000,6368,1004270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T94GSH3C4U5M59,ALLIANT CREDIT UNION,5863,1062535000,552,118210000,5311,944325000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,N8T7HW55LK5D2ORCKP39,First National Bank of Pennsylvania,5198,993160000,1714,342990000,3484,650170000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001PXRJMPLXPG540,IDAHO CENTRAL CREDIT UNION,5981,918155000,1242,292200000,4739,625955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q50XCC0473FG63,QUORUM FEDERAL CREDIT UNION,4527,903295000,536,159420000,3991,743875000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,T68X8LLAQYRNDV034K14,United Community Bank,4493,842275000,1655,383915000,2838,458360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NTAC4H10MGSU23,Summit Credit Union,7966,832240000,932,154310000,7034,677930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,COOWI3L2W9TPYR3WJX37,First Horizon Bank,3316,799960000,1355,347995000,1961,451965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490066WMF8ZMQXQB18,"Lendage, LLC",10888,793610000,493,39655000,10395,753955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,6GK3WNTSHBNJOVP1LV97,ENT Credit Union,6007,785555000,975,178515000,5032,607040000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900DTLHVWQ7NP7R34,"THE LOAN STORE, INC.",6869,780295000,863,131705000,6006,648590000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,X8V2II80XTQHRH7NCB19,Eastern Bank,3194,756320000,715,217725000,2479,538595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,8I3UVGYULPJQIP7FQV10,"SouthState Bank, National Association",3557,729905000,1126,283980000,2431,445925000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006S869XKIESMV41,Mountain America Federal Credit Union,4552,651150000,601,125625000,3951,525525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AT7EB9FJAF0E61,Old National Bank,4305,650995000,1361,241895000,2944,409100000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,Q7C315HKI8VX0SSKBS64,Cadence Bank,4407,628685000,1476,255470000,2931,373215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AG64NHILB7ZP05,"Loandepot.Com, LLC",6484,626600000,264,28690000,6220,597910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,70WY0ID1N53Q4254VH70,Comerica Bank,2698,617460000,1046,244510000,1652,372950000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CN1DD55MJDFH69,University of Wisconsin Credit Union,5921,615615000,733,118575000,5188,497040000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008LK3474E9U2888,ONPOINT COMMUNITY CREDIT UNION,5536,605760000,775,130745000,4761,475015000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,IFQSIUC9AGQV2NE8CN25,Columbia Bank,2518,579990000,738,235530000,1780,344460000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,G5AHTAP80NWA3Q8RDC78,Frost Bank,2286,574200000,547,206245000,1739,367955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TOOOOW36EX6R40,Suncoast Credit Union,6071,552245000,1187,138475000,4884,413770000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZJIC4LOLZH0M42,THE GOLDEN 1,3980,551970000,479,86795000,3501,465175000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SWKVL60SKWK981,MEMBERS 1ST,4652,550180000,991,168835000,3661,381345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,COINQMNIM6RBU631DD85,Arvest Bank,4382,545130000,1062,171780000,3320,373350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YB1H2FRI6JPM51,LAKE MICHIGAN CREDIT UNION,4564,525810000,788,120140000,3776,405670000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,DX0JX77PRMOELF7VG772,Synovus Bank,2285,524435000,692,183240000,1593,341195000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,QGPGHQ1ENZOOLJRFTH41,"WesBanco Bank, Inc.",3432,521540000,1192,227470000,2240,294070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZTT08EKQRVTR15,Atlantic Union Bank,2820,511300000,820,182280000,2000,329020000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,DZC62HF6UIZYJ08V1J90,"Fulton Bank, National Association",2734,497660000,787,178745000,1947,318915000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930080168VA6Z8UX21,TOWER Federal Credit Union,2826,494500000,180,40820000,2646,453680000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005DKMV1IHIM8E20,"Wilmington Savings Fund Society, FSB",2080,492190000,573,171565000,1507,320625000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q02LGIN9AXKP98,FIRST TECHNOLOGY FEDERAL CREDIT UNION,2211,487315000,195,51905000,2016,435410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C232ZWY1I57C16,WESCOM CENTRAL CREDIT UNION,1924,484270000,0,0,1924,484270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XY701IELCE5Q08,BETTER MORTGAGE CORPORATION,3058,483280000,280,49720000,2778,433560000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KY533JFETOYG46,Landmark Credit Union,4527,470325000,969,127295000,3558,343030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VN9E1DEKF26E34,SPACE COAST CREDIT UNION,3571,469125000,858,131650000,2713,337475000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008RNHC5I1E3IZ56,Broadview Federal Credit Union,4560,461300000,954,127390000,3606,333910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VZVN841I2ILS84,"CROSSCOUNTRY MORTGAGE, INC.",4466,458790000,383,57765000,4083,401025000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,MV4O55SH8HO6KQSGW013,First Financial Bank,3191,445485000,945,163015000,2246,282470000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KUYF5QOROM7N37,ESL Federal Credit Union,4136,432590000,1164,156730000,2972,275860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,E57ODZWZ7FF32TWEFA76,"Citibank, National Association",2272,430920000,538,125530000,1734,305390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300COIWXM618UBE82,HomeTrust Bank,1323,429225000,293,86735000,1030,342490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000EO85W8IS2FR22,LOGIX FEDERAL CREDIT UNION,2169,425325000,201,45195000,1968,380130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,TKT6FH38184ZYBTPKS77,Rockland Trust Company,1871,410085000,536,141430000,1335,268655000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930025XJJO3T0M1A92,GEORGIA'S OWN,1646,402270000,326,102400000,1320,299870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NZOY3XB2DNSZ34,USALLIANCE FEDERAL CREDIT UNION,1347,381585000,107,39485000,1240,342100000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,VNOO6EITDJ2YUEBMSZ83,"UMB Bank, National Association",1521,380465000,506,158920000,1015,221545000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BDHZAV4ZQHQV19,GOLDENWEST,2253,380025000,346,93890000,1907,286135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008L9O5NV7EAK360,BELLCO CREDIT UNION,2818,367400000,288,45540000,2530,321860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006F1N8E3EEF3W63,Fremont Bank,1313,367215000,176,56770000,1137,310445000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JPGMCMBEJEK584,DIGITAL,2035,364475000,263,69245000,1772,295230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T7DF901BR7V258,Nassau Educators Federal Credit Union,1740,360770000,298,86850000,1442,273920000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,ZF85QS7OXKPBG52R7N18,"Associated Bank, National Association",3537,356125000,950,102310000,2587,253815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ESRQ6OLBB56N04,Glacier Bank,1670,351740000,576,156940000,1094,194800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,593C3GZG957YOJPS2Z63,City National Bank,404,342240000,85,129525000,319,212715000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300U3721PJGQZYY68,"GUARANTEED RATE, INC.",3584,339990000,244,30120000,3340,309870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Z5QRSHW4Y8CR51,CREDIT UNION OF TEXAS,2526,338940000,678,108370000,1848,230570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002QRULT2T40BH09,COMMUNITYAMERICA FEDERAL CREDIT UNION,3357,334155000,418,49800000,2939,284355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WYBPIWKK6SQC06,Bell Bank,1478,333100000,297,115715000,1181,217385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CDOC4F7XSRG390,Pinnacle Bank,1495,332885000,486,155650000,1009,177235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UXY7OP0IC38293,Northpointe Bank,676,325780000,466,293460000,210,32320000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,WWJYKHS2UNKSDW8XLB53,First Hawaiian Bank,1163,322145000,452,158280000,711,163865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,KI0VI4JRMCIJ329YTN75,Valley National Bank,1415,319065000,424,101260000,991,217805000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002JDOI3GTNVUD76,German American Bank,2351,309405000,885,141265000,1466,168140000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,XC7Z0BA39TU7L1AKOJ12,First American Bank,1979,308295000,438,88160000,1541,220135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930063XGNMIXS57091,POLICE & FIRE,2470,306100000,365,62135000,2105,243965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,S0Q3AHZRL5K6VQE35M07,First Merchants Bank,2197,305645000,802,122890000,1395,182755000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,HUX2X73FUCYHUVH1BK78,KeyBank National Association,1974,299380000,707,121185000,1267,178195000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JEBULFT3BSU682,Bangor Savings Bank,1804,298020000,550,111100000,1254,186920000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930085BPQMVH9JFX69,HUDSON VALLEY CREDIT UNION,1970,297310000,383,74875000,1587,222435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,FU7RSW4CQQY98A2O7J66,"BOKF, National Association",2147,297165000,388,88450000,1759,208715000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,MCXHCL35UUWDZK7NCQ61,S&T Bank,1832,292780000,928,163420000,904,129360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,F28JOQ8OBWCFUYM0UX93,East West Bank,870,292360000,255,158565000,615,133795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W4FT4H1UWPGU95,GREENSTATE Credit Union,2999,291135000,455,62235000,2544,228900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,WE0I402RW25AU38DTI13,Banner Bank,1725,287165000,426,104420000,1299,182745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YN94MOAVYW0F52,"GoodLeap, LLC",4127,282645000,0,0,4127,282645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,WV0OVGBTLUP1XIUJE722,"Webster Bank, National Association",1496,276370000,511,104135000,985,172235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930062IKKOJW3K8L94,TRUMARK FINANCIAL CREDIT UNION,1814,276240000,281,54985000,1533,221255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KER3YVZ3U5RK57,VERIDIAN CREDIT UNION,3581,275385000,461,45305000,3120,230080000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KWXO8FUM7L0E14,Liberty Bank,1559,273715000,495,114305000,1064,159410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MSU5WVAU4ZN645,"Dollar Bank, Federal Savings Bank",1554,273620000,463,109355000,1091,164265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E3QJQLKVB40W93,CANVAS CREDIT UNION,2319,272365000,373,53815000,1946,218550000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,XJCRTTYJVBMA22IXL619,Bank of Hawaii,1019,266395000,305,119335000,714,147060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IKS3MMB5YK6T18,KINECTA,1285,265715000,169,37835000,1116,227880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004UNRG4PWDF2K60,AFFINITY,1614,265280000,264,54190000,1350,211090000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E2UX99HKDBR481,"Broker Solutions, Inc.",3138,265240000,308,36570000,2830,228670000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XOOL3OJTITCV30,CITADEL FEDERAL CREDIT UNION,1520,263390000,305,65805000,1215,197585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LG07PXWSIMC813,TRUSTONE FINANCIAL CREDIT UNION,2050,263140000,288,54800000,1762,208340000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W6K140RN8NQB93,DFCU FINANCIAL,1872,262080000,488,85470000,1384,176610000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C4J510S9L1RF98,"Alerus Financial, National Association",730,260920000,161,72385000,569,188535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VXXDSMSH313G18,Truliant Federal Credit Union,2412,260000000,561,70285000,1851,189715000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O6Z0I6KYMESL47,AMWEST FUNDING CORP.,947,259655000,46,13740000,901,245915000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,NSGZD26XPW2CUM2JKU70,HANCOCK WHITNEY BANK,1725,254345000,649,118315000,1076,136030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HVW3AI97UKTO72,Wings Financial Credit Union,2160,250460000,323,50765000,1837,199695000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KSOOZZVXCMA627,ANGEL OAK MORTGAGE SOLUTIONS LLC,810,249960000,35,13045000,775,236915000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001WRXQTCKCA6205,REDWOOD,1435,246555000,170,34790000,1265,211765000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MRP46SVQMWOE81,COASTAL Federal Credit Union,2053,246125000,326,45170000,1727,200955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OBO7DOF2KOP535,FirstBank,1067,244645000,375,109385000,692,135260000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CHR7TPQ6LLXG47,LANGLEY Federal Credit Union,2437,234605000,390,48260000,2047,186345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AY1W8F91VLTB05,"STATE EMPLOYEES CREDIT UNION OF MARYLAND, INCORPORATED",1927,232915000,279,40575000,1648,192340000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008N1D96CHCTQC27,SECURITY SERVICE FEDERAL CREDIT UNION,1430,232200000,232,42890000,1198,189310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RFSMIRUODUVW59,First Interstate Bank,1818,232120000,568,85400000,1250,146720000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PT6CCDYU4VHM41,PENNSYLVANIA STATE EMPLOYEES Credit Union,2145,230015000,428,63060000,1717,166955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,7DMUJTL9FFTVIAG9H788,Commerce Bank,1854,226940000,632,89000000,1222,137940000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,OYWNLMHNBQQ7BAH3EE86,Alpine Bank,806,225670000,253,92175000,553,133495000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,IWRZQFYIRJ0IMURZBB68,Johnson Financial Group,1207,224955000,247,61455000,960,163500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,LVR1UQE8OOCO93IHEB52,Northwest Bank,1851,224815000,717,97225000,1134,127590000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,VN1JLT1F3FLLVN3FZG89,First Commonwealth Bank,1974,223350000,621,84395000,1353,138955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PQLK8E48ILXV41,"Valon Mortgage, Inc.",3362,222490000,14,1590000,3348,220900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,01J4SO3XTWZF4PP38209,Trustmark National Bank,2354,214310000,869,98365000,1485,115945000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BOLK89ZL7BNX85,UTAH COMMUNITY FEDERAL CREDIT UNION,1285,213875000,206,48490000,1079,165385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930039UO39UJGI7078,Towne Bank,915,213695000,272,85480000,643,128215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,337KMNHEWWWR6B7Q7W10,MidFirst Bank,501,211435000,145,69855000,356,141580000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009V3WNJX9V2GZ85,FirstBank,1039,211235000,231,61095000,808,150140000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZIQ24V0C88AC41,GTE Federal Credit Union,1376,209550000,84,11970000,1292,197580000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,8Q77SW3KZ88P3GNX0T60,Lake City Bank,1565,205585000,667,109695000,898,95890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OZ550X4QD5PC74,Royal Credit Union,2036,204830000,439,67925000,1597,136905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,P7GC0W65KB5CEIHLDX81,Horizon Bank,1522,204130000,401,70085000,1121,134045000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UK3Z5PC7V71K69,COASTAL1 Credit Union,1199,204085000,202,47180000,997,156905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,SS1TRMSN6BRNMOREEV51,"Flagstar Bank, N.A.",1267,203775000,172,36480000,1095,167295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P2GEYNMH5OQA71,Washington Trust Bank,641,203595000,224,84580000,417,119015000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V3UW6HP83URS67,ADVIA Federal Credit Union,2026,201470000,581,74575000,1445,126895000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HFBEONQN2CK447,Union Savings Bank,1538,201120000,260,58520000,1278,142600000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009Y8ROUG903AQ21,STANFORD Federal Credit Union,540,200920000,44,19310000,496,181610000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009BOQDC6PCFR785,"NBT Bank, National Association",1641,198345000,694,89470000,947,108875000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NWYTCEH9RSSW54,SUFFOLK,1017,198195000,179,45015000,838,153180000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006NTCY0P06JR884,Salem Five Cents Savings Bank,895,194015000,186,52650000,709,141365000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300G6RZM5T8NQJW74,REDSTONE Federal Credit Union,2180,192410000,415,46445000,1765,145965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004K0Z4RFJSPYT52,CONSUMERS COOPERATIVE CREDIT UNION,1540,191540000,337,54375000,1203,137165000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002RF1ERFA2XR050,Renasant Bank,1378,186950000,532,80760000,846,106190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GCEP3NM7A1X491,TrustCo Bank,1422,186380000,319,50875000,1103,135505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VMVKSQE1B7DD43,The Camden National Bank,1068,186310000,428,86400000,640,99910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DXSALP2TGZBQ16,MISSION,1170,185700000,102,20300000,1068,165400000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YKTME1U7Z0UN20,Empower Federal Credit Union,1767,184545000,509,66255000,1258,118290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V5YG1VXZAU5G02,UNIVERSITY OF KENTUCKY,1469,184055000,228,36440000,1241,147615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EM6UG8HE3P8U74,Patelco Credit Union,1099,183745000,142,26660000,957,157085000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O1ESL3X18LPG95,California Coast Credit Union,1073,183665000,117,21935000,956,161730000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Y4BSP3BSFW7J29,DELTA COMMUNITY CREDIT UNION,1330,182920000,213,30735000,1117,152185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TDVGWRELEO5F50,Visions Federal Credit Union,1342,182680000,316,39770000,1026,142910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006MCOP60BBI4G97,Seacoast National Bank,917,181705000,263,64325000,654,117380000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PP6R8WIOP60124,Southern First Bank,483,181625000,131,82435000,352,99190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T67186NPGCHI50,FIRST COMMUNITY,1548,180420000,0,0,1548,180420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DD4R4SYK5RAQ92,"MOVEMENT MORTGAGE, LLC",1851,179735000,170,28090000,1681,151645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GS0W0TEUQS8571,"Morgan Stanley Private Bank, National Association",327,176965000,77,48035000,250,128930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,WKN6AF1FCL7BBYGTGI83,First Savings Bank,521,176385000,435,170875000,86,5510000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,CKVBED0S4DMLKJJ5XH28,Stifel Bank and Trust,612,175950000,202,73430000,410,102520000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TQWW6MLVH6KY61,ALLEGACY FEDERAL CREDIT UNION,1334,175660000,235,31205000,1099,144455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300K7224BC1IAX207,MIDFLORIDA,1200,175440000,405,74535000,795,100905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YIBRM1ZYA6GT07,NAVIGANT CREDIT UNION,1102,174860000,186,42470000,916,132390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,X6T32LKEPUT8LQMW6755,Republic Bank & Trust Company,1110,174600000,194,40260000,916,134340000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VYK2WBD7SST478,Bank OZK,1299,174575000,537,86595000,762,87980000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930053SM8COVIPIY54,MICHIGAN STATE UNIVERSITY Federal Credit Union,1667,174555000,233,35555000,1434,139000000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S8SHBRCI7UU819,Baxter Credit Union,1143,172225000,133,24695000,1010,147530000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N1YEXP02MHBR47,"WRIGHT-PATT CREDIT UNION, INC.",2048,171730000,431,42185000,1617,129545000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FK3AFCFVAPH234,"Leader Bank, National Association",727,171455000,134,47200000,593,124255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N52O6FKUCU5G62,NUMERICA CREDIT UNION,1302,170700000,191,31815000,1111,138885000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ABEFRFKC9S8368,"CREDIT UNION OF COLORADO, A FEDERAL CREDIT UNION",1296,170510000,172,28180000,1124,142330000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z6QWABFYI73E79,HAWAIIUSA FEDERAL CREDIT UNION,638,169720000,167,70185000,471,99535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UF3FPC7U6RFC59,The Central Trust Bank,1767,168335000,430,49980000,1337,118355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300B0HNWBV7RX2661,Financial Partners Credit Union,922,168150000,62,12830000,860,155320000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007XQ02VMXYJYJ21,The Cape Cod Five Cents Savings Bank,912,167370000,196,40980000,716,126390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Y6FMTOZSY0VW06,Kemba Financial Credit Union Inc,1469,166955000,221,33325000,1248,133630000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,4LJGQ9KJ9S0CP4B1FY29,Stock Yards Bank & Trust Company,998,166440000,383,77045000,615,89395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930072OCHTUJOZQB56,Liberty,1226,166200000,237,37295000,989,128905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,LDVFX8JEECFFE8HRWA73,First National Bank of Omaha,1729,165695000,390,45690000,1339,120005000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TE5E6DWAI74K71,GEORGIA UNITED,1467,163875000,196,22720000,1271,141155000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930067MGJBFNEN1P47,ELEVATIONS,1059,163465000,129,26635000,930,136830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DEVPMBR765WH45,UTAH FIRST,962,163380000,84,30350000,878,133030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NBFK4GO76FTE84,CNB Bank,913,162465000,327,73865000,586,88600000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,IUGPUX5LWRZ3B6KIZ697,Ameris Bank,860,160310000,279,65545000,581,94765000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DMHEHNYZ2OLB41,First United Bank and Trust Company,958,159940000,318,76370000,640,83570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004F7BXDIUFVPV87,STAR ONE Credit Union,541,157325000,30,8320000,511,149005000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LU6Y2TXG48QY48,RANDOLPH-BROOKS FEDERAL CREDIT UNION,1346,156510000,267,37955000,1079,118555000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001B4U37VT2ML818,GESA,934,155060000,223,44735000,711,110325000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005VBGFDRV6FSU19,HAWAII STATE FEDERAL CREDIT UNION,677,153815000,111,34745000,566,119070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TR6MWKSIOP3B72,Beacon Bank & Trust,566,153260000,166,55420000,400,97840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DPRWSBUY619V27,Simmons Bank,1042,152420000,329,64485000,713,87935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300INFJ8TYNZ1G568,"Charles Schwab Bank, SSB",416,151080000,229,82565000,187,68515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TUSRLWD8ETNR90,SPOKANE TEACHERS,1429,150195000,223,34595000,1206,115600000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,LCUAWMT4M5H8DJ8DFH49,1st Source Bank,1205,148825000,421,66745000,784,82080000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EWL25M8JXH2R78,OneAZ Credit Union,1091,147145000,215,35595000,876,111550000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,01KWVG908KE7RKPTNP46,HomeStreet Bank,534,146000000,93,45705000,441,100295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300R8VPSFM828B312,TEACHERS FEDERAL CREDIT UNION,878,145380000,96,22320000,782,123060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DDLYW49R2HCV81,EASTMAN CREDIT UNION,1323,142835000,401,57025000,922,85810000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SY0ZRUCS4CSY07,LAFAYETTE FEDERAL CREDIT UNION,590,142770000,7,2165000,583,140605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900L67A0ZTJRS6614,First Bank,704,142610000,275,62765000,429,79845000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,VMDPCBOQ43W3PZTYZL93,Middlesex Savings Bank,582,141940000,141,41465000,441,100475000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004RLLKTQS8K7U51,American Airlines Federal Credit Union,1164,141350000,203,28005000,961,113345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N5GF79IZ5Y7G10,AMERICAN HERITAGE FCU,1299,140745000,281,37565000,1018,103180000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QDGMFASKEN7Z77,Blaze Credit Union,1067,140735000,204,40040000,863,100695000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000FWM3I2HHQY149,WASHINGTON STATE EMPLOYEES CREDIT UNION,1011,140605000,180,29540000,831,111065000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W0YBCUV18HSR42,Tri Counties Bank,809,139455000,235,51925000,574,87530000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CEHN5CVC6INV48,The Park National Bank,1411,137905000,442,49040000,969,88865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,38CFVD4YYFWD1FV7IM34,Nicolet National Bank,930,137320000,231,46905000,699,90415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CIEUZUO7CHPG88,COVANTAGE CREDIT UNION,2087,136605000,390,35760000,1697,100845000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QIUZLVR1OLDH55,Genisys Credit Union,1140,136180000,214,28970000,926,107210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BES7HNVKCDIM50,"American Savings Bank, FSB",626,135700000,192,52150000,434,83550000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930074H8866HTIWU69,KNOXVILLE TVA EMPLOYEES CREDIT UNION,1323,135075000,315,41455000,1008,93620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YD7XJM19TH5O82,CITIZENS EQUITY FIRST,1601,134555000,463,42265000,1138,92290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WK15ESCDNJ5M35,CORNING CREDIT UNION,1505,133365000,413,43125000,1092,90240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003B2LEGQHDWRN55,Hanscom Federal Credit Union,730,132810000,83,20175000,647,112635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GSYIBSO9N4PB10,CONSUMERS CREDIT UNION,1273,132125000,412,51640000,861,80485000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L44U62O7WHRR78,FIRST COMMUNITY,876,131810000,481,106275000,395,25535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,HIDXEG9BLUJZKBGUT764,Bank-Fund Staff Federal Credit Union,579,131015000,52,16870000,527,114145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MKOZ81ZWTNKB12,United Bank,780,130950000,333,64985000,447,65965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007LUU2DLS755O60,Centra Credit Union,1259,128325000,313,40665000,946,87660000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XSS1CPK8G7B851,ServisFirst Bank,305,126565000,98,54590000,207,71975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008NQVB5ZOWYNU83,CREDIT UNION ONE,1076,126070000,238,39110000,838,86960000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000E527OH5Y8TR73,BayPort Federal Credit Union,991,125645000,172,26860000,819,98785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900N49YI2HHKDPS92,iQ Credit Union,1009,125565000,153,23655000,856,101910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001CM06UK2XY3I18,FRANKLIN MINT,985,125355000,160,21120000,825,104235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900P7WLDQD9IUL038,Service Federal Credit Union,910,124140000,155,26745000,755,97395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009LKZIV63KY6458,"Virginia Credit Union, Inc.",1430,124040000,282,26350000,1148,97690000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,1IE8VN30JCEQV1H4R804,"HSBC BANK USA, NATIONAL ASSOCIATION",326,123750000,51,25575000,275,98175000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007VGBHF6SRXRR53,TECHNOLOGY CREDIT UNION,446,122410000,49,14465000,397,107945000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ERL4SV8MDO3P56,AMERICA'S FIRST,1302,121220000,336,39670000,966,81550000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RWXIW3CFTANH88,Climb Credit Union,723,120655000,55,11495000,668,109160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IEP77RKJ87Z176,OREGON COMMUNITY,1103,120545000,157,26005000,946,94540000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FGXN1K3HLB1R50,"Rocket Mortgage, LLC",464,120030000,196,61750000,268,58280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930060KLIQD8MMSB55,Orrstown Bank,640,119950000,222,55090000,418,64860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,I70W3N0Z6KOX8FYIH023,Peoples Bank,1224,118580000,528,56910000,696,61670000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000XJFWT2H46HI07,Southern Bank and Trust Company,698,118040000,241,46135000,457,71905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZS1TR1B4LHX377,Firefighters First Federal Credit Union,690,117070000,39,10635000,651,106435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001W9K6LDV5X2H07,S. C. STATE FEDERAL CREDIT UNION,992,116260000,324,44680000,668,71580000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IVURCTJ6QVMD67,First Financial Bank,574,115680000,258,65260000,316,50420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LZLYU85WF65870,MidWestOne Bank,896,114760000,260,42950000,636,71810000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930036K3ZFJ4FOKT69,VYSTAR CREDIT UNION,862,114450000,199,28835000,663,85615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GFM3T3SN2KS138,ACHIEVA CREDIT UNION,979,114425000,227,31365000,752,83060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VVH8HHFMWL8536,CHEVRON Federal Credit Union,543,114375000,75,22115000,468,92260000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CDLJDN8ENOT455,MARION AND POLK SCHOOLS CREDIT UNION,711,113505000,127,36755000,584,76750000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UXTDELQS5SLF91,DUPACO COMMUNITY,1543,113335000,298,25870000,1245,87465000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OTLWFQPOOSC346,BayCoast Bank,551,112775000,94,28460000,457,84315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000NZZZU3GFIYL71,Needham Bank,319,112005000,45,24175000,274,87830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,UPMVBH3EU3LS6P1KR697,"AMERANT BANK, NATIONAL ASSOCIATION",309,111695000,78,28350000,231,83345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RPOGWJRH63HS39,UNION HOME MORTGAGE CORP.,1403,110715000,94,10740000,1309,99975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Q6YS0NMCYAH669,Tompkins Community Bank,655,109635000,224,46220000,431,63415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RM7ARTTP3T1V93,The Canandaigua National Bank and Trust Company,647,108245000,184,39860000,463,68385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V36YE6JCCEJB76,Arizona Financial Credit Union,941,106395000,204,32440000,737,73955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NZWZUYUWEOA562,Elements Financial Federal Credit Union,672,106230000,153,34095000,519,72135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004NH61PL6YYNH25,Provident Bank,506,106170000,172,44380000,334,61790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I0HE5X0T5OI648,CALIFORNIA CREDIT UNION,709,106075000,86,15790000,623,90285000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TLGCPJTEG3WN76,EASTRISE FEDERAL CREDIT UNION,814,105940000,157,28035000,657,77905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PKEQ3Q9S0IXW76,UNITED FEDERAL CREDIT UNION,1086,105740000,256,29280000,830,76460000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F6NSBOJBM9ED39,NuVision Federal Credit Union,723,105435000,86,13120000,637,92315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490012KFFZI81TDT02,The Fidelity Bank,591,104835000,236,49990000,355,54845000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549005DO6VPVH5MOS59,CREDIT UNION OF SOUTHERN CALIFORNIA,590,104030000,35,6665000,555,97365000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KDDWLC5I8K6C44,ORANGE COUNTY'S CREDIT UNION,563,103675000,56,11110000,507,92565000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S99IK3EU11AS13,INDIANA MEMBERS CREDIT UNION,1000,102210000,166,25100000,834,77110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QD5CQZ9PPP5B09,PARTNERS Federal Credit Union,644,101340000,73,11125000,571,90215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005R24FV5DFFXW42,Central Pacific Bank,323,100815000,117,48395000,206,52420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TF1E42EUFBSL45,Mechanics Bank,303,99675000,87,36195000,216,63480000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NWKILSNQAIG053,CHARTWAY FEDERAL CREDIT UNION,803,99125000,150,22360000,653,76765000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005RDTT7HVODH436,"Community Bank, National Association",1034,98700000,342,38480000,692,60220000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HKYBSATM44Q425,"The Washington Trust Company, of Westerly",499,98575000,109,25805000,390,72770000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300A0SVCQJPHVGV20,ALTRA Federal Credit Union,980,98230000,179,29015000,801,69215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TYBI78RNWPFB28,AMERICAN EAGLE FINANCIAL Credit Union,718,98180000,120,24450000,598,73730000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900378RFGMBEKAF12,Empeople Credit Union,929,97695000,110,14530000,819,83165000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z4HQ7YDKUVEW39,VANTAGE WEST,1002,97000000,189,25725000,813,71275000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NZCGMT6517BA94,Apple Federal Credit Union,700,96300000,23,4195000,677,92105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300H88NIQ6005M718,DuPont Community Federally Insured State-Chartered Credit Union,1029,95935000,5,805000,1024,95130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CUF3Q2PQGM9256,COMMONWEALTH,1110,95650000,219,23865000,891,71785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HS714PZ0BMPN11,CYPRUS Federal Credit Union,727,95305000,84,14450000,643,80855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LR1ZETOWYE9Z89,Berkshire Bank,429,94045000,136,30820000,293,63225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000KQ2PZ8G6VNI80,University First Federal Credit Union,713,93225000,84,16150000,629,77075000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YKOCNDPE0N7X40,St. Mary's Bank Credit Union,636,93160000,118,24680000,518,68480000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RBJCM5B02O5U05,Northwest Bank,708,93060000,188,31530000,520,61530000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OHIEQGELZVJP60,L & N Federal Credit Union,1009,92575000,226,27710000,783,64865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SXT4VBB68QCC26,EVERWISE CREDIT UNION,1341,91895000,369,26285000,972,65610000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005QK4NV0ZZ5EM64,Community Bank of Mississippi,596,91850000,226,46370000,370,45480000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OSZK2W0WJYS771,Northwest Federal Credit Union,625,91605000,62,12260000,563,79345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GYQ8ZT1NUXRM52,WESTERRA CREDIT UNION,704,90790000,112,14920000,592,75870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YNUT7D0FWKU636,The Farmers National Bank of Canfield,680,90050000,275,40365000,405,49685000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,20TVKH7M13MUBGE80C53,Independent Bank,762,89920000,161,23785000,601,66135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007XQ4LU452LQJ67,ORSA Credit Union,755,89805000,128,17100000,627,72705000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900C44LTMSEGQ5K05,Island Federal Credit Union,441,89645000,80,21250000,361,68395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BHPLBG0CXKTL06,Clearview Federal Credit Union,788,89590000,184,27470000,604,62120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SKTBTC2QFDKG02,Centier Bank,1028,89360000,242,25340000,786,64020000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UBGGLZLZEY0M18,Peak Credit Union,957,88995000,160,16380000,797,72615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BRLQAIJ1LJA253,"Bank First, N.A.",693,88335000,177,29625000,516,58710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S32ZDD67D2FB46,Norway Savings Bank,383,87625000,143,44395000,240,43230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900ARL5FDX2OOH702,"SUPERIOR CREDIT UNION, INC.",1181,87315000,319,30015000,862,57300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T560RY8NY4EY89,The Ephrata National Bank,496,86420000,193,42885000,303,43535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000D6RXLNBZQYA47,COLUMBIA COMMUNITY CREDIT UNION,762,86060000,124,18950000,638,67110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DT7WZ1SOTNFJ62,First Bank,400,86020000,55,14375000,345,71645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MUTFJQGRZJH019,CENTRAL ONE FEDERAL CREDIT UNION,451,85745000,46,10720000,405,75025000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PVWALA7JTBXA31,WILSON BANK AND TRUST,421,83885000,163,48465000,258,35420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PST6LLDPCKSN83,North Shore Bank,671,83845000,271,38205000,400,45640000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006HAFES1LQ18W28,River Bank & Trust,575,83695000,196,39560000,379,44135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ASIS4D2QDWH380,Amarillo National Bank,716,83310000,230,34070000,486,49240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003WLEYGXGNTI654,SELCO COMMUNITY,981,82915000,143,14495000,838,68420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XYLNCM8KWF7B15,TRUWEST Credit Union,425,82905000,45,7695000,380,75210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AUL77A8UKADB04,ROBINS FINANCIAL,1048,82850000,264,23920000,784,58930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PJX0ZHPQ614C72,Peoples Security Bank and Trust Company,528,82760000,165,33965000,363,48795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O7SGM8FH65GQ47,Busey Bank,588,82600000,194,30770000,394,51830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WWLOUWIJ1Q0H29,MICHIGAN SCHOOLS AND GOVERNMENT,786,82270000,183,20335000,603,61935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300J4330IBZ0BBI43,ALL IN FEDERAL CREDIT UNION,886,82130000,259,30055000,627,52075000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SFG15JDKI5MD22,BankPlus,664,81630000,247,34375000,417,47255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300A4ZI1DF2OO1B51,MERIWEST,312,81480000,21,4885000,291,76595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LTYFDA8IOP9O78,Cornerstone Community Federal Credit Union,658,81000000,198,30970000,460,50030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TTNSX94TR06G13,CENTRIS,741,80925000,135,24045000,606,56880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MH5OXXJKWZZY83,GENERAL ELECTRIC CREDIT UNION,686,80790000,134,23860000,552,56930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E1PJPTI4YS7H26,ASCEND FEDERAL CREDIT UNION,788,80010000,119,13695000,669,66315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003Q3L1PO9NBVK64,WHATCOM EDUCATIONAL CREDIT UNION,613,79535000,80,11940000,533,67595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,B94HV8SXGDD3J5XESU08,Old Second National Bank,597,79475000,185,29635000,412,49840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FHGNOLF14HHS09,Cambridge Savings Bank,302,78940000,52,20350000,250,58590000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CIQ950OK0BS407,Sunward Federal Credit Union,579,78545000,94,19080000,485,59465000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NL3JN3ABDPH257,AFFINITY PLUS,926,78340000,124,17270000,802,61070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FVJ3IB88LTR841,Stockman Bank of Montana,534,76040000,177,36595000,357,39445000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F6OBLSYWXXKH16,METRO Credit Union,483,75835000,82,16300000,401,59535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900MQ4O1DX3N88207,"Community Trust Bank, Inc.",833,75795000,285,30015000,548,45780000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300H8JJI69WD7I525,Civista Bank,618,75150000,170,22670000,448,52480000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N38Q5YKSSV1106,bankESB,480,73770000,139,23875000,341,49895000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300R0DP2GXAIMGB41,Bank of Colorado,358,73380000,102,29200000,256,44180000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,R6KJ2D7C3UT8OVTWHS39,Union Bank and Trust Company,504,72920000,132,31680000,372,41240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZBB5XXXOWVNS92,Deerwood Bank,534,72420000,107,20675000,427,51745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DMI3W6YLDVSK93,BayFirst National Bank,394,72300000,67,16665000,327,55635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YDBNK66R6ZES34,TOGETHER CREDIT UNION,692,72150000,89,11365000,603,60785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YRN588YD6VNJ18,F&M Bank,348,72090000,106,26550000,242,45540000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W4TWSN8U8TGD72,Citizens Bank of Lafayette,447,71695000,186,42440000,261,29255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TEGBOIDI6Z5J56,Mid Oregon,528,71480000,98,18200000,430,53280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KJZ82173UB3I21,City National Bank of West Virginia,836,71390000,282,29480000,554,41910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004OC91L41W9XR37,EDUCATIONAL EMPLOYEES CREDIT UNION,731,71335000,82,9130000,649,62205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z2B4FHRYOXTS09,Heritage Bank,305,71325000,98,31500000,207,39825000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RYJCJ7JPQ4RF20,BankNewport,355,70995000,70,19100000,285,51895000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900MSO8KVQ05D2J27,Workers Federal Credit Union,413,70595000,93,18405000,320,52190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004XJV6Y8XQYPX87,ABERDEEN PROVING GROUND FEDERAL CREDIT UNION,675,70515000,101,15165000,574,55350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004NO7XCFVG4KD53,Y-12 Federal Credit Union,659,69875000,135,16715000,524,53160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000FSTFO9AWR2J40,ROCKLAND Federal Credit Union,452,69560000,71,12815000,381,56745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000FE7FNF0BV8N77,The North Side Bank & Trust Company,318,69320000,40,11050000,278,58270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DYB1ZT3UOGPL20,PHILADELPHIA FEDERAL CREDIT UNION,534,69280000,114,17500000,420,51780000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GZY55UGMUMI322,SmartBank,345,69065000,121,36275000,224,32790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IQGEUYRQBJC007,State Bank of Southern Utah,433,68825000,140,28310000,293,40515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900DNPJINSUKFZ002,NOTRE DAME FEDERAL CREDIT UNION CORPORATION,611,68725000,193,34895000,418,33830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549006T9J2DMLJVRS64,Municipal Credit Union,457,68305000,37,9265000,420,59040000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Y0J7L9XMNKTX90,CREDIT UNION OF DENVER,473,67655000,53,10295000,420,57360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KZVCKCUN23YY80,Consolidated Federal Credit Union,408,66970000,96,21860000,312,45110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LEJ4HP6RMWD374,Abound Federal Credit Union,704,66870000,257,26365000,447,40505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E0KRXI8PZWAO17,HarborOne Bank,310,66290000,66,17460000,244,48830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Z8J5L9POS71X51,Oregon State Credit Union,573,66045000,140,21520000,433,44525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VACYYK343SKH92,Manasquan Bank,217,65035000,68,26600000,149,38435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DK7QID2ZON6Q55,Global Federal Credit Union,495,64685000,77,14665000,418,50020000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002C1SVHOFTWF108,AMERICU Credit Union,588,64580000,146,18730000,442,45850000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WMQ4WI6QXK7803,SKYLA FEDERAL CREDIT UNION,519,64095000,1,65000,518,64030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,1VUZZZCW0TWP6R7N3Z33,Union Savings Bank,375,63855000,133,24695000,242,39160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FGGERPRKXH7V65,AVADIAN,725,63405000,145,15535000,580,47870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AQN2CY1MGE3J02,UNIVERSITY OF MICHIGAN CREDIT UNION,548,63320000,91,14415000,457,48905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001AGQGPJ3N3YL33,FOUNDERS FEDERAL CREDIT UNION,624,63280000,119,14475000,505,48805000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300K6L4VXCXWN4205,ORNL,566,63240000,95,11335000,471,51905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LBK5BTNFKZJD14,Univest Bank and Trust Co.,414,62930000,79,13555000,335,49375000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006Z74IVZXJ0XO35,SIKORSKY FINANCIAL CREDIT UNION,460,62630000,66,10220000,394,52410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,RM2F4G3WBQ8R9OKYRH19,Mercantile Bank,395,62605000,112,23370000,283,39235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900F8XCJE1G9OYR92,TTCU Federal Credit Union,624,62150000,182,18830000,442,43320000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002LPXKMOZNXUY90,First International Bank & Trust,368,62140000,71,20665000,297,41475000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LDNBFL67R4FW27,The Farmers & Merchants State Bank,610,62130000,190,19980000,420,42150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,R7JQ9JTCFHXBQU4XIT26,Firstrust Savings Bank,241,61695000,80,30340000,161,31355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900FFZUXK3B729T97,Deseret First Credit Union,444,61440000,0,0,444,61440000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004HIVU0YCM5QS92,INTERRA CREDIT UNION,616,61280000,170,21980000,446,39300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RN01LBYR8ZVX74,"LOWER, LLC",404,61120000,28,4370000,376,56750000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LG5340S24M4N89,MERITRUST CREDIT UNION,549,60935000,90,11120000,459,49815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YPSRX7HBRJSR08,1ST UNITED SERVICES CREDIT UNION,337,60665000,33,6355000,304,54310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WRDGBHKR1BXL98,Merchants Bank of Indiana,140,60490000,84,47630000,56,12860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SGD2RNJOEDDS24,SAFE Credit Union,531,60365000,61,9075000,470,51290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C5GU86M1X2DG56,Central Bank & Trust Company,427,59895000,104,18580000,323,41315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KX4S1573HISS22,OAKTREE FUNDING CORP.,212,59520000,10,3170000,202,56350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KRHOMDHAKS8L29,SHARONVIEW FEDERAL CREDIT UNION,469,59485000,60,7400000,409,52085000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004EXIAAMK5CLH54,Capital City Bank,404,59230000,175,26835000,229,32395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300U7UH8QCS8WQ406,PURDUE,502,58660000,103,15025000,399,43635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BYGLNAWS20VR43,MYPOINT Credit Union,275,58275000,1,105000,274,58170000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PZ44DNQDPOV865,Pinnacle Bank,565,58235000,162,21650000,403,36585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HIKKZQ0TVJWA08,ARKANSAS Federal Credit Union,766,58210000,214,16720000,552,41490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TDBTRK89DZRC13,FIBRE,604,57750000,113,14165000,491,43585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FUMS21JPQM1N03,FOX COMMUNITIES Credit Union,562,57650000,286,34340000,276,23310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZX4OGRPOOEH505,Oakstar Bank,281,57555000,82,24740000,199,32815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T2FOBK6WY4B349,NORTH COUNTRY,551,57225000,219,24325000,332,32900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LPT41QBMAC7948,"SOUTH CENTRAL BANK, INC.",559,57225000,184,23290000,375,33935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LX8DA8FRHUUD51,Potlatch No. 1 Financial Credit Union,379,57205000,92,19680000,287,37525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YHEI1EIYO6OO67,Jersey Shore State Bank,467,57185000,239,36755000,228,20430000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900RNV63A0TIZNK90,Home Mortgage Advisors LLC,88,56880000,79,56015000,9,865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900JKWAH734HBIE78,Mascoma Bank,345,56845000,104,18910000,241,37935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003KBJMVUE7RQO90,1ST ADVANTAGE FEDERAL CREDIT UNION,478,56710000,82,13550000,396,43160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900AX2RRO2WMRP742,VERMONT FEDERAL CREDIT UNION,399,56315000,87,16655000,312,39660000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CQVBYQI6BDWS96,Community Choice Credit Union,673,56275000,82,10020000,591,46255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930030C6U0HERIQ090,COMMUNITY CREDIT UNION of FLORIDA,515,56215000,120,15010000,395,41205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002HQBP2ODIIFH94,CLARK COUNTY CREDIT UNION,510,56110000,24,3870000,486,52240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V6LKROCIL7OI49,"FIRST BANCORP, INC.",372,55740000,107,23135000,265,32605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006MA7WP1WL8U431,VALLEY STRONG CREDIT UNION,760,55640000,72,5290000,688,50350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ESNLIWVN3TK065,CBC Federal Credit Union,267,55495000,22,4360000,245,51135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ML3H1LUVR1FP75,O Bee Credit Union,336,55270000,38,10340000,298,44930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900V9842QPBGIO804,Honor Credit Union,574,54480000,144,16920000,430,37560000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,LBIZXW7X2N50PETIH863,STAR Financial Bank,563,53775000,173,16815000,390,36960000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FS35FQXZRU4Z45,EDUCATORS CREDIT UNION,888,53540000,130,9600000,758,43940000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AT4QWHFZ83D635,VENTURA COUNTY CREDIT UNION,350,53530000,27,5275000,323,48255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300567BJCXPG9IV35,Seven Seventeen Credit Union,983,53435000,286,16170000,697,37265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DQW5P73YGBL063,SERVICE 1ST,504,53430000,232,34020000,272,19410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z7KF7I03AULW22,EECU,412,52710000,126,17580000,286,35130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002N5168AC238149,"OceanFirst Bank, National Association",297,52645000,99,19175000,198,33470000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930070JV4STJJ0XS74,LIGHTHOUSE FEDERAL CREDIT UNION,426,52500000,72,9430000,354,43070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q61S3IBOJITT02,Fall River Five Cents Savings Bank,290,52410000,49,10865000,241,41545000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003BXKRGHQHRJV38,ITHINK FINANCIAL Credit Union,392,52380000,64,9270000,328,43110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006HXEF6V2NZED40,Peoples Bank,344,52290000,143,25065000,201,27225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C61LNGA8J8EF85,Capitol Federal Savings Bank,538,52210000,139,16795000,399,35415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E0S1LZYZ9QNX81,"First Financial Bank, National Association",704,51910000,312,24550000,392,27360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D7OB5W5CJHFO55,BrightStar Credit Union,376,51850000,55,8825000,321,43025000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002LW7G8E8SHWC88,SESLOC,285,51775000,32,7160000,253,44615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002N5OA6GM61AC70,Independence Bank of Kentucky,440,51280000,173,24155000,267,27125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004WBDC394DA3W87,Premier Credit Union,404,50640000,86,16930000,318,33710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900P2JMSUZCYLE858,Provident Credit Union,344,50460000,3,1015000,341,49445000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZSFNMHET4KE860,THE SUMMIT Federal Credit Union,563,50365000,143,16135000,420,34230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001XKL0FTNOJ0866,"GENEVA FINANCIAL, LLC",103,50215000,103,50215000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CCELEPUO4TOE73,West Community Credit Union,465,50155000,58,6910000,407,43245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001VH4ZJNSI25781,Peoples Bank,290,49930000,72,20080000,218,29850000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T7QCXC3PXO0W07,Amplify,230,49900000,43,11255000,187,38645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300A4SPX2JOQ71791,MERCK SHARP & DOHME FEDERAL CREDIT UNION,314,49800000,55,12965000,259,36835000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EWO1QALFC6LE98,Meredith Village Savings Bank,242,49760000,75,18785000,167,30975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930089Y8VTOF8RPD25,1st Colonial Community Bank,226,49540000,44,11780000,182,37760000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900561K135J92VD38,First Security Bank,457,49405000,179,25045000,278,24360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008P6YO2KM3EO556,The Dart Bank,354,49360000,21,5845000,333,43515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KPBZCTMM3Y0061,NASA Federal Credit Union,339,49215000,44,6510000,295,42705000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KV83NH6PNL5E48,Westfield Bank,373,49065000,94,18140000,279,30925000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OZIFHR7THILC90,"Merchants Bank, National Association",534,48810000,123,14765000,411,34045000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZBBGOL4MIK0L71,Three Rivers Federal Credit Union,585,48745000,110,10870000,475,37875000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SNZET0P5BZ3J56,Morton Community Bank,528,48720000,164,19500000,364,29220000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F6S4S7QMOUVG59,FIRST ENTERTAINMENT,268,48480000,22,4880000,246,43600000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DZ25WXQZZ57J48,Lake Ridge Bank,371,48405000,56,9300000,315,39105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930015EUQKUCIRBQ14,METRO CU,595,48325000,97,11045000,498,37280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900BBEPZS8MDE1S61,F&A Federal Credit Union,210,48180000,39,9375000,171,38805000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MZ8VZJOVC63092,"KIND LENDING, LLC",293,48175000,24,5560000,269,42615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L3C3LKXG2XBS96,Penn Community Bank,282,47580000,73,15355000,209,32225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MNZECUR067HB12,BancFirst,483,47125000,183,20975000,300,26150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TQVOMKNKFOH392,Gate City Bank,525,46885000,58,8210000,467,38675000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900T37KTTXKCK3416,Rivermark Community,464,46860000,25,2445000,439,44415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300715JT4HMT74E48,Horizon Federally Insured State-Chartered Credit Union,500,46590000,108,11690000,392,34900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YL0FE99QLVY380,ARMCO CREDIT UNION,419,46565000,186,25050000,233,21515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XCVBRR56D08F03,"MISSION LOANS, LLC",382,46520000,23,6855000,359,39665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001JT9MT3Z3Y3M39,"RBC Bank, (Georgia) National Association",147,46405000,80,31500000,67,14905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930030S6J5KOL5LJ73,FAIRWINDS CREDIT UNION,447,46365000,111,13245000,336,33120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IYKILIU506KA05,PeoplesBank,318,46360000,113,19025000,205,27335000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900XZCT60J2G3HK85,Blue Federal Credit Union,397,46265000,71,9885000,326,36380000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004JGZVB2EPI6W51,Palmetto Citizens Federal Credit Union,433,46235000,76,10560000,357,35675000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900FJRICL380R4T46,Leaders Credit Union,545,46145000,131,13695000,414,32450000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XWUSRVVOHPRY47,"EVERETT FINANCIAL, INC.",356,45770000,35,5345000,321,40425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TT6197INLGZW29,ALOHA PACIFIC FEDERAL CREDIT UNION,223,45625000,32,9650000,191,35975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RTWPH3HXUWR160,"CB&S Bank, Inc.",383,44885000,159,22435000,224,22450000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006ZBGVXBAMCRG16,Florida Credit Union,578,44650000,126,11950000,452,32700000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QRWA4IGMDEDT70,IDEAL Credit Union,412,44610000,61,7345000,351,37265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M03EN3OQEDU087,KEESLER,592,44540000,132,12570000,460,31970000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I3LFY4G7F9CE90,CPM Federal Credit Union,474,44540000,106,13250000,368,31290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PIL90PE1ZLKI49,COMMUNITY FIRST CREDIT UNION OF FLO,272,44460000,84,23230000,188,21230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900SK7KTN4QNPHP32,CITIZENS & NORTHERN BANK,349,44435000,132,20660000,217,23775000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BUIG4G67S5O712,WESTERLY COMMUNITY,277,44215000,54,9990000,223,34225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RMEQJVNY2YH756,BHCU,142,43870000,35,20755000,107,23115000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DPWFIO1S3DF358,First Federal Savings and Loan Association of Lakewood,311,43855000,53,8385000,258,35470000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IWSSP83SNIPE63,PATRIOT,505,43835000,101,12455000,404,31380000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QNPOF1WCRKLZ94,Monterra Credit Union,216,43800000,25,5655000,191,38145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YKBMBBIIMQJS94,Southern Bank,465,43715000,143,17955000,322,25760000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Q6IHGQO7INVC79,The Lyons National Bank,360,43690000,65,10255000,295,33435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S4PNXPKYHHRE82,FORUM,457,43465000,6,620000,451,42845000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RRQHIHHM9I4K21,CREDIT UNION OF AMERICA,773,43365000,156,9200000,617,34165000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VR3QTN4GZYUR03,Bar Harbor Bank & Trust,279,43145000,109,18765000,170,24380000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005LKFCLR81TSN28,Columbia Bank,252,43110000,82,17010000,170,26100000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZWA6HRT4N1Z222,Hills Bank and Trust Company,509,43035000,138,18200000,371,24835000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300B8JSCK4ZNVX087,MAX Credit Union,552,43010000,207,18865000,345,24145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,II61D6IY86YZ37HBBL25,Bankers Trust Company,211,42485000,51,15715000,160,26770000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,8945004XZN3PZQZJW178,UNCLE Credit Union,240,42390000,78,23530000,162,18860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZDIZM7Y1MHKG98,Maine Savings Federal Credit Union,311,42155000,84,16570000,227,25585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007669OVCSCATP45,TENNESSEE VALLEY FCU,416,42130000,77,8865000,339,33265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900X6OAHFW6BUT219,WESTCONSIN Credit Union,545,41885000,114,10360000,431,31525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DT7CCDCC7O6Z60,KEYPOINT Credit Union,210,41770000,22,5020000,188,36750000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ENNFGLHCMQ1U82,Guardian Savings Bank,405,41765000,54,10040000,351,31725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CP7747DCRW6U68,Carrollton Bank,239,41745000,47,12175000,192,29570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P6ZERWX5BPWX45,"VERVE, A CREDIT UNION",382,41710000,78,12840000,304,28870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WUGYTMN4HIT493,DuPage Credit Union,339,41655000,29,6925000,310,34730000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300278QYT0O65D265,COLORADO CREDIT UNION,268,41640000,19,3975000,249,37665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008E3WZYM5146L29,Farmers and Merchants Trust Company of Chambersburg,282,41630000,117,20505000,165,21125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,635400IW1QMK3FNFF894,MERIDIAN BANK,260,41540000,25,6145000,235,35395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002J7RM1JLAXN553,First National Bank,271,41535000,99,20465000,172,21070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930021QRU8VXNS6152,Sound Credit Union,333,41305000,44,6860000,289,34445000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CEBR2F5Y0F1A15,Kennebec Savings Bank,345,40975000,90,14500000,255,26475000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900WAN5TOEYBJJR25,United Heritage Credit Union,313,40965000,95,15555000,218,25410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007B1GAUZGYHPR07,NUSENDA,362,40930000,92,14740000,270,26190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z1TH1HE4A6TS23,TOPLINE FINANCIAL CREDIT UNION,372,40620000,36,5700000,336,34920000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549007AU24FVDMNUB40,Connexus Credit Union,407,40405000,79,7765000,328,32640000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PQLW7K91KOVU18,Sun East Federal Credit Union,364,40390000,72,8590000,292,31800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900WQ6O9JA8WI5W89,Dort Financial Credit Union,386,40270000,91,12145000,295,28125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005NN76XZ2NOFH19,Country Bank for Savings,323,40015000,84,12750000,239,27265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900132A3VX6LLZU43,Associated Credit Union,479,39985000,66,6740000,413,33245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900L0MIAM922ZEC34,Mid Penn Bank,320,39840000,121,16955000,199,22885000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900S7X9G17L8QBB81,PREMIERONE CREDIT UNION,168,39650000,37,9195000,131,30455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KZC4KKV3F7W494,BAY,223,39595000,26,5740000,197,33855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009D2COWW65B8673,NORTHROP GRUMMAN Federal Credit Union,264,39430000,37,7855000,227,31575000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZUF2EI6H23YK94,BEEHIVE,267,39395000,70,13130000,197,26265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YEI60WAHWQ3110,KITSAP Credit Union,313,39265000,59,10575000,254,28690000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XOTES5TCS8T794,"First Mid Bank & Trust, National Association",508,39150000,125,11365000,383,27785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007ZF78YQRSXQG49,Opportunity Bank of Montana,356,39120000,68,13000000,288,26120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009NZUFSRFRWTY71,RED ROCKS Credit Union,236,39080000,9,1675000,227,37405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300A7W1NQ3BYZCB68,Bank Independent,268,38990000,116,19660000,152,19330000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ERHDU3FCE3FA33,Arrow Bank National Association,308,38950000,95,12955000,213,25995000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TULDV69V2XKY60,United States Senate Federal Credit Union,196,38780000,19,5135000,177,33645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900EL5N0NK8M96118,DADE COUNTY FEDERAL CREDIT UNION,239,38575000,27,6085000,212,32490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D003QRZFSQ4N43,Prosperity Bank,135,38325000,76,21730000,59,16595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WC15MLNUIZYR16,Southern Energy Credit Union,448,38080000,131,12725000,317,25355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JBZ3MK7Z4FI764,Thomaston Savings Bank,268,37990000,81,14865000,187,23125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XUFWU3F35PWM42,Cobalt Credit Union,382,37870000,86,9170000,296,28700000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GN85R5S1V3SJ96,"KEMBA CREDIT UNION, INC.",313,37855000,54,10060000,259,27795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JXIQJRQ1HME757,Florence Bank,209,37615000,76,18820000,133,18795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,UBNR8NKAK8J9JL4NZF88,The State Bank and Trust Company,373,37255000,69,7255000,304,30000000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004LN4GS7BNXIO13,Fidelity Co-operative Bank,214,37180000,51,10955000,163,26225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HVFLWKU7133506,PREMIER AMERICA,191,36955000,17,2675000,174,34280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XLRD9QLLJRCB89,GREYLOCK FEDERAL CREDIT UNION,384,36880000,60,7130000,324,29750000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IQVXIW1VTW0D69,Citizens First Bank,320,36850000,143,20725000,177,16125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F2GDWKJH3GMB47,EDUCATIONAL SYSTEMS,379,36695000,50,5200000,329,31495000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930001NSTOD85LT125,"GUARANTEED RATE AFFINITY, LLC",331,36625000,30,5020000,301,31605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549001IK7UDPADKAG34,Unitus Community Credit Union,415,36605000,30,3460000,385,33145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,562V2SM4I80MJO5HYB83,Bank Rhode Island,121,36545000,30,16940000,91,19605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300STHIK6SGJQIY70,CREDIT UNION OF GEORGIA,341,36505000,64,9630000,277,26875000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930007KK7ZS3IJVC25,RED CANOE CREDIT UNION,286,36460000,48,7840000,238,28620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M2Z8GR3VL0QQ74,BLACK HILLS FEDERAL CREDIT UNION,357,36435000,72,10950000,285,25485000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004W7ZN0N715U578,CommonWealth Central Credit Union,148,36430000,12,2330000,136,34100000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900EZRN0CBEP77K34,State Department Federal Credit Union,209,36395000,20,2600000,189,33795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F04B6FGYBJY412,First State Community Bank,496,36350000,139,12995000,357,23355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BKCQISE9PR4J88,TOWN & COUNTRY FEDERAL CREDIT UNION,290,36260000,56,8910000,234,27350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L9MOPDT0NKE883,"Fidelity Bank, National Association",297,36105000,52,7900000,245,28205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LGEXCX325O8C49,First Harrison Bank,299,36045000,132,18810000,167,17235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300K2JM6ID3V5LO24,First South Financial Federal Credit Union,263,35785000,84,11990000,179,23795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300R0SQ8LYM3HBY12,COMMUNITY CHOICE,393,35735000,82,11940000,311,23795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900HJA1Y85EJCGB90,Charter Oak Federal Credit Union,269,35615000,69,10935000,200,24680000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004RSPU71QRHYI22,JSC Financial,304,35600000,50,8370000,254,27230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001ZUNE2DKEA4702,ADDITION FINANCIAL,348,35520000,73,11335000,275,24185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900WQCRCK13A7DC81,Fortera Federal Credit Union,374,35450000,79,8475000,295,26975000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VEZ43KYEWR3610,CAPITAL Credit Union,402,35440000,82,9490000,320,25950000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MGPZBLQDIL7538,Fairway Independent Mortgage Corporation,239,34975000,19,3145000,220,31830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OS8C7J7ZWMNL70,Burke & Herbert Bank & Trust Company,192,34760000,45,9225000,147,25535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490053H6JWQDX4RM47,Diamond Credit Union,347,34545000,71,8265000,276,26280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JBMMNIOX7XU115,BELCO COMMUNITY CREDIT UNION,330,34530000,85,11795000,245,22735000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DK2AEMKCO4JZ92,"SIS BANCORP, MHC",151,34485000,36,10100000,115,24385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z77WUYJM3QG591,First PREMIER Bank,264,34450000,53,10645000,211,23805000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PHPKOL5FJ7D438,BluCurrent Credit Union,378,34330000,61,7145000,317,27185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SJTLYB6ZWKPR88,Civic Federal Credit Union,560,34300000,86,5310000,474,28990000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TWHZRVTZ8RYT46,First Farmers Bank & Trust Co.,447,34285000,165,14925000,282,19360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BZDER2ZANLA242,TROPICAL FINANCIAL CREDIT UNION,269,34195000,48,7080000,221,27115000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S61HFNW2YFEK61,United Bank,316,34120000,118,16860000,198,17260000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W1AS8CZYV4MQ17,Blackhawk Community Credit Union,471,34085000,104,8290000,367,25795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002PR22PLR6S8J02,The Fidelity Deposit and Discount Bank,315,34055000,78,10200000,237,23855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QWWDI5EBFCNL02,FAMILY SAVINGS CREDIT UNION,435,33975000,107,10665000,328,23310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L4PTYXDMX1GS50,MERRIMACK VALLEY,258,33940000,48,6890000,210,27050000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930017CJWOENP0BZ82,SUNMARK CREDIT UNION,327,33745000,39,4685000,288,29060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HNJRM4GVCEUP46,FOOTHILL FEDERAL CREDIT UNION,202,33670000,14,2420000,188,31250000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006YSC5JOGNPMH78,SOUTHLAND CREDIT UNION,184,33360000,19,4215000,165,29145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XUKQ6W1CY6QK47,First Federal Savings Bank,336,33340000,53,8745000,283,24595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E51HYVR7T2SU19,SAN DIEGO COUNTY CREDIT UNION,219,33325000,23,4465000,196,28860000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C0SKCK5G4RX330,Journey Bank,319,32845000,114,15760000,205,17085000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005CFFMKTUKLO381,ACNB Bank,264,32780000,82,12640000,182,20140000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LGE7I6F2K89769,BMI Federal Credit Union,282,32220000,40,5650000,242,26570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HIDQ8IRRU12455,Jackson County Bank,294,32140000,61,7765000,233,24375000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006LGHJCBICSE610,WESTMARK Credit Union,429,31995000,93,7585000,336,24410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AZBM8V8SE0IT33,Park Federal Credit Union,332,31960000,59,5835000,273,26125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KGE82WIZC87Y08,JEANNE D'ARC Credit Union,259,31955000,38,5200000,221,26755000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ELXS6PBT8OEE44,Air Academy Federal Credit Union,245,31605000,0,0,245,31605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IXP5DNWSGY6F96,"Intrust Bank, National Association",243,31585000,94,14950000,149,16635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300458LCI17J5BY03,The Honesdale National Bank,238,31430000,78,12940000,160,18490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IQ5NY7CSJLZW53,First Bank & Trust,337,31325000,83,10555000,254,20770000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XR3B6372SESA46,PACIFIC SERVICE CREDIT UNION,220,31220000,27,4475000,193,26745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001ZYMBN3CK8LJ82,Sturgis Bank & Trust Company,247,31025000,87,14445000,160,16580000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZJK68X6PQU2308,TELHIO,284,30900000,69,8075000,215,22825000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001VQ02LHMFEXJ21,MID-HUDSON VALLEY Federal Credit Union,274,30860000,78,8910000,196,21950000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930089R5VSN6GVCK47,SouthEast Bank,193,30835000,74,15120000,119,15715000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006P0JVBBAHVXV08,National Exchange Bank and Trust,317,30815000,88,10800000,229,20015000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P0GXZAWI355052,Machias Savings Bank,194,30790000,72,13960000,122,16830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007KYI3BO5LTXF79,Meridian Trust Federal Credit Union,285,30785000,62,8360000,223,22425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930082GM1TWV6QVI24,"Bremer Bank, National Association",231,30755000,67,11405000,164,19350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900TTZ395IC926125,"Sierra Pacific Mortgage Company, Inc.",257,30665000,28,5100000,229,25565000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930028J11BWKUVGX50,HARBORSTONE,299,30395000,41,4975000,258,25420000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007G2SOD8W9RK547,FIRST NEW YORK,173,30075000,51,13885000,122,16190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XYJEJCSZHWWM52,ALIGN CREDIT UNION,204,29950000,19,2425000,185,27525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XKIMAP8O4OS123,BELLWETHER COMMUNITY CREDIT UNION,189,29445000,62,10480000,127,18965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VEJ302N3NLKA88,Embold Federal Credit Union,258,29390000,24,4980000,234,24410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q76VHK6FGPX546,Central Bank,206,29370000,51,12695000,155,16675000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001EXVWX6Q13MY44,Bank of Bartlett,189,29195000,63,10945000,126,18250000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300G0QSZVT1E3RS89,The Bank of Greene County,167,29085000,74,15730000,93,13355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q4BYXP7YD9UI61,Centreville Bank,171,29015000,45,9735000,126,19280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OOBQV34V3WL383,ABNB Federal Credit Union,306,28550000,43,6025000,263,22525000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E3X7YDJIUENL65,NUMARK CREDIT UNION,334,28280000,97,9495000,237,18785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AX5UMUZ61L1X54,UTILITIES EMPLOYEES CREDIT UNION,214,28250000,61,10015000,153,18235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003T5D4N1CM46J77,1st Security Bank of Washington,163,28205000,30,6210000,133,21995000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CYL5ZW4ISL7T55,PriorityOne Bank,197,28145000,76,15360000,121,12785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TJF420N3F01V87,Equity Bank,359,28125000,140,12480000,219,15645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZX2TCCVHMJN581,LOC Credit Union,305,27925000,38,4670000,267,23255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300H3GIHYP3MB0302,Farmers State Bank,278,27850000,64,9360000,214,18490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KPHGEE40YQXO21,FARMERS INSURANCE GROUP FEDERAL CREDIT UNION,160,27690000,14,2260000,146,25430000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F175WFRUKLMG10,INDIANA UNIVERSITY CREDIT UNION,256,27630000,64,9490000,192,18140000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BEFX6JRSCS5N78,Centennial Bank,215,27445000,85,13745000,130,13700000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T7AIY7RU1YDP31,NBH Bank,176,27400000,84,10830000,92,16570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,VEQ70DCTAI4TBBHPYI39,American National Bank,162,27250000,52,8220000,110,19030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XYX207IABFXL60,Isabella Bank,222,27250000,87,12845000,135,14405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YIQ7S7Z8PIHE53,AmeriSave Mortgage Corporation,366,27160000,174,10250000,192,16910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SIZ5KBISEZE503,UniBank for Savings,139,27155000,50,12210000,89,14945000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001LHLYJE6PHUL18,Uwharrie Bank,181,27015000,69,11515000,112,15500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E06ZGS1I3URI95,VANTAGE Credit Union,299,26955000,65,6675000,234,20280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900VKT2R0R20CR104,First Farmers and Merchants Bank,201,26915000,74,11500000,127,15415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930053KPO7OG48FP72,EVERENCE FEDERAL CREDIT UNION,178,26870000,68,13500000,110,13370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PZP3UHKYJ5ET63,TINKER FEDERAL CREDIT UNION,343,26755000,99,8755000,244,18000000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EZHVOHDWG07M20,PIMA Federal Credit Union,303,26685000,1,45000,302,26640000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930040I855W2FI0Y80,APL Federal Credit Union,246,26660000,6,680000,240,25980000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LE3ZOZXUS7W648,FIDELITY BANK,196,26540000,45,9805000,151,16735000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JGK6WNKYXQ0821,ATLANTA POSTAL,261,26495000,52,6180000,209,20315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900V3X9I3FAUULX72,HOOSIER HILLS CREDIT UNION,234,26200000,91,12945000,143,13255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900REWJG6071ZPT32,4Front Credit Union,289,26125000,83,8235000,206,17890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900UHFHT3IWKY8K19,"Directions Credit Union, Inc.",429,26045000,102,6830000,327,19215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D88XVKM6DJOC77,"Traditional Bank, Inc.",198,26000000,62,9160000,136,16840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005T71YXBHEO2093,CREDIT UNION 1,231,25965000,39,4575000,192,21390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VJQJVZKJBDWS17,"TOTAL MORTGAGE SERVICES, LLC",168,25960000,5,1635000,163,24325000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SO0M022D8D8358,Carter Bank & Trust,222,25860000,93,11175000,129,14685000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,D38AC76TAMYI50NBPX33,WASHINGTON FEDERAL BANK,105,25775000,36,10920000,69,14855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VF12R0WS33KN43,CAPITAL,257,25675000,62,9490000,195,16185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000D7DINI9PZN749,SCOTT CREDIT UNION,323,25675000,36,3330000,287,22345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M0SDF90SCNIY89,Gain Federal Credit Union,142,25500000,35,9835000,107,15665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300B7YGT5O5MJ7M45,FORT WORTH COMMUNITY CREDIT UNION,223,25435000,60,8430000,163,17005000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008RSN6F31BTGT93,Gulf Coast Bank and Trust Company,151,25415000,51,9785000,100,15630000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930043A47GB1KNJQ31,Altana Federal Credit Union,209,25355000,43,6465000,166,18890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OCKUW7YV0YNV03,Tri City National Bank,273,25185000,98,11750000,175,13435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GMNBYF84V5RF83,FIRST COMMERCE CREDIT UNION,234,25140000,55,7845000,179,17295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EZIROI6ZF7B419,FAMILY FIRST OF NY,214,25130000,42,6510000,172,18620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P3STF5YYEJYO93,Pittsford Federal Credit Union,196,24930000,44,7600000,152,17330000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001M37Q8TJKTP708,Home Federal Bank of Tennessee,187,24905000,55,8115000,132,16790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003H8ECZKN77IZ88,Waukesha State Bank,210,24900000,32,4710000,178,20190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000FRWKMPAALEY22,KOHLER CREDIT UNION,287,24855000,56,6600000,231,18255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XTSMAC5DOX6447,Havard Federal Credit Union,167,24825000,18,2720000,149,22105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900SUM1U8US3D2Z03,First Federal Savings Bank of Twin Falls,201,24825000,51,8625000,150,16200000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930023DLYUOD6GKQ42,Hawthorn Bank,217,24745000,87,10585000,130,14160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RIR04Y64SF4306,Kish Bank,285,24665000,101,9195000,184,15470000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930064FQE21RHEG647,EVERGREEN CREDIT UNION,255,24255000,39,4915000,216,19340000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930069UB3VEGAQ9661,Bryant Bank,124,24180000,43,14125000,81,10055000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MD3D3OC2CSGX39,Mirastar Federal Credit Union,112,24170000,8,1660000,104,22510000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PEQH6YK4DH0490,FRONTWAVE,172,24170000,1,155000,171,24015000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,D32W5EBLENJC27207O81,Emprise Bank,405,24115000,216,14670000,189,9445000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KGMXCXMVC0BO47,FREEDOM FIRST Federal Credit Union,283,24075000,76,8720000,207,15355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007EGI95MEVJ2178,MICHIGAN EDUCATIONAL,237,23835000,35,3515000,202,20320000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LENIDYCDF93Y54,Heartland Credit Union (Madison),297,23775000,70,6050000,227,17725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AOB4S7B0DB7863,JUSTICE Federal Credit Union,173,23665000,6,700000,167,22965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Y7HCU10KIRLG30,Peoples Bank,205,23485000,63,8745000,142,14740000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E5018DD89WPX79,ARBOR FINANCIAL CREDIT UNION,286,23470000,46,4260000,240,19210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900URXOKFMBYQ0V69,SIERRA CENTRAL CREDIT UNION,262,23440000,9,855000,253,22585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JD1162QW84ZO34,GREENWOOD CREDIT UNION,165,23435000,34,6840000,131,16595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NBSU5FHMDN5F74,FIRST SOURCE,216,23190000,61,9595000,155,13595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W8MJBUGW3ZLQ95,WEOKIE Federal Credit Union,291,23115000,45,5185000,246,17930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000JBDASEOSXCI67,Holy Rosary Regional Credit Union,159,23105000,34,5490000,125,17615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RZFHIGIM84KN09,First Citizens National Bank,170,23070000,61,10255000,109,12815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300J5YB46ZKVUNF26,UNIWYO FEDERAL CREDIT UNION,205,22965000,33,7655000,172,15310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HPQK71BCBQVT93,HUGHES FEDERAL CREDIT UNION,301,22885000,49,4575000,252,18310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,EFBDHEMMHTWI378O4988,Heartland Bank and Trust Company,290,22830000,98,9830000,192,13000000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EE39SNC5DXTC46,Northern Bank & Trust Company,99,22795000,18,4860000,81,17935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WYC8C6REMY4E38,Minnwest Bank,219,22785000,52,5920000,167,16865000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KDVJICP5T5BD05,DEL-ONE FEDERAL CREDIT UNION,225,22715000,31,4635000,194,18080000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YYJWBT2GH5DS80,PICATINNY FEDERAL CREDIT UNION,169,22605000,30,4880000,139,17725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WC12JROIUVWY16,SOUTH CAROLINA FEDERAL CREDIT UNION,212,22570000,49,5785000,163,16785000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VBY3NBKUNMKL64,HONDA Federal Credit Union,219,22495000,41,5175000,178,17320000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,D8RBTOL3JO2Q6IEO0F34,Origin Bank,145,22455000,44,10530000,101,11925000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OP314BNT2VUU11,PIONEER FEDERAL CREDIT UNION,244,22390000,41,3555000,203,18835000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930065TMWOWFAXBL88,First State Bank,206,22300000,74,10530000,132,11770000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GGB04TG4AH1377,Solarity Credit Union,189,22215000,39,6385000,150,15830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930065Z1DW0CWIZQ58,CREDIT UNION WEST,189,22075000,37,5255000,152,16820000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EJ89CA12ZT7X03,The Luzerne Bank,160,22000000,69,11735000,91,10265000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300APYWQYO3RLT772,Amboy Bank,207,21825000,70,7790000,137,14035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900YB9XQDO5W4KU33,Radiant Credit Union,200,21800000,41,5145000,159,16655000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MVSM4XYFQL3X62,BARKSDALE,268,21680000,96,8690000,172,12990000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L8JRY60EOROT34,FCB Banks,298,21640000,58,4580000,240,17060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YJQ7L8XG0WT572,CINFED Federal Credit Union,264,21620000,54,4770000,210,16850000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008UZWYHK74O4341,G.P.O. Federal Credit Union,223,21545000,105,12735000,118,8810000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QZED00YTPAWQ69,GREATER NEVADA LLC,216,21510000,39,4555000,177,16955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YFPHIE78XPP635,Newtown Savings Bank,187,21445000,38,5310000,149,16135000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JDDZ5OVOP5E294,Mazuma Credit Union,245,21285000,0,0,245,21285000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300U6DW7DX671T306,Midland States Bank,289,21145000,119,9785000,170,11360000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q9TCZDLU48CG18,First Commonwealth Federal Credit Union,244,21060000,57,6985000,187,14075000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300217ZPIHWEYT887,MassMutual Federal Credit Union,132,21000000,5,795000,127,20205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300J1354ZHZC8JP58,Princeton Federal Credit Union,99,20925000,13,4765000,86,16160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CS1XP28EERR469,One Community Bank,170,20880000,36,3590000,134,17290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900G03BZB89LOWZ28,St. Anne's Credit Union,173,20585000,45,6515000,128,14070000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FV32ULL0DL8X39,NET,211,20575000,80,8930000,131,11645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BR7OTD25RTS027,BankFirst Financial Services,213,20565000,79,7865000,134,12700000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E34W6TNRG7B624,OREGONIANS CREDIT UNION,262,20390000,22,1740000,240,18650000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008NZFLT1BQ8EN23,Kirtland Federal Credit Union,172,20310000,30,4880000,142,15430000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E3VF26P7719Z56,RELIANT COMMUNITY FEDERAL CREDIT UNION,229,20275000,67,6905000,162,13370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VIZR4H7AB15496,First State Bank,146,20030000,53,8575000,93,11455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300K0WZYZ4I41CZ29,BEACON CREDIT UNION,238,19890000,70,6010000,168,13880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LDC5KWHWDXTW48,USF Federal Credit Union,146,19810000,25,4085000,121,15725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RZCM5T73BZEI76,PeoplesSouth Bank,111,19805000,52,11010000,59,8795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S2RLEOF6WG7P87,The Cecilian Bank,215,19605000,61,7165000,154,12440000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BPDFS1CLV7K329,CAMPUS USA CREDIT UNION,191,19575000,73,8765000,118,10810000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005ZSV53K4M63M18,Heritage Financial Federal Credit Union,149,19285000,35,7635000,114,11650000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900T576VYG7I55390,Pen Air Credit Union,213,19225000,74,7110000,139,12115000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SI3EZ7U02L5E39,PROPONENT Federal Credit Union,123,19195000,18,4230000,105,14965000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QYV7W4MRNEFK89,TECH Credit Union,200,19010000,31,3995000,169,15015000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DHRESF8KLNP162,Southwest Missouri Bank,269,18895000,80,6500000,189,12395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OPCWU6E72WUT29,"MUTUAL OF OMAHA MORTGAGE, INC.",223,18795000,39,3555000,184,15240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900VECGAWC5CPU773,Tyndall Federal Credit Union,167,18635000,27,4645000,140,13990000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930083D8Q8RK84Y448,"AMERICA'S CREDIT UNION, A",109,18555000,13,3305000,96,15250000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SQKZC6HESYGO25,Signature Federal Credit Union,152,18450000,7,1025000,145,17425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O2D8BPO6PJRB90,Armstrong Bank,171,18415000,39,5175000,132,13240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006LCVYJR3AYGA52,"EVO HOME LOANS, LLC",24,18410000,21,18175000,3,235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WOJH0MSG0OIM41,ALABAMA ONE,198,18380000,69,7845000,129,10535000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008BSTI0PQR0IL08,Superior Choice Credit Union,243,18285000,71,6995000,172,11290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WSQPVY1NRH6062,"SILVER STATE SCHOOLS SERVICE COMPANY, LLC",198,18250000,7,885000,191,17365000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MU2YI0HXIT3257,"Liberty Savings Bank, F.S.B.",83,17815000,72,16890000,11,925000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930087JNDLPJWOLV11,THE VINTON COUNTY NATIONAL BANK,204,17790000,51,5755000,153,12035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300H83ZXQ4TDSXI83,WHEELHOUSE CREDIT UNION,128,17660000,13,1985000,115,15675000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HIVO8XPBPNVG69,NOVA FINANCIAL & INVESTMENT CORPORATION,114,17640000,14,3430000,100,14210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GAX7IKJUKCJE72,TRAVIS CREDIT UNION,144,17550000,13,2125000,131,15425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006LH4LKHY2EIN26,Five Star Bank,175,17545000,51,6115000,124,11430000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LUSWY3HVRZHF54,MAGNIFI FINANCIAL CREDIT UNION,248,17540000,45,4685000,203,12855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900JPFVLN18XNDG98,"Day Air Credit Union, Inc.",193,17305000,62,7150000,131,10155000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NDNZ6EWP8BJI88,Bank Iowa,230,17270000,73,5805000,157,11465000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SQH6MBVMMRRA85,INOVA,243,17255000,18,1310000,225,15945000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TZDKJ07KL8T621,PCSB Bank,74,17250000,29,8505000,45,8745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PGWM7M3DKQ1F43,"BRIDGE CREDIT UNION, INC.",201,17205000,46,4620000,155,12585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BSIYFJ3FALVK78,PROFED CREDIT UNION,266,17190000,58,5060000,208,12130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900FWMAL9Q1TY2667,Security Federal Savings Bank,191,17165000,69,7645000,122,9520000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AZ4UOXI3Q53W34,A+ Federal Credit Union,147,17075000,32,4650000,115,12425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W6J23SLH6AR815,Great Lakes Credit Union,187,17065000,29,2795000,158,14270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009OHBOFDUG78546,PARTNER COLORADO,173,16955000,30,4720000,143,12235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004GPC7K826BKF31,ARROWHEAD CENTRAL CREDIT UNION,136,16840000,0,0,136,16840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930030UYPZM65LOF37,MidWest America Federal Credit Union,295,16835000,104,5330000,191,11505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900XS6ZEOAD9Q6N72,We Florida Financial,162,16730000,37,4065000,125,12665000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900FDN5GT0HEKMT95,WESTERN DIVISION FEDERAL CREDIT UNION,188,16680000,49,4645000,139,12035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CRPIDBSEMEY066,HEARTLAND CREDIT UNION,241,16555000,84,6640000,157,9915000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900YSYHBYDFRVT153,"Pathways Financial Credit Union, Inc.",183,16515000,1,355000,182,16160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C6TQAJABMFOR79,MICHIGAN FIRST CREDIT UNION,230,16350000,104,6940000,126,9410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MXBLBJSY4S5R72,FREMONT Federal Credit Union,250,16110000,77,6365000,173,9745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XHF3PMRO08N352,VERITY,127,16095000,13,1725000,114,14370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q6TVHCCFZ5R384,UME FEDERAL CREDIT UNION,79,16005000,8,1860000,71,14145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PPKM4YL2GY3713,SPECTRA CREDIT UNION,98,15860000,19,2285000,79,13575000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YS7PW1Y7DQZG40,CENTURY,164,15710000,38,4600000,126,11110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DSPT6YGS1ZLR56,HICKAM FEDERAL CREDIT UNION,90,15490000,16,5250000,74,10240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W5A6PQ1VJG3497,First Federal Bank of Kansas City,131,15395000,25,3305000,106,12090000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001XRDEGNB7US825,VIBE CREDIT UNION,174,15360000,44,4720000,130,10640000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549000VVDQ9NNW01Q23,Listerhill Credit Union,179,15325000,36,3430000,143,11895000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MUMD1WPCSXT518,Community National Bank & Trust,230,14910000,93,6795000,137,8115000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004JDNBZNOT8PR69,WYHY,173,14645000,24,3010000,149,11635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900AASWOQ6SVWCG44,Tulsa Federal Credit Union,146,14620000,52,7250000,94,7370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KGMIRA554NW480,TLC COMMUNITY Credit Union,169,14555000,50,5740000,119,8815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006Z1T521ODWBA53,NORTHERN CREDIT UNION,146,14340000,67,8265000,79,6075000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BFT56DKVQ9BL15,CENTRICITY Credit Union,118,14190000,40,6480000,78,7710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,89450088V2BYQUO61B62,ANECA Federal Credit Union,73,14165000,14,7170000,59,6995000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GMXZWXNOS1US34,FIRST ATLANTIC FEDERAL CREDIT UNION,79,14155000,8,2410000,71,11745000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VGZHXNY2T0G559,SUN Federal Credit Union,157,14005000,41,6085000,116,7920000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000RV6UQ52SVTV40,LBS FINANCIAL,75,13935000,8,1560000,67,12375000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RWMKY0FK1H5L44,Montgomery Bank,168,13860000,48,5830000,120,8030000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NT8VCCMPTPSO02,Collins Community Credit Union,159,13785000,24,2500000,135,11285000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300J7I82PNDVU8H22,"OCMBC, INC.",122,13600000,12,1980000,110,11620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WOW2HLRVN4O324,COMMUNITY 1ST CREDIT UNION,242,13510000,78,4560000,164,8950000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PE3F2ADLAJRQ97,Christian Financial Credit Union,250,13310000,55,2905000,195,10405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YPQDQJM78AYS70,HEARTLAND,204,13240000,49,3735000,155,9505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003X0GM1DHJIWC22,CBI Bank & Trust,195,13145000,56,3960000,139,9185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UFWBQTD1W41E26,MAINSTREET FEDERAL CREDIT UNION,162,12860000,47,3405000,115,9455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LTO41UX0MSL179,PARK VIEW FEDERAL CREDIT UNION,74,12810000,27,6705000,47,6105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009SXBJ8LKIU7Q54,CoreFirst Bank & Trust,127,12555000,44,5510000,83,7045000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FV8093AKDLHQ80,Envista Credit Union,188,12550000,46,4200000,142,8350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300KZVNU4UKZSWD59,CANTON SCHOOL EMPLOYEES Federal Credit Union,196,12460000,56,4510000,140,7950000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N2GMOJ61XHEL06,SELECT LENDING SERVICES LLC,24,12340000,19,11725000,5,615000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MAIHYOT48UVH49,CAROLINAS TELCO FEDERAL CREDIT UNION,121,12145000,13,1605000,108,10540000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007TJ86W1ZK4LZ15,First Community Bank,150,12090000,66,6190000,84,5900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900B9B6TYYGLOXT47,Think Mutual Bank,159,12085000,21,1795000,138,10290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900X35MRL59HP3350,SONOMA FEDERAL CREDIT UNION,70,12080000,36,8680000,34,3400000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LH06ZZHKPX5U83,BNC National Bank,90,11980000,19,3985000,71,7995000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GS2JP8CQK0MD31,Members Cooperative Credit Union,120,11980000,29,3695000,91,8285000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LNRKOG7TRURB32,Ukrainian Federal Credit Union,68,11960000,12,3220000,56,8740000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300G4ESSS6M0MEG51,"OriginPoint, LLC",71,11685000,8,2170000,63,9515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N6Q6IC190UPB76,Zing Credit Union,122,11650000,6,410000,116,11240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JH8TVR84H1BL45,First Piedmont Federal Savings and Loan Association of Gaffney,88,11550000,27,4245000,61,7305000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JAEP0DFO79JO70,GRANITE FEDERAL CREDIT UNION,94,11540000,26,4600000,68,6940000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900GP2576VSW7TS47,Adventure Credit Union,127,11415000,37,4865000,90,6550000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001B4TX233UP4J06,Rhode Island Credit Union,129,11365000,24,2600000,105,8765000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300E57105E8PDY082,VALLEY FINANCIAL CREDIT UNION,106,11290000,30,4560000,76,6730000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MG52SOKOHXJM80,KALSEE CREDIT UNION,148,11270000,66,5380000,82,5890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BAZS5RZ8O98A51,POWER FINANCIAL,140,11140000,24,1620000,116,9520000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NW5S24O35U1962,NOBLE,130,11040000,31,3015000,99,8025000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003P55WOWIBVUF09,GOLDEN PLAINS CREDIT UNION,174,11010000,48,4070000,126,6940000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490010EMNKWA8L9813,Downey Federal Credit Union,75,11005000,4,360000,71,10645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300H6J0XZXQGKDW16,U.S. EAGLE,133,10825000,44,3900000,89,6925000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Y5YUNNHUW2EQ06,Stellar Bank,39,10775000,13,6325000,26,4450000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VIRTE6O2776X89,BAYER HERITAGE CREDIT UNION,200,10660000,45,2905000,155,7755000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I8I7EBXHMYYW54,RIVERFRONT FEDERAL CREDIT UNION,105,10495000,31,4125000,74,6370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900JH47ETFGVNKS92,CALL FEDERAL CREDIT UNION,101,10455000,12,1420000,89,9035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FJHIE3T5GJRI39,American United Federal Credit Union,74,10340000,8,1910000,66,8430000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900IZF27X7A3Q7I15,Old Hickory Credit Union,99,10235000,12,1600000,87,8635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900WZ3RTY75P7HO83,Eagle Community Credit Union,56,10210000,5,1255000,51,8955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007WNCT2YQ8O4H14,FLORIDA CENTRAL CREDIT UNION,86,10110000,11,1835000,75,8275000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FL5GANFX0HMU45,ERIE FEDERAL CREDIT UNION,136,9760000,43,3775000,93,5985000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006R3KP9HJOA7613,PRINCE GEORGE'S COMMUNITY,102,9500000,10,790000,92,8710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900SEH2UUXVW21S97,Cedar Point Federal Credit Union,66,9400000,18,4270000,48,5130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000XYE7QL54NMB52,United Community Bank,175,9395000,51,3265000,124,6130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z6EE8DBBFUW487,KS StateBank,45,9185000,17,5035000,28,4150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300248R1MFWPWXA09,State Employees Credit Union,73,9165000,15,3045000,58,6120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900N33AYNKI4VCV72,Gulf Winds Credit Union,71,8955000,20,2750000,51,6205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BYOVJ9X6PKXV28,PEACH STATE FEDERAL CREDIT UNION,115,8945000,21,1855000,94,7090000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C6CUP19I9O0770,"HANCOCK COUNTY SAVINGS BANK, FSB, INC.",125,8925000,27,2305000,98,6620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300A76WI58XAFNF59,ARIZONA CENTRAL,75,8925000,11,1425000,64,7500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900TW8OMXXV334D32,Workmen's Circle Credit Union,41,8775000,13,5035000,28,3740000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NSOTTGIGCIV712,ASCENTRA Credit Union,128,8770000,38,3200000,90,5570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YHSRT5YOR5W454,ALLIANCE CREDIT UNION,89,8715000,39,3805000,50,4910000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OGIGNKGO2DX942,FEDEX EMPLOYEES CREDIT ASSOCIATION,96,8710000,21,2245000,75,6465000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XZF8VZFNRNBW38,Geddes Federal Savings and Loan Association,61,8575000,10,1500000,51,7075000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JNYMHRVCGKK706,FREEDOM,86,8530000,16,1850000,70,6680000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002P6EVQ94HFYF14,FIRST HARVEST Federal Credit Union,100,8480000,17,1885000,83,6595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930005S5CFTGC2VR75,Michigan United Credit Union,110,8380000,36,2940000,74,5440000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300B5RA7BRG1R2728,GREENVILLE,78,8360000,15,2065000,63,6295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C853H86L248593,First Southern National Bank,117,8265000,35,3415000,82,4850000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900W1NULDJH9MMK81,CDC FEDERAL CREDIT UNION,73,8225000,12,1830000,61,6395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RYWXR8TL5LIK35,"ALLIED MORTGAGE GROUP, INC.",96,8210000,0,0,96,8210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SK2GVCQXPD4S58,"SUN WEST MORTGAGE COMPANY, INC.",44,8210000,0,0,44,8210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900FMHABGSWFKHL19,Allentown Federal Credit Union,98,8150000,28,2270000,70,5880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549006VWQC6XCFQO747,Mission City Federal Credit Union,44,8120000,6,1160000,38,6960000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SU3TF26I8KB315,UNIVERSAL 1 CREDIT UNION,86,8060000,31,3695000,55,4365000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300767F7CDUJR8Q67,COMMUNITY FIRST CREDIT UNION,52,8050000,8,1290000,44,6760000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300AN5V81GRYDJ823,FEDCHOICE Federal Credit Union,57,7955000,9,1555000,48,6400000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900R8P0FFNZJAW611,Community West Credit Union,79,7955000,1,125000,78,7830000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009FTGT1RX4J7Y04,SOLIDARITY COMMUNITY Federal Credit Union,124,7730000,21,1425000,103,6305000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GLDL4X3U4RFI74,Guardian Credit Union,110,7620000,24,2080000,86,5540000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FOPGYPVP42FW34,DATCU,70,7560000,40,4590000,30,2970000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UX6CADCIYJ3506,Generations Community Federal Credit Union,61,7545000,21,3235000,40,4310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008XX3NZ5S384W16,U. T. Federal Credit Union,65,7485000,9,1685000,56,5800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300W5E3L00UZ6F777,ESSA Bank & Trust,65,7385000,15,2545000,50,4840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900W66Q1214MV8X83,,80,7370000,37,3695000,43,3675000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JLXD89NGKXMS84,"NextMortgage, LLC",18,7330000,18,7330000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XRGNVNCISU8Q79,Mid-Atlantic Federal Credit Union,43,7285000,1,125000,42,7160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GZNGM38QYV1N68,INFUZE Credit Union,101,7245000,25,2085000,76,5160000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P1ORVTMT2T7756,LIBRARY OF CONGRESS,58,7240000,6,1240000,52,6000000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549005BWLPEBQA7QJ63,Ohio Catholic Federal Credit Union,76,7090000,16,2170000,60,4920000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PMVNBERP6TB157,ONE NEVADA CREDIT UNION,98,7090000,17,1385000,81,5705000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V56OLT434ILO42,NIAGARA'S CHOICE FEDERAL CREDIT UNION,62,7050000,20,2860000,42,4190000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BX448ALT10FI43,The Federal Savings Bank,41,6895000,3,505000,38,6390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900RQGXH1N2N6D695,Lake Trust Credit Union,105,6855000,24,1760000,81,5095000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P7QM2ETZZY0323,HERITAGE COMMUNITY CREDIT UNION,42,6800000,5,865000,37,5935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007DIB8YPDM6NR52,MARINE CREDIT UNION,130,6670000,19,1375000,111,5295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HOPKX8O1S8MJ63,RIEGEL,50,6630000,11,2425000,39,4205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HH0V8LECLNPQ26,ROGUE CREDIT UNION,70,6630000,12,1760000,58,4870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z4E78BSM0XM758,TEXAS BAY,77,6625000,27,2385000,50,4240000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DRZGISDSL1BX02,FINEX CREDIT UNION,61,6575000,10,1160000,51,5415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,9845007E2D0BDH6C8955,ASCENT,62,6570000,7,1115000,55,5455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V4GRCFGZBVVZ73,Greater Alliance Federal Credit Union,42,6560000,3,385000,39,6175000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZA8T2KGQF6JK55,"EDUCATION FIRST CREDIT UNION, INC.",84,6550000,12,650000,72,5900000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900HQBR2XD7IAKH63,"Towpath Credit Union, Inc.",77,6545000,26,2950000,51,3595000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930068H3KVFOUG0285,OKLAHOMA CENTRAL Credit Union,88,6500000,30,2010000,58,4490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008YZRSEXRIR3I97,Emblem Credit Union,100,6480000,20,1660000,80,4820000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CG5TM73650DH84,CHRISTIAN COMMUNITY CREDIT UNION,47,6435000,11,1395000,36,5040000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CPT4UV65RIEU74,Azura Credit Union,117,6435000,26,1450000,91,4985000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BJPOL64WXEFY56,DENVER FIRE DEPARTMENT FEDERAL CREDIT UNION,42,6430000,4,1140000,38,5290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549009X2AG1P20YAJ63,Axos Bank,17,6405000,4,1080000,13,5325000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002IVUY1DY0ZCL83,Copper State Credit Union,74,6340000,15,1655000,59,4685000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,98450040E5B6CD69C657,SIMPLICITY,90,6330000,12,820000,78,5510000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000PT0SXF8FBR107,Connections Credit Union,85,6305000,45,3245000,40,3060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NTHJ0G5YXW3J85,ValleyStar Credit Union,91,6225000,37,2595000,54,3630000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F7JKU0UTD6KX15,"Evans Bank, National Association",36,6070000,11,2685000,25,3385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900EEAW181JIGNK52,"Beacon Credit Union, Incorporated",65,6035000,9,1105000,56,4930000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TMY3OACQC9U777,"Greenbox Loans, Inc.",18,6020000,0,0,18,6020000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LGD38SS4PVFC71,TRUCHOICE FEDERAL CREDIT UNION,71,5905000,10,1070000,61,4835000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493000OOREHUZON5E13,SPOKANE FIREFIGHTERS CREDIT UNION,41,5745000,2,160000,39,5585000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WDLOVGUYVTS727,MTC Federal Credit Union,51,5665000,10,1320000,41,4345000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z54IIB4Q3AKI90,SMART FINANCIAL CREDIT UNION,48,5630000,10,1500000,38,4130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549005B0YP23JCTYV51,POPA FEDERAL CREDIT UNION,37,5495000,0,0,37,5495000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001P38O8QXGI6503,SEA WEST COAST GUARD FEDERAL CREDIT UNION,35,5475000,13,1975000,22,3500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T1F1BRPWSZT586,Genesee Valley,55,5465000,24,3070000,31,2395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WWAUM3SY0XPY42,ALTA VISTA,46,5330000,5,425000,41,4905000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GIVX5W7UETD809,AMERICAN FIRST CREDIT UNION,32,5290000,12,2000000,20,3290000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MHH03ICJYEPE85,"LONGBRIDGE FINANCIAL, LLC",64,5240000,17,1435000,47,3805000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BRSSSUNB0U6552,"American Bank, National Association",23,5225000,6,1830000,17,3395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549009IIR21WKPEE762,AlaTrust Credit Union,61,5155000,15,1755000,46,3400000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900KXKBNKNWDAIL39,MEMBERS1st Community Credit Union,66,5130000,11,1195000,55,3935000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900TFS12PFBK5FD47,TrueCore Federal Credit Union,55,5055000,3,805000,52,4250000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300V1ZDKDQXFW3339,La Capitol Federal Credit Union,87,4885000,22,1510000,65,3375000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NCN3B66MYC3145,New Horizons Credit Union,47,4785000,4,350000,43,4435000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900E01NSQ6T7WDM16,Expedition Credit Union,63,4745000,7,575000,56,4170000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VUVWGNUHYOLA93,COCA-COLA Credit Union,24,4630000,2,480000,22,4150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DQ137S1HEMVL85,DEXSTA,43,4595000,8,900000,35,3695000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490058TX0QV62WQ461,Pelican State Credit Union,43,4585000,13,2015000,30,2570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S1ULK3TJQ8I652,FIRST CITY,37,4565000,4,470000,33,4095000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WRB87J6ZL6CO07,WESTERN VISTA,37,4535000,7,1575000,30,2960000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CK7U1WMTIG6687,HIGHTECHLENDING INC,12,4490000,8,3690000,4,800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900MCB5QTUWUWQ396,Public Service Credit Union,52,4470000,20,1600000,32,2870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900YE6JQ826RUVB14,Regional Federal Credit Union,48,4330000,11,1015000,37,3315000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VEXSWLQB1TM843,COLORAMO,47,4255000,5,465000,42,3790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300FHTPSIK7LBKD38,PARTNERS 1ST Federal Credit Union,70,4160000,9,555000,61,3605000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300J1IQXJ1CSCCU16,HOPEWELL Federal Credit Union,48,4130000,7,1085000,41,3045000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WETW159N5QFR97,FIRST CAPITAL Federal Credit Union,45,4095000,22,2690000,23,1405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BY8DZPEK4ZR022,"CARDINAL CREDIT UNION, INC.",62,4090000,14,950000,48,3140000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002BRQ8SVQPCV108,PIEDMONT ADVANTAGE CREDIT UNION,51,4055000,12,1290000,39,2765000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007MURRUYDI58M87,MyGeorgia Credit Union,55,4045000,15,1335000,40,2710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GY97XGRF7XZO52,TEXANS,32,4000000,3,485000,29,3515000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930058TT77ICBGRI91,GEORGIA HERITAGE FEDERAL CREDIT UNION,67,3945000,15,965000,52,2980000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VWMFYNEEG33W94,Somerset Federal Credit Union,35,3935000,10,1450000,25,2485000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009U7VIT7UF4QH15,ONTARIO SHORES,50,3880000,27,2525000,23,1355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UB5TJ0YPVPT503,MASON MCDUFFIE MORTGAGE CORPORATION,27,3765000,1,465000,26,3300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490030Z1TAY4VPEL47,Kingsport Press Credit Union,39,3755000,21,2135000,18,1620000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493005MZZDC38IUOJ34,WATER AND POWER COMMUNITY Credit Union,20,3700000,4,2350000,16,1350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900ZCGCHCFNE8KY02,Northern Colorado Credit Union,40,3620000,5,535000,35,3085000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900TYS8TXJLPURN43,CenturyFirst Federal Credit Union,58,3620000,58,3620000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WJVATE8FMFMR49,ADVANTAGE ONE Credit Union,46,3610000,16,1810000,30,1800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I6G5QEIEI78C93,CASE Credit Union,56,3600000,51,3295000,5,305000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HWQV4ZV6WMCK88,AMERICAN SOUTHWEST,29,3325000,10,1290000,19,2035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930057XF33SONJFP81,Universal City Studios CU,16,3300000,0,0,16,3300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UNNQFHOGHIFO55,MONROE COMMUNITY CREDIT UNION,47,3225000,9,685000,38,2540000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WX4YO71NFO5362,HOUSTON POLICE,23,3125000,6,950000,17,2175000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900G3F37LO9XNZA95,Best Financial Credit Union,40,3070000,14,1260000,26,1810000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZUA8339ZH6W934,ASHLAND Credit Union,35,3025000,11,1205000,24,1820000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O0SJ54M4D70R54,MERITRUST Federal Credit Union,56,2990000,9,585000,47,2405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900R0GC9CW77VXE28,Telco Community Credit Union,40,2960000,14,1080000,26,1880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,984500FC8569569B5B24,"COMMUNITY ONE CREDIT UNION OF OHIO, INC.",50,2910000,12,630000,38,2280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490053IH908EDF8D65,Madison County Federal Credit Union,41,2855000,0,0,41,2855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900C1MQVQQR44R744,Indianhead Credit Union,35,2785000,6,400000,29,2385000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CWXIPLEXBPNY95,Topside Federal Credit Union,28,2690000,4,630000,24,2060000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DM6DAOPSF8HL78,"Grand Bank for Savings, FSB",23,2665000,6,1160000,17,1505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MN2NONI4E6X341,TRADEMARK,29,2555000,5,435000,24,2120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I0ICF6REKHOC74,"DIRECT MORTGAGE LOANS, LLC",20,2350000,1,95000,19,2255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493004IRV3T6D4NNV33,Nikkei Credit Union,15,2295000,1,255000,14,2040000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TOZIPCBM0DLH67,ILLINOIS STATE,36,2290000,3,565000,33,1725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900M3DBBSBUPR5L27,R.I.A. Federal Credit Union,29,2265000,7,875000,22,1390000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GMZQGVLZ5KCW51,AUBURN UNIVERSITY CREDIT UNION,20,2240000,2,160000,18,2080000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PEMVJN4DS4MS43,Independent Federal Credit Union,35,2235000,0,0,35,2235000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008YEXLNFKLF7548,Widget Federal Credit Union,38,2230000,9,515000,29,1715000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PUAN5SKAJB2J42,Heartland Credit Union,26,2230000,3,655000,23,1575000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JUZBXW5SUK5V79,HERITAGE VALLEY,24,2210000,6,990000,18,1220000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900L0XOVEOJWGQO95,CROSS VALLEY FEDERAL CREDIT UNION,17,2195000,3,565000,14,1630000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,984500DA79C1B97ACF16,LANDINGS,28,2190000,18,1480000,10,710000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900ZX1UPIG2E7TH11,"Assurance Financial Group, L.L.C.",15,2185000,0,0,15,2185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RU85PQV881NJ83,FITZSIMONS FEDERAL CREDIT UNION,15,2185000,3,495000,12,1690000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300F570XAWYN8Z237,Bank of Hope,7,2175000,7,2175000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004IXUWDS2CYU578,TVA COMMUNITY CREDIT UNION,27,2105000,14,1250000,13,855000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D9ZODKN6CVV913,PRIME FINANCIAL CREDIT UNION,34,2070000,13,855000,21,1215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930091CYUK2SDZ6D37,"PFN Lending Group, Inc.",10,2070000,4,1200000,6,870000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300I3SDXHG6BUD309,CAPITOL CREDIT UNION,14,2060000,3,815000,11,1245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900Q8CQK28JPFK147,Superior Credit Union,20,2010000,4,530000,16,1480000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IL6X4MHW0HHI39,ALABAMA STATE EMPLOYEES CREDIT UNION,17,1955000,2,260000,15,1695000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300460HWJVMVBAC39,METRUM COMMUNITY,20,1930000,2,210000,18,1720000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CXHYTQMHXRX530,Louviers Federal Credit Union,15,1925000,1,85000,14,1840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300C04W4R4VGWRT26,DUKE UNIVERSITY FEDERAL CREDIT UNION,30,1910000,30,1910000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900UD8AEXTVCVAF72,Transportation Federal Credit Union,15,1895000,1,155000,14,1740000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XBOKNEE2CQJL92,"AUGUSTA FINANCIAL, INC.",10,1890000,0,0,10,1890000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IY3J6361R6MA88,PCM Credit Union,29,1885000,2,410000,27,1475000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300TTK5T7CZ3UJ084,Utah Power Federally Insured State-Chartered Credit Union,21,1885000,0,0,21,1885000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003X6Y6JGJKHPA25,"INTERSTATE HOME LOAN CENTER, INC.",1,1885000,1,1885000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MSETJUOU1OY757,"DAY-MET CREDIT UNION, INC.",26,1870000,8,590000,18,1280000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549009M5QY5LPV18B47,GREAT BASIN FEDERAL CREDIT UNION,22,1850000,2,60000,20,1790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493006VCMZ998IGOO33,NATION ONE MORTGAGE CORPORATION,13,1815000,0,0,13,1815000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930035U7Q80J7HTS79,CAMPOS FINANCIAL CORP.,6,1780000,0,0,6,1780000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008LTXJSUQBJKO24,AFL CIO EMPLOYEES FEDERAL CREDIT UNION,17,1725000,0,0,17,1725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CGVVMPTCK0QG77,ABCO Federal Credit Union,13,1715000,2,560000,11,1155000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300R4F5COFJE0DN81,"ONY GLO, INC.",10,1660000,0,0,10,1660000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008X67CV1MNM7747,MEADOWBROOK FINANCIAL MORTGAGE BANKERS CORP.,7,1635000,0,0,7,1635000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900TZKHQ9DT85IC97,Schuyler Savings Bank,9,1555000,4,760000,5,795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300JFKW9425KOPI17,SOUTHWEST LOUISIANA CREDIT UNION,26,1530000,4,320000,22,1210000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008YRTIU0FNCTY07,TRI BORO Federal Credit Union,21,1525000,13,835000,8,690000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300G2LV8W3C1G3762,"EQUITY RESOURCES, INC.",16,1490000,0,0,16,1490000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PU6VF7RGG5TI18,Serve Credit Union,17,1455000,6,310000,11,1145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UPB8ITF7B1GI03,CATALYST MORTGAGE,2,1450000,2,1450000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GBMYUTNLY00W24,Success Federal Credit Union,24,1430000,5,285000,19,1145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LFCGLCYQ1SAJ07,BAYLANDS FAMILY CREDIT UNION,19,1425000,0,0,19,1425000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300CJDUFKEK0WMB04,UKRAINIAN NATIONAL FEDERAL CREDIT UNION,6,1420000,4,1110000,2,310000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CCA1QSI5J1ZY32,Space Age Credit Union,11,1415000,0,0,11,1415000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549000UEC0BWG8F1402,First Financial Federal Credit Union,21,1395000,4,290000,17,1105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DQLGJ1YQRRHH73,Southwest Airlines Federal Credit Union,11,1375000,3,285000,8,1090000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900V9IPN94068J011,MembersAlliance Credit Union,15,1375000,9,715000,6,660000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UICMP0IGY0RG32,TAMPA POSTAL FEDERAL CREDIT UNION,20,1360000,6,540000,14,820000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SK3VKN3E1SZ562,"SOUTHEAST MORTGAGE OF GEORGIA, INC.",4,1350000,3,1335000,1,15000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300K04ZGWYV7LDX51,FIRST CLASS COMMUNITY CREDIT UNION,25,1295000,7,505000,18,790000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300GB84TJEK0SHQ79,MID CAROLINA Credit Union,19,1275000,2,180000,17,1095000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300463UZU06Q14K24,PRIORITY ONE CREDIT UNION,13,1275000,0,0,13,1275000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008G9SP4WM32NN96,"WARSHAW CAPITAL, LLC",4,1270000,0,0,4,1270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZD18AVSD0OG331,GLENDENNING MORTGAGE CORPORATION,2,1250000,1,895000,1,355000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L1DBFIJZI8LA40,"ACOPIA, LLC",6,1250000,0,0,6,1250000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RYNOL8D0H1YY31,ONE VISION Federal Credit Union,15,1235000,5,265000,10,970000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QR0KFPEDZPEI42,STOCKTON MORTGAGE CORPORATION,11,1225000,1,55000,10,1170000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T5T60SK9MMCD03,SOUTHCOAST FEDERAL CREDIT UNION,10,1210000,3,415000,7,795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900JU5OLW9ZB5C595,New Cumberland Federal Credit Union,9,1185000,6,990000,3,195000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930052808NIU3KIW97,"DIRECT LENDERS, LLC",6,1130000,0,0,6,1130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493009TOEDMWVNG1442,EAGLE ONE FEDERAL CREDIT UNION,9,1055000,2,260000,7,795000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300BMJCCKS0LIQJ45,HORIZON UTAH Federal Credit Union,9,1035000,0,0,9,1035000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300X08QKYUH256I80,"Goldwater Bank, N.A.",2,1030000,2,1030000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300RFLICNI75BG067,Luminate Bank,6,1020000,0,0,6,1020000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490010UA3IZPDO2Q49,Westport Federal Credit Union,7,995000,1,155000,6,840000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001GDRY0EL7VG372,"ARK-LA-TEX FINANCIAL SERVICES, LLC.",7,985000,0,0,7,985000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900CX4A85W20A2X77,Azuza LLC dba Z Loans Funding,3,955000,0,0,3,955000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930002O9LLXKR6TF11,BAY-VALLEY MORTGAGE GROUP,4,880000,0,0,4,880000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P5JG6WBCSZ7M53,AGRICULTURE Federal Credit Union,9,865000,1,65000,8,800000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900BQVRDMH5K9QS04,Frankenmuth Credit Union,12,830000,1,55000,11,775000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900A9IPKYRVXEJ156,PRESTON HOME LOANS INC,4,830000,4,830000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DA1N0K2LJI0471,CHOICE ONE COMMUNITY FEDERAL CREDIT UNION,11,815000,11,815000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549008W3O3PXWF90U35,Jefferson Credit Union,9,805000,3,305000,6,500000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300SNBYRUG0BK5T32,KH NETWORK CREDIT UNION,8,800000,8,800000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,9845006YE04B346EC919,"SayGO Home Loans, LLC",5,775000,0,0,5,775000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001HOQL7ZEKTRZ55,GREAT PLAINS FEDERAL CREDIT UNION,18,770000,10,400000,8,370000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OSXT524OFE8M55,"CENTRAL COAST LENDING, INC.",6,760000,0,0,6,760000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002JA8HUVL2CRT33,DEVELOPER'S MORTGAGE COMPANY,1,755000,1,755000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549003ODK1CMS9CMW53,Rails West Federal Credit Union,9,725000,0,0,9,725000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IPUHFA5O769M51,"Vellum Mortgage, Inc.",2,700000,0,0,2,700000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008SV4X2EID9J711,"Cambria Financial Group, LLC",2,680000,2,680000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XC63WNGFOIVV43,WHEATLAND,5,675000,1,265000,4,410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001SSNVCONGBH947,The First National Bank and Trust Company,3,665000,1,155000,2,510000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900XIJWVBUNAUBG18,Rock Valley Credit Union,13,645000,0,0,13,645000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ASHFL5TJ8X1B89,CODE Credit Union,14,630000,2,60000,12,570000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900VVCX7PR9KDCK83,CASCO,5,625000,2,160000,3,465000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900JK3YLXUJEHMB45,Neighborhood Mortgage Solutions,11,585000,1,25000,10,560000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930023BNS4HPJ4WJ61,AUTOTRUCK FINANCIAL CREDIT UNION,12,560000,5,165000,7,395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300HV02VPA0FYR272,"American Liberty Mortgage, Incorporated",1,555000,1,555000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300981UHFORU1HG39,MIAMI UNIVERSITY COMMUNITY,4,540000,1,395000,3,145000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300P1I25L8ILSI852,SUNRISE FAMILY CREDIT UNION,8,520000,2,180000,6,340000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007ZG5EVEXW01J70,ADVANZ Federal Credit Union,6,520000,3,275000,3,245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300MPZDD9EFQ1E963,Arcstone Financial Inc,1,505000,0,0,1,505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900S9O3X6S7MHHC17,Compass Credit Union,9,505000,0,0,9,505000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300552HVITY0L9184,US Employees O.C. Federal Credit Union,12,500000,7,305000,5,195000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900U1OBL1MC6M6518,"MortgageCountry, LLC",4,470000,1,15000,3,455000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300DG3IV05V4C4E03,EUSTIS MORTGAGE CORPORATION,4,450000,0,0,4,450000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LCT0EFT83E5873,ENRICHMENT,5,445000,3,295000,2,150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Z6CO0YC8ULYR28,INTERSTATE CREDIT UNION,2,440000,2,440000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900ZPR9P3OI95VG04,"CONTINENTAL MORTGAGE BANKERS, INC.",1,435000,1,435000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001SBOA8GKVW1N27,AAXY L.L.C.,1,425000,1,425000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900QWNWNPOWGOC273,Eco Credit Union,9,415000,4,220000,5,195000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900PRB9DTJAHMMZ45,"ROSS MORTGAGE COMPANY, INC.",2,410000,0,0,2,410000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493008E4KBJCB6UKR64,"DATA MORTGAGE, INC.",1,405000,0,0,1,405000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900NGM4SWQ6TJE045,N.E.W. CREDIT UNION,9,395000,2,70000,7,325000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PFJ7GCGDLB2E65,"First Option Mortgage, LLC",3,395000,0,0,3,395000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900XIGAR8HM0KJZ26,FALL RIVER MUNICIPAL CREDIT UNION,4,390000,1,95000,3,295000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900AG9OLNQOYN9650,"Great Midwest Bank, S.S.B.",1,385000,1,385000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900VXX8ZL7L9EX282,"Philadelphia Mortgage Advisors, Inc.",3,375000,0,0,3,375000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300ZZME37MXI1EF14,"DAS Acquisition Company, LLC",2,370000,1,265000,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M1N0YC51QQGT24,Ozarks Federal Savings and Loan Association,1,355000,1,355000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549007UXYHMV9ES9L95,MEMBERSFIRST CT FEDERAL CREDIT UNION,6,350000,0,0,6,350000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003L116PF34B0H88,"VISION LENDING SERVICES, LLC",1,345000,1,345000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900LBYFNAUBRAJP63,BEST REWARD FEDERAL CREDIT UNION,5,335000,2,120000,3,215000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930086UI4O90IKYD43,CAMC Federal Credit Union,9,315000,2,90000,7,225000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D8S1ETG70FFW35,H E B Credit Union,2,300000,0,0,2,300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549004JE61TGJKFJQ92,,4,300000,0,0,4,300000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300WQC1VYOW0EW528,FINANCIAL PLUS CREDIT UNION,3,285000,2,160000,1,125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300256FCWXUM5FR50,Pioneer Bank,1,275000,0,0,1,275000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300OIJ6O9DNP74L72,"CU COMMUNITY, LLC",4,270000,0,0,4,270000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300PLVU3OBFUIPI18,"VALLEY MORTGAGE, INC.",1,265000,1,265000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549007UO49TL9LEDN58,"LINKED HOME LOANS, LLC DBA HOME GUIDE MORTGAGE",1,255000,0,0,1,255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UM5S3HZLZHVP89,"SNAPFI, INC.",1,255000,0,0,1,255000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493001EYKX1T5YCJ737,RED RIVER FEDERAL CREDIT UNION,3,245000,0,0,3,245000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,875500ZJDRM0XDIDE169,Advantage Credit Union,2,230000,0,0,2,230000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900MIHY4N3F840P17,Ouachita Valley Federal Credit Union,8,220000,4,100000,4,120000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900GMDWB9051H7297,High Country Bank,1,205000,0,0,1,205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Q6YL1SFVPEGV90,"INTELLILOAN, INC.",1,205000,0,0,1,205000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EHZKNMEE6UUC83,CEDAR FALLS COMMUNITY CREDIT UNION,3,185000,1,35000,2,150000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300QOIO7RN6JTEI45,Pioneer Bank,3,185000,3,185000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930065B0NVUO52TY13,AmRes Corporation,1,185000,0,0,1,185000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300XTGDMRB8FMR522,TEXOMA COMMUNITY CREDIT UNION,1,165000,1,165000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300S1TXPDZJPDYW17,DG PINNACLE FUNDING LLC,1,165000,0,0,1,165000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300O2EZG72LO2FX38,SUMMIT MORTGAGE CORPORATION,1,165000,0,0,1,165000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300VDCE0HESF63887,ST. JOSEPHS CANTON PARISH,2,160000,1,55000,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,54930074FI0I2Q6G5S43,THE FIRST FINANCIAL FEDERAL CREDIT UNION,1,155000,0,0,1,155000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,25490008Z6OW7HHL6478,Democracy Federal Credit Union,1,155000,0,0,1,155000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UG1DH7RQL41718,SCIENT Federal Credit Union,2,130000,0,0,2,130000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007ATUOSGE6PR745,WEYCO COMMUNITY CREDIT UNION,3,125000,0,0,3,125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300YAYQAARPBTRA72,"PROPER RATE, LLC",1,125000,0,0,1,125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,2549009A2MMICIE00762,Ferguson Federal Credit Union,3,125000,1,45000,2,80000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300IPZIRQSNKHX741,LIBERTY FIRST CREDIT UNION,1,125000,0,0,1,125000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300N7MKAZNGCKT625,HARRIS COUNTY FEDERAL CREDIT UNION,2,110000,0,0,2,110000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300EDXX36BJ0X7583,North State Bank,1,105000,0,0,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300Y4GTNURUFYV328,MICHIGAN COLUMBUS Federal Credit Union,1,105000,0,0,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300L6L2UXMLMG8616,Edwards Federal Credit Union,1,105000,0,0,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M8WGW2D17CZD19,"GARDNER FINANCIAL SERVICES, LTD.",1,105000,0,0,1,105000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003JBN8UEVOU8O42,JEFFERSON FINANCIAL FEDERAL CREDIT UNION,1,95000,0,0,1,95000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,984500A4CD08CED38D66,GUADALUPE,1,65000,0,0,1,65000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300UYF8OQLB7L7745,PINE BLUFF COTTON BELT Federal Credit Union,2,60000,0,0,2,60000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LTRS8FKSV4HF28,Corner Post FCU,1,55000,1,55000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300M9RHNQ4107R694,GOLD COAST FEDERAL CREDIT UNION,1,55000,0,0,1,55000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300D6JK30QTSRHB52,Oswego County Federal Credit Union,1,35000,0,0,1,35000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493003DVQUF5HAI1O03,CORPORATE AMERICA FAMILY,1,35000,0,0,1,35000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300LQJ27OINBPW522,SYRACUSE FIRE DEPARTMENT EMPLOYEES,6,30000,0,0,6,30000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493007NQFYTLJ0O4M47,DECATUR EARTHMOVER CREDIT UNION,1,25000,0,0,1,25000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300NI5SBQVOFLU926,CORRY FEDERAL CREDIT UNION,1,25000,1,25000,0,0,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,254900O723MCLR701H50,"Neighborhood Loans, Inc.",1,15000,0,0,1,15000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,549300T5KC70WN8M2956,Minnequa Works Credit Union,2,10000,0,0,2,10000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
+2025,5493002Y5XYV7DV1ZV88,"GOLD STAR MORTGAGE FINANCIAL GROUP, CORPORATION",1,5000,0,0,1,5000,https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years=2025&actions_taken=1
