@@ -23,7 +23,7 @@ parts = list(csv.DictReader(open(os.path.join(HERE, "hmda", "partners.csv"), enc
 by_lei, market = {}, {}
 for y in YEARS:
     for r in csv.DictReader(open(os.path.join(RAW, f"heloc_by_lei_{y}.csv"), encoding="utf-8")):
-        a = int(r["HELOC실행액"])
+        a = int(r["후순위실행액"])                    # 후순위 HELOC(1순위 한도형 상품 제외)
         by_lei[(r["LEI"], y)] = a
         market[y] = market.get(y, 0) + a
 vol = {p["약칭"]: [sum(by_lei.get((l, y), 0) for l in p["LEI"].split(";")) for y in YEARS] for p in parts}
@@ -38,15 +38,16 @@ cols = [(k, vol[k], FMT["십억"]) for k in top]
 cols += [(k, vol[k], FMT["십억"], "hide") for k in rest]
 cols += [(ETC, "=" + "+".join("{%s}" % k for k in rest), FMT["십억"])]
 cols += [(SUM, "=" + "+".join("{%s}" % k for k in top + [ETC]), FMT["십억"], "hide"),
-         ("HELOC 시장 전체", [market[y] for y in YEARS], FMT["십억"], "hide"),
-         ("파트너 비중", "={%s}/{HELOC 시장 전체}" % SUM, FMT["%"], "hide"),
+         ("후순위 HELOC 시장 전체", [market[y] for y in YEARS], FMT["십억"], "hide"),
+         ("파트너 비중", "={%s}/{후순위 HELOC 시장 전체}" % SUM, FMT["%"], "hide"),
          ("파트너 합계 YoY", "={%s}/{%s@-1}-1" % (SUM, SUM), FMT["%"], "hide"),
-         ("시장 YoY", "={HELOC 시장 전체}/{HELOC 시장 전체@-1}-1", FMT["%"], "hide")]
-src = [f"HMDA 공개 LAR {y}(FFIEC Data Browser) 실행·한도형 여신 loan_amount 합 — {API.format(y=y)}" for y in YEARS]
+         ("시장 YoY", "={후순위 HELOC 시장 전체}/{후순위 HELOC 시장 전체@-1}-1", FMT["%"], "hide")]
+src = [f"HMDA 공개 LAR {y}(FFIEC Data Browser) 실행·한도형 여신·후순위 loan_amount 합 — {API.format(y=y)}" for y in YEARS]
 ws = wb.add(NO, TITLE, [str(y) for y in YEARS], cols, row_sources=src,
             source="HMDA 공개 LAR(FFIEC), 파트너·합류 시점은 hmda/partners.csv 근거",
             unit="(십억 달러)",
-            note=("HELOC = open-end_line_of_credit=1, 가계 목적, 역모기지 제외 실행 건의 약정 한도 합. "
+            note=("HELOC = open-end_line_of_credit=1 & lien_status=2(후순위), 가계 목적, 역모기지 제외 실행 건의 약정 한도 합. "
+                  "한도형 여신 HMDA 보고 의무: 직전 2년 연속 연 500건('18~'21)/200건('22~) 이상 실행 기관 — 합류 초기 연도는 과소 집계 가능. "
                   "loan_amount는 1만 달러 구간 중간값. 파트너: " +
                   "; ".join(f"{p['약칭']}({p['합류']}, LEI {p['LEI']})" for p in parts)))
 # 원그래프: 2025년 값은 도표 시트를 수식으로 참조(숫자를 두 번 치지 않는다)
